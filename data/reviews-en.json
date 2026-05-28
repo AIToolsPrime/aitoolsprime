@@ -1,0 +1,1901 @@
+[
+  {
+    "id": "suno-ai",
+    "name": "Suno AI",
+    "tagline": "Generate complete songs from text prompts",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.6,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Suno AI is the most impressive AI music generator available today. It can create full songs with lyrics, vocals, and instrumentation from simple text descriptions.",
+    "pros": [
+      "Amazing vocal quality",
+      "Full song structure",
+      "Fast generation",
+      "Free tier available"
+    ],
+    "cons": [
+      "Gibberish lyrics sometimes",
+      "Limited arrangement control",
+      "No stem separation"
+    ],
+    "url": "https://suno.ai",
+    "featured": true,
+    "date": "2026-05-15",
+    "logo": "suno.ai"
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "tagline": "AI music with unprecedented audio fidelity",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.5,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Udio rivals Suno with incredible audio fidelity and musical coherence. It excels at instrumental music and complex genre combinations.",
+    "pros": [
+      "Excellent audio quality",
+      "Complex genre handling",
+      "Good instrumentals",
+      "Generous free tier"
+    ],
+    "cons": [
+      "Nonsensical lyrics",
+      "Less vocal control",
+      "Smaller community"
+    ],
+    "url": "https://udio.com",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "udio.com"
+  },
+  {
+    "id": "aiva",
+    "name": "AIVA",
+    "tagline": "AI composer for classical and cinematic scores",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.3,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "AIVA is an award-winning AI composer specializing in classical and cinematic music. Used by filmmakers and game developers for professional-grade orchestral compositions.",
+    "pros": [
+      "Professional orchestral quality",
+      "MIDI export",
+      "Sheet music output",
+      "Customizable arrangements"
+    ],
+    "cons": [
+      "Instrumental only",
+      "Steep learning curve",
+      "Free tier very limited"
+    ],
+    "url": "https://creators.aiva.ai",
+    "featured": true,
+    "date": "2026-05-05",
+    "logo": "creators.aiva.ai"
+  },
+  {
+    "id": "mubert",
+    "name": "Mubert",
+    "tagline": "Real-time AI music for creators and streamers",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.1,
+    "price": "$14/mo",
+    "price_type": "freemium",
+    "excerpt": "Mubert generates royalty-free electronic music in real time. Perfect for streamers, content creators, and apps that need adaptive background music.",
+    "pros": [
+      "Real-time generation",
+      "Royalty-free",
+      "API available",
+      "Unique electronic sound"
+    ],
+    "cons": [
+      "No vocals",
+      "Limited genre range",
+      "Watermark on free plan"
+    ],
+    "url": "https://mubert.com",
+    "featured": false,
+    "date": "2026-04-28",
+    "logo": "mubert.com"
+  },
+  {
+    "id": "soundraw",
+    "name": "Soundraw",
+    "tagline": "Customizable royalty-free music generator",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.0,
+    "price": "$13/mo",
+    "price_type": "paid",
+    "excerpt": "Soundraw lets you generate and customize original music by selecting mood, genre, and length. Each track is fully editable with a simple interface.",
+    "pros": [
+      "Full customization",
+      "Royalty-free",
+      "Easy to use",
+      "Good for video creators"
+    ],
+    "cons": [
+      "No vocals",
+      "Limited genre depth",
+      "Repetitive patterns"
+    ],
+    "url": "https://soundraw.io",
+    "featured": false,
+    "date": "2026-04-20",
+    "logo": "soundraw.io"
+  },
+  {
+    "id": "boomy",
+    "name": "Boomy",
+    "tagline": "Instant AI song creation with global distribution",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 3.8,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Boomy makes instant song creation accessible to anyone. It offers global distribution to streaming platforms, letting you publish AI music to Spotify and Apple Music.",
+    "pros": [
+      "Instant generation",
+      "Streaming distribution",
+      "Very easy to use",
+      "Different genres"
+    ],
+    "cons": [
+      "Average quality",
+      "Limited fine control",
+      "Many similar-sounding tracks"
+    ],
+    "url": "https://boomy.com",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "boomy.com"
+  },
+  {
+    "id": "riffusion",
+    "name": "Riffusion",
+    "tagline": "Free AI music generation for experimentation",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 3.9,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "Riffusion is a completely free AI music generator that turns text prompts into catchy tunes. Fun for experimenting with weird sounds and unusual genre combinations.",
+    "pros": [
+      "Completely free",
+      "Fun to experiment",
+      "Easy to use",
+      "Full songs not just loops"
+    ],
+    "cons": [
+      "Hit-or-miss quality",
+      "No commercial use",
+      "Limited control"
+    ],
+    "url": "https://riffusion.com",
+    "featured": false,
+    "date": "2026-04-10",
+    "logo": "riffusion.com"
+  },
+  {
+    "id": "beatoven",
+    "name": "Beatoven.ai",
+    "tagline": "AI music for videos and podcasts",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.0,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "Beatoven.ai creates royalty-free music tailored to your video or podcast. Select mood, genre, and duration to get unique tracks that match your content.",
+    "pros": [
+      "Mood-based generation",
+      "Royalty-free",
+      "Content-creator focused",
+      "Fast generation"
+    ],
+    "cons": [
+      "Instrumental only",
+      "Limited genre variety",
+      "Pricing per track adds up"
+    ],
+    "url": "https://beatoven.ai",
+    "featured": false,
+    "date": "2026-04-05",
+    "logo": "beatoven.ai"
+  },
+  {
+    "id": "landr",
+    "name": "LANDR",
+    "tagline": "AI music mastering and artist distribution",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.2,
+    "price": "$19/mo",
+    "price_type": "freemium",
+    "excerpt": "LANDR pioneered AI music mastering and now offers a full platform including distribution to all streaming services, samples, and collaboration tools.",
+    "pros": [
+      "Instant AI mastering",
+      "Global distribution",
+      "Sample library",
+      "Plugin version"
+    ],
+    "cons": [
+      "One-size-fits-all mastering",
+      "Expensive for distribution only",
+      "Competition catching up"
+    ],
+    "url": "https://landr.com",
+    "featured": false,
+    "date": "2026-03-28",
+    "logo": "landr.com"
+  },
+  {
+    "id": "elevenlabs-music",
+    "name": "ElevenLabs Music",
+    "tagline": "High-fidelity AI music with exceptional vocals",
+    "category": "AI for Music",
+    "category_slug": "music",
+    "rating": 4.4,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "ElevenLabs brings its legendary voice technology to music generation. The result is stunning vocal quality and naturally expressive musical performances.",
+    "pros": [
+      "Exceptional vocal quality",
+      "Natural expression",
+      "Clean audio",
+      "Multi-genre support"
+    ],
+    "cons": [
+      "Newer platform",
+      "Limited track length",
+      "Premium pricing"
+    ],
+    "url": "https://elevenlabs.io",
+    "featured": true,
+    "date": "2026-03-20",
+    "logo": "elevenlabs.io"
+  },
+  {
+    "id": "jasper-ai",
+    "name": "Jasper AI",
+    "tagline": "Enterprise AI writing for marketing teams",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.3,
+    "price": "$49/mo",
+    "price_type": "paid",
+    "excerpt": "Jasper is a powerful AI writing assistant built for marketing teams who need brand-consistent content at scale with built-in SEO tools.",
+    "pros": [
+      "Brand voice customization",
+      "Built-in SEO analysis",
+      "Plagiarism checker",
+      "Team collaboration"
+    ],
+    "cons": [
+      "Expensive for individuals",
+      "Steep learning curve",
+      "Some gimmicky templates"
+    ],
+    "url": "https://jasper.ai",
+    "featured": true,
+    "date": "2026-05-14",
+    "logo": "jasper.ai"
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "tagline": "AI writing with strong SEO features",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.0,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Writesonic offers budget-friendly AI writing with solid output quality, SEO tools, and a generous word count limit for growing teams.",
+    "pros": [
+      "Affordable pricing",
+      "SEO optimization",
+      "Good for blog posts",
+      "High word limits"
+    ],
+    "cons": [
+      "Less polish than Jasper",
+      "Occasional factual errors",
+      "Limited brand voice"
+    ],
+    "url": "https://writesonic.com",
+    "featured": false,
+    "date": "2026-05-08",
+    "logo": "writesonic.com"
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "tagline": "AI copywriting with workflow automation",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 3.9,
+    "price": "$36/mo",
+    "price_type": "paid",
+    "excerpt": "Copy.ai helps marketing teams generate on-brand copy across channels. Its workflow automation and 90+ templates set it apart from simpler AI writing tools.",
+    "pros": [
+      "Workflow automation",
+      "90+ templates",
+      "Brand voice",
+      "Free tier available"
+    ],
+    "cons": [
+      "Expensive",
+      "Output needs editing",
+      "Overlapping features"
+    ],
+    "url": "https://copy.ai",
+    "featured": false,
+    "date": "2026-05-02",
+    "logo": "copy.ai"
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "tagline": "Budget-friendly AI writing for everyone",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 3.8,
+    "price": "$9/mo",
+    "price_type": "freemium",
+    "excerpt": "Rytr is one of the most affordable AI writing assistants with over 6 million users. It offers 40+ use cases and 30+ languages for versatile content creation.",
+    "pros": [
+      "Very affordable",
+      "40+ use cases",
+      "30+ languages",
+      "Good for short content"
+    ],
+    "cons": [
+      "Basic long-form quality",
+      "Limited SEO",
+      "Generic output sometimes"
+    ],
+    "url": "https://rytr.me",
+    "featured": false,
+    "date": "2026-04-25",
+    "logo": "rytr.me"
+  },
+  {
+    "id": "sudowrite",
+    "name": "Sudowrite",
+    "tagline": "AI writing for fiction and creative storytelling",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.5,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Sudowrite is the premier AI writing tool for fiction authors. It helps with plot development, character creation, world-building, and overcoming writer's block.",
+    "pros": [
+      "Best for fiction",
+      "Plot development tools",
+      "Character consistency",
+      "Expand and rewrite"
+    ],
+    "cons": [
+      "Not for business writing",
+      "Expensive for hobbyists",
+      "Can be too verbose"
+    ],
+    "url": "https://sudowrite.com",
+    "featured": true,
+    "date": "2026-04-18",
+    "logo": "sudowrite.com"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "tagline": "AI-powered writing assistant for everyone",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.4,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "Grammarly is the most popular AI writing assistant, offering real-time grammar correction, style suggestions, and tone detection across all your apps.",
+    "pros": [
+      "Real-time everywhere",
+      "Tone detection",
+      "Plagiarism checker",
+      "Excellent free tier"
+    ],
+    "cons": [
+      "Premium costly",
+      "Not for long-form generation",
+      "Can be overbearing"
+    ],
+    "url": "https://grammarly.com",
+    "featured": true,
+    "date": "2026-04-12",
+    "logo": "grammarly.com"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "tagline": "Best-in-class AI for nuanced writing tasks",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.7,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "Claude by Anthropic excels at nuanced writing, instruction following, and long-form content. Its large context window and careful reasoning make it ideal for complex documents.",
+    "pros": [
+      "Nuanced writing style",
+      "Huge context window",
+      "Excellent reasoning",
+      "Strong safety"
+    ],
+    "cons": [
+      "No real-time search",
+      "Rate limits on free tier",
+      "Can be overly cautious"
+    ],
+    "url": "https://claude.ai",
+    "featured": true,
+    "date": "2026-04-05",
+    "logo": "claude.ai"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "tagline": "The most versatile AI writing and conversation tool",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.6,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "ChatGPT by OpenAI is the most widely used AI tool for writing, brainstorming, coding, and research. GPT-5 brings enhanced reasoning and multimodal capabilities.",
+    "pros": [
+      "Most versatile",
+      "Strong free tier",
+      "Deep research",
+      "Multimodal"
+    ],
+    "cons": [
+      "Can hallucinate",
+      "Internet only on paid",
+      "Generic writing style"
+    ],
+    "url": "https://chatgpt.com",
+    "featured": true,
+    "date": "2026-03-25",
+    "logo": "chatgpt.com"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "tagline": "The gold standard for artistic AI images",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.8,
+    "price": "$10/mo",
+    "price_type": "paid",
+    "excerpt": "Midjourney continues to lead AI image generation with stunning artistic quality, unmatched style consistency, and a vibrant creative community.",
+    "pros": [
+      "Best artistic quality",
+      "Consistent style",
+      "Active community",
+      "Version 7 is a leap"
+    ],
+    "cons": [
+      "No free tier",
+      "Requires Discord",
+      "Limited photorealism"
+    ],
+    "url": "https://midjourney.com",
+    "featured": true,
+    "date": "2026-05-12",
+    "logo": "midjourney.com"
+  },
+  {
+    "id": "dall-e-3",
+    "name": "DALL-E 3 / GPT Image",
+    "tagline": "Best text rendering and photorealism",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.6,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "OpenAI's DALL-E 3 excels at rendering text within images and photorealistic scenes. Seamlessly integrated with ChatGPT for iterative creation.",
+    "pros": [
+      "Best text-in-image",
+      "Photorealistic",
+      "ChatGPT integration",
+      "Reliable prompts"
+    ],
+    "cons": [
+      "Requires ChatGPT Plus",
+      "Some style limitations",
+      "Content restrictions"
+    ],
+    "url": "https://openai.com",
+    "featured": true,
+    "date": "2026-05-08",
+    "logo": "openai.com"
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "tagline": "Commercial-safe AI image generation",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.2,
+    "price": "$4.99/mo",
+    "price_type": "freemium",
+    "excerpt": "Adobe Firefly generates images from licensed content, making it the safest choice for businesses. Deep integration with Photoshop and Creative Cloud.",
+    "pros": [
+      "100% commercial safe",
+      "Photoshop integration",
+      "Great text effects",
+      "Generative fill"
+    ],
+    "cons": [
+      "Less artistic",
+      "Limited styles",
+      "Slow generation"
+    ],
+    "url": "https://firefly.adobe.com",
+    "featured": false,
+    "date": "2026-04-30",
+    "logo": "firefly.adobe.com"
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "tagline": "Open-source AI image generation with full control",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.4,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "Stable Diffusion is the leading open-source image model. Self-host for complete control, or use any of the many web interfaces available.",
+    "pros": [
+      "Completely free",
+      "Full customization",
+      "Active community",
+      "Fine-tuning support"
+    ],
+    "cons": [
+      "Requires powerful GPU",
+      "Technical setup",
+      "Inconsistent quality"
+    ],
+    "url": "https://stability.ai",
+    "featured": false,
+    "date": "2026-04-22",
+    "logo": "stability.ai"
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo AI",
+    "tagline": "Best for game assets and fine-tuned models",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.3,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Leonardo AI offers the most model variety for game assets, character design, and stylized artwork. Its fine-tuning capabilities let you train custom models.",
+    "pros": [
+      "Multiple model options",
+      "Custom model training",
+      "Great for games",
+      "Generous free tier"
+    ],
+    "cons": [
+      "UI can be complex",
+      "Variable quality",
+      "Token system confusing"
+    ],
+    "url": "https://leonardo.ai",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "leonardo.ai"
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI",
+    "tagline": "AI-powered design for everyone",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.1,
+    "price": "$13/mo",
+    "price_type": "freemium",
+    "excerpt": "Canva Magic Studio brings AI image generation, editing, and design into an intuitive template-based platform. Create social media graphics and more.",
+    "pros": [
+      "All-in-one design",
+      "Huge template library",
+      "Team collaboration",
+      "Free tier useful"
+    ],
+    "cons": [
+      "Limited AI control",
+      "Template-dependent",
+      "Export restrictions on free"
+    ],
+    "url": "https://canva.com",
+    "featured": false,
+    "date": "2026-04-08",
+    "logo": "canva.com"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "tagline": "Best typography and text rendering in images",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.2,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "Ideogram specializes in generating images with accurate, readable text. Perfect for logos, posters, social media graphics requiring typography.",
+    "pros": [
+      "Best font rendering",
+      "Logo design focused",
+      "Multiple styles",
+      "Free tier available"
+    ],
+    "cons": [
+      "Limited art styles",
+      "Expensive for pro",
+      "Fewer features than peers"
+    ],
+    "url": "https://ideogram.ai",
+    "featured": false,
+    "date": "2026-04-01",
+    "logo": "ideogram.ai"
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "tagline": "Brand-consistent vector and illustration AI",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.3,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "Recraft specializes in brand-consistent illustrations, vectors, and icons. Maintain your brand style across all AI-generated visuals with style presets.",
+    "pros": [
+      "Brand consistency",
+      "Vector output",
+      "Style presets",
+      "Illustration focus"
+    ],
+    "cons": [
+      "Not for realism",
+      "Monthly limit",
+      "Higher learning curve"
+    ],
+    "url": "https://recraft.ai",
+    "featured": false,
+    "date": "2026-03-25",
+    "logo": "recraft.ai"
+  },
+  {
+    "id": "runway-ml",
+    "name": "Runway",
+    "tagline": "Professional AI video editing and generation",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.6,
+    "price": "$15/mo",
+    "price_type": "paid",
+    "excerpt": "Runway Gen-4 is the most advanced AI video platform, offering text-to-video, video-to-video, real-time editing, and professional VFX controls.",
+    "pros": [
+      "Best-in-class quality",
+      "Multiple generation modes",
+      "Real-time collaboration",
+      "Generous trial"
+    ],
+    "cons": [
+      "4K export expensive",
+      "Inconsistent results",
+      "No offline mode"
+    ],
+    "url": "https://runwayml.com",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "runwayml.com"
+  },
+  {
+    "id": "pika-labs",
+    "name": "Pika Labs",
+    "tagline": "Accessible AI video generation for creators",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.2,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Pika Labs makes AI video generation accessible with a simple interface, quick results, and an active community. Great for short-form social media content.",
+    "pros": [
+      "Easy to use",
+      "Good for short clips",
+      "Free tier available",
+      "Fast generation"
+    ],
+    "cons": [
+      "Lower resolution",
+      "Limited control",
+      "Not for long videos"
+    ],
+    "url": "https://pika.art",
+    "featured": false,
+    "date": "2026-05-05",
+    "logo": "pika.art"
+  },
+  {
+    "id": "hey-gen",
+    "name": "HeyGen",
+    "tagline": "AI avatars for professional video presentations",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.5,
+    "price": "$29/mo",
+    "price_type": "paid",
+    "excerpt": "HeyGen creates stunning AI avatar videos from text. Perfect for corporate training, marketing, and presentations with realistic avatars in 175+ languages.",
+    "pros": [
+      "Realistic avatars",
+      "175+ languages",
+      "Custom avatar creation",
+      "Professional templates"
+    ],
+    "cons": [
+      "Expensive",
+      "Lip-sync can be off",
+      "Limited creative control"
+    ],
+    "url": "https://heygen.com",
+    "featured": true,
+    "date": "2026-04-28",
+    "logo": "heygen.com"
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "tagline": "Enterprise AI video with custom avatars",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.4,
+    "price": "$29/mo",
+    "price_type": "paid",
+    "excerpt": "Synthesia is the leading enterprise AI video platform with 230+ AI avatars, multi-language support, and compliance features for corporate training.",
+    "pros": [
+      "230+ professional avatars",
+      "Enterprise security",
+      "Screen recording",
+      "Team collaboration"
+    ],
+    "cons": [
+      "Expensive",
+      "Avatar feels less human",
+      "Limited creative tools"
+    ],
+    "url": "https://synthesia.io",
+    "featured": false,
+    "date": "2026-04-22",
+    "logo": "synthesia.io"
+  },
+  {
+    "id": "capcut",
+    "name": "CapCut",
+    "tagline": "Free AI-powered video editor",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.3,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "CapCut is a powerful free video editor with AI features including auto-captions, text-to-speech, background removal, and one-click video enhancement.",
+    "pros": [
+      "Completely free",
+      "Auto-captions",
+      "AI enhancement",
+      "Mobile and desktop"
+    ],
+    "cons": [
+      "Privacy concerns",
+      "Limited high-end features",
+      "Export watermark workaround"
+    ],
+    "url": "https://capcut.com",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "capcut.com"
+  },
+  {
+    "id": "veo",
+    "name": "Google Veo 3.1",
+    "tagline": "Cinematic AI video with synchronized audio",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.6,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "Google Veo 3.1 generates stunning cinematic video with synchronized 48kHz dialogue and sound effects. It leads in video quality and audio alignment.",
+    "pros": [
+      "Cinematic quality",
+      "Synchronized audio",
+      "Excellent physics",
+      "Native 1080p"
+    ],
+    "cons": [
+      "Requires Google One",
+      "Limited duration",
+      "Expensive Ultra tier"
+    ],
+    "url": "https://deepmind.google",
+    "featured": true,
+    "date": "2026-04-08",
+    "logo": "deepmind.google"
+  },
+  {
+    "id": "kling",
+    "name": "Kling 3.0",
+    "tagline": "Best motion physics and 60fps video",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.5,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "Kling 3.0 leads in motion physics and smooth 60fps video generation. Its multi-prompting feature enables complex multi-scene narratives.",
+    "pros": [
+      "Excellent motion",
+      "60fps output",
+      "Multi-prompt scenes",
+      "10-second clips"
+    ],
+    "cons": [
+      "Max 10 seconds",
+      "Quality can vary",
+      "Requires queue time"
+    ],
+    "url": "https://klingai.com",
+    "featured": true,
+    "date": "2026-04-02",
+    "logo": "klingai.com"
+  },
+  {
+    "id": "invideo",
+    "name": "InVideo",
+    "tagline": "Template-based AI video creation platform",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 3.9,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "InVideo offers 5000+ templates for quick video creation. Its AI helps generate scripts, add voiceovers, and automatically match scenes to your content.",
+    "pros": [
+      "5000+ templates",
+      "Script generation",
+      "Voiceover included",
+      "Beginner friendly"
+    ],
+    "cons": [
+      "Template-dependent",
+      "Generic results",
+      "Watermark on free"
+    ],
+    "url": "https://invideo.io",
+    "featured": false,
+    "date": "2026-03-28",
+    "logo": "invideo.io"
+  },
+  {
+    "id": "pictory",
+    "name": "Pictory",
+    "tagline": "Long-form to short-form AI video repurposing",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.0,
+    "price": "$23/mo",
+    "price_type": "paid",
+    "excerpt": "Pictory uses AI to transform long-form content into engaging short videos. Automatically extract highlights, add captions, and repurpose for social media.",
+    "pros": [
+      "Content repurposing",
+      "Auto-captioning",
+      "Highlight extraction",
+      "Brand-friendly"
+    ],
+    "cons": [
+      "No text-to-video",
+      "Limited creative tools",
+      "Monthly video limit"
+    ],
+    "url": "https://pictory.ai",
+    "featured": false,
+    "date": "2026-03-20",
+    "logo": "pictory.ai"
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "tagline": "AI-powered workspace for docs and projects",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.4,
+    "price": "$10/mo",
+    "price_type": "paid",
+    "excerpt": "Notion AI transforms the popular workspace into an intelligent assistant that helps you write, summarize, brainstorm, and organize faster.",
+    "pros": [
+      "Seamless Notion integration",
+      "Excellent summarization",
+      "Creative brainstorming",
+      "Q&A over docs"
+    ],
+    "cons": [
+      "Notion ecosystem only",
+      "Slow with large DBs",
+      "Extra cost on top"
+    ],
+    "url": "https://notion.so",
+    "featured": true,
+    "date": "2026-05-12",
+    "logo": "notion.so"
+  },
+  {
+    "id": "gamma-app",
+    "name": "Gamma",
+    "tagline": "AI presentations that look designer-made",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.5,
+    "price": "$8/mo",
+    "price_type": "freemium",
+    "excerpt": "Gamma creates stunning presentations, documents, and web pages from a simple prompt. Its AI designs professional layouts instantly.",
+    "pros": [
+      "Beautiful auto-designs",
+      "One-click themes",
+      "Easy collaboration",
+      "Generous free tier"
+    ],
+    "cons": [
+      "Limited animations",
+      "Basic export options",
+      "Requires internet"
+    ],
+    "url": "https://gamma.app",
+    "featured": true,
+    "date": "2026-05-05",
+    "logo": "gamma.app"
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "tagline": "AI meeting assistant with automatic notes",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.3,
+    "price": "$16.99/mo",
+    "price_type": "freemium",
+    "excerpt": "Otter.ai automatically joins your meetings, takes notes, captures slides, and generates searchable summaries with speaker identification.",
+    "pros": [
+      "Automatic notes",
+      "Speaker identification",
+      "Calendar integration",
+      "Action items"
+    ],
+    "cons": [
+      "Limited free 300 min/mo",
+      "Accent accuracy issues",
+      "No desktop app"
+    ],
+    "url": "https://otter.ai",
+    "featured": false,
+    "date": "2026-04-28",
+    "logo": "otter.ai"
+  },
+  {
+    "id": "motion",
+    "name": "Motion",
+    "tagline": "AI calendar and task management",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.2,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Motion uses AI to automatically schedule your tasks, protect focus time, and reschedule conflicts. It plans your day around priorities and deadlines.",
+    "pros": [
+      "Auto-scheduling",
+      "Focus time protection",
+      "Smart rescheduling",
+      "Project management"
+    ],
+    "cons": [
+      "Expensive",
+      "Not for simple to-do lists",
+      "Over-engineered"
+    ],
+    "url": "https://usemotion.com",
+    "featured": false,
+    "date": "2026-04-20",
+    "logo": "usemotion.com"
+  },
+  {
+    "id": "fireflies",
+    "name": "Fireflies.ai",
+    "tagline": "AI meeting transcription and search",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.1,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Fireflies.ai records, transcribes, and indexes your meetings across Zoom, Teams, and Google Meet. Search conversations, create clips, and automate workflows.",
+    "pros": [
+      "Multi-platform support",
+      "Searchable transcripts",
+      "Soundbite creation",
+      "CRM integration"
+    ],
+    "cons": [
+      "Transcription accuracy varies",
+      "No desktop app",
+      "Free tier limited"
+    ],
+    "url": "https://fireflies.ai",
+    "featured": false,
+    "date": "2026-04-14",
+    "logo": "fireflies.ai"
+  },
+  {
+    "id": "krisp",
+    "name": "Krisp",
+    "tagline": "AI noise cancellation for meetings",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.0,
+    "price": "$8/mo",
+    "price_type": "freemium",
+    "excerpt": "Krisp removes background noise, echo, and speech from your meetings in real time. Works with any communication app without special hardware.",
+    "pros": [
+      "Real-time noise removal",
+      "Works with any app",
+      "Echo cancellation",
+      "Affordable"
+    ],
+    "cons": [
+      "Quality dips at low bandwidth",
+      "Occasional voice clipping",
+      "Not a full meeting tool"
+    ],
+    "url": "https://krisp.ai",
+    "featured": false,
+    "date": "2026-04-08",
+    "logo": "krisp.ai"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "tagline": "AI-powered research and answer engine",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.5,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "Perplexity is the leading AI answer engine with real-time web search, cited sources, and deep research capabilities. Like ChatGPT with live internet access.",
+    "pros": [
+      "Real-time research",
+      "Cited sources",
+      "Deep research mode",
+      "Great free tier"
+    ],
+    "cons": [
+      "Pro for advanced features",
+      "Occasional source errors",
+      "No document collaboration"
+    ],
+    "url": "https://perplexity.ai",
+    "featured": true,
+    "date": "2026-04-01",
+    "logo": "perplexity.ai"
+  },
+  {
+    "id": "reclaim",
+    "name": "Reclaim AI",
+    "tagline": "Smart scheduling and time blocking",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.0,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Reclaim analyzes your calendar and automatically schedules tasks, habits, breaks, and meetings. It protects your focus time and optimizes your week.",
+    "pros": [
+      "Auto time blocking",
+      "Habit scheduling",
+      "Focus time defense",
+      "Google Calendar integration"
+    ],
+    "cons": [
+      "Google Calendar only",
+      "Limited task management",
+      "Can feel robotic"
+    ],
+    "url": "https://reclaim.ai",
+    "featured": false,
+    "date": "2026-03-25",
+    "logo": "reclaim.ai"
+  },
+  {
+    "id": "mem",
+    "name": "Mem",
+    "tagline": "AI knowledge base that organizes itself",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.1,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "Mem is an AI-powered knowledge base that automatically connects your notes, documents, and ideas. It surfaces relevant information without manual tagging.",
+    "pros": [
+      "Auto-organizing notes",
+      "AI connections",
+      "Powerful search",
+      "Clean interface"
+    ],
+    "cons": [
+      "Limited formatting",
+      "Export limitations",
+      "Relatively new platform"
+    ],
+    "url": "https://mem.ai",
+    "featured": false,
+    "date": "2026-03-18",
+    "logo": "mem.ai"
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "tagline": "AI audio and video editor that edits like a doc",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.7,
+    "price": "$24/mo",
+    "price_type": "paid",
+    "excerpt": "Descript is the most innovative audio/video editor on the market. Edit audio by editing text. Its AI features are game-changing for podcasters and creators.",
+    "pros": [
+      "Edit audio by text",
+      "Studio Sound AI",
+      "AI voice cloning",
+      "Screen recording"
+    ],
+    "cons": [
+      "Video editing basic",
+      "Expensive casual use",
+      "AI voices robotic sometimes"
+    ],
+    "url": "https://descript.com",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "descript.com"
+  },
+  {
+    "id": "cleanvoice",
+    "name": "Cleanvoice",
+    "tagline": "Automatically clean up audio recordings",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.0,
+    "price": "$12/mo",
+    "price_type": "paid",
+    "excerpt": "Cleanvoice uses AI to automatically remove filler words, silence, and mouth sounds from audio recordings, saving hours of manual editing.",
+    "pros": [
+      "Removes ums/ahs",
+      "Dead air removal",
+      "Multi-language",
+      "Simple interface"
+    ],
+    "cons": [
+      "Can remove pauses",
+      "Not real-time",
+      "No video support"
+    ],
+    "url": "https://cleanvoice.ai",
+    "featured": false,
+    "date": "2026-05-03",
+    "logo": "cleanvoice.ai"
+  },
+  {
+    "id": "podcastle",
+    "name": "Podcastle",
+    "tagline": "AI-powered podcast recording and editing",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.3,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "Podcastle is an all-in-one podcast platform with AI recording, editing, magic dust audio enhancement, and distribution all in one place.",
+    "pros": [
+      "All-in-one platform",
+      "Magic Dust enhancement",
+      "Remote recording",
+      "Text-to-speech"
+    ],
+    "cons": [
+      "Free tier limited",
+      "Export restrictions",
+      "Less powerful editing"
+    ],
+    "url": "https://podcastle.ai",
+    "featured": false,
+    "date": "2026-04-25",
+    "logo": "podcastle.ai"
+  },
+  {
+    "id": "riverside",
+    "name": "Riverside",
+    "tagline": "High-quality remote recording with AI features",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.2,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "Riverside records high-quality local audio and video for each participant. Its AI tools include text-based editing, speaker detection, and automatic show notes.",
+    "pros": [
+      "Local recording quality",
+      "Separate tracks",
+      "AI show notes",
+      "Reliable low bandwidth"
+    ],
+    "cons": [
+      "Expensive",
+      "Free tier limited to 2h",
+      "AI features recent"
+    ],
+    "url": "https://riverside.fm",
+    "featured": false,
+    "date": "2026-04-18",
+    "logo": "riverside.fm"
+  },
+  {
+    "id": "auphonic",
+    "name": "Auphonic",
+    "tagline": "Professional AI audio leveling and mastering",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.4,
+    "price": "$11/mo",
+    "price_type": "freemium",
+    "excerpt": "Auphonic is the industry standard for AI audio post-production. It automatically levels loudness, reduces noise, and produces broadcast-ready audio.",
+    "pros": [
+      "Broadcast-standard leveling",
+      "Noise reduction",
+      "Multi-track support",
+      "Chapter markers"
+    ],
+    "cons": [
+      "Not for real-time",
+      "Complex interface",
+      "Free hours limited"
+    ],
+    "url": "https://auphonic.com",
+    "featured": false,
+    "date": "2026-04-10",
+    "logo": "auphonic.com"
+  },
+  {
+    "id": "adobe-podcast",
+    "name": "Adobe Podcast",
+    "tagline": "Free AI audio enhancement",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.1,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "Adobe Podcast offers free AI-powered audio enhancement that makes voice recordings sound like they were recorded in a professional studio.",
+    "pros": [
+      "Studio-quality enhancement",
+      "Free to use",
+      "Easy to use",
+      "Voice isolation"
+    ],
+    "cons": [
+      "Web-only",
+      "No multi-track",
+      "Limited editing"
+    ],
+    "url": "https://podcast.adobe.com",
+    "featured": false,
+    "date": "2026-04-03",
+    "logo": "podcast.adobe.com"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "tagline": "The most realistic AI voice generation",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.8,
+    "price": "$5/mo",
+    "price_type": "freemium",
+    "excerpt": "ElevenLabs produces the most realistic AI voices available. Used for audiobooks, voiceovers, dubbing, and content creation with unmatched emotional range.",
+    "pros": [
+      "Most realistic voices",
+      "Emotional range",
+      "Voice cloning",
+      "Multi-language support"
+    ],
+    "cons": [
+      "Ethical concerns",
+      "Expensive at scale",
+      "Free generation limits"
+    ],
+    "url": "https://elevenlabs.io",
+    "featured": true,
+    "date": "2026-03-28",
+    "logo": "elevenlabs.io"
+  },
+  {
+    "id": "murf",
+    "name": "Murf",
+    "tagline": "AI voiceover for professional content",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.1,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Murf offers 120+ AI voices in 20+ languages for professional voiceovers. Its studio editor lets you fine-tune pitch, emphasis, and pacing for natural delivery.",
+    "pros": [
+      "120+ voices",
+      "20+ languages",
+      "Fine pitch control",
+      "Video integration"
+    ],
+    "cons": [
+      "Expensive",
+      "No free tier",
+      "Voices can sound AI"
+    ],
+    "url": "https://murf.ai",
+    "featured": false,
+    "date": "2026-03-22",
+    "logo": "murf.ai"
+  },
+  {
+    "id": "respeecher",
+    "name": "Respeecher",
+    "tagline": "Professional AI voice cloning for media",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.3,
+    "price": "$30/mo",
+    "price_type": "paid",
+    "excerpt": "Respeecher provides enterprise-grade voice cloning used in film, gaming, and media production. Its emotional voice conversion maintains natural performance.",
+    "pros": [
+      "Film-grade quality",
+      "Emotion preservation",
+      "Multi-speaker support",
+      "Studio integrations"
+    ],
+    "cons": [
+      "Expensive",
+      "Professional tool only",
+      "Requires clean source audio"
+    ],
+    "url": "https://respeecher.com",
+    "featured": false,
+    "date": "2026-03-15",
+    "logo": "respeecher.com"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "tagline": "AI-native code editor with multi-model support",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 4.7,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "Cursor is the most popular AI-native code editor, forked from VS Code. Its tab completion, multi-file editing, and agentic code generation make it the developer favorite.",
+    "pros": [
+      "Multi-file context understanding",
+      "Agentic code generation",
+      "Arena Mode for model comparison",
+      "VS Code compatible"
+    ],
+    "cons": [
+      "Requires onboarding",
+      "Can be slow on large files",
+      "\\/mo for full features"
+    ],
+    "url": "https://cursor.com",
+    "featured": true,
+    "date": "2026-05-18",
+    "logo": "cursor.com"
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "tagline": "Agentic coding assistant for terminal workflows",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 4.6,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "Claude Code by Anthropic is the leading agentic coding tool for senior developers. It understands entire projects, handles multi-file changes, and manages complex workflows.",
+    "pros": [
+      "Full project context",
+      "Multi-file reasoning",
+      "Excellent debugging",
+      "Terminal-native design"
+    ],
+    "cons": [
+      "Command-line only",
+      "Requires structured prompts",
+      "No GUI"
+    ],
+    "url": "https://claude.ai",
+    "featured": true,
+    "date": "2026-05-14",
+    "logo": "claude.ai"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "tagline": "Most widely adopted AI coding assistant",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 4.5,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "GitHub Copilot is the most used AI coding assistant with deep GitHub integration for pull requests, code review, and repository-wide context.",
+    "pros": [
+      "Largest user base",
+      "Deep GitHub integration",
+      "Free tier available",
+      "Multiple IDE support"
+    ],
+    "cons": [
+      "Weaker on complex tasks",
+      "Limited agentic capabilities",
+      "Privacy concerns"
+    ],
+    "url": "https://github.com/features/copilot",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "github.com"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "tagline": "Free AI IDE with cascade agent",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 4.3,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "Windsurf by Codeium offers a free AI IDE with a Cascade agent that handles multi-file reasoning and pair programming. Best free option for AI-assisted development.",
+    "pros": [
+      "Completely free",
+      "Cascade AI agent",
+      "Multi-file reasoning",
+      "Good code completion"
+    ],
+    "cons": [
+      "Uncertain roadmap",
+      "Less popular than Cursor",
+      "Limited integrations"
+    ],
+    "url": "https://windsurf.com",
+    "featured": false,
+    "date": "2026-05-05",
+    "logo": "windsurf.com"
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "tagline": "Browser-based AI development environment",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 4.2,
+    "price": "$25/mo",
+    "price_type": "freemium",
+    "excerpt": "Replit Agent is a browser-based AI development platform that lets you build and deploy apps from natural language descriptions without local setup.",
+    "pros": [
+      "Zero setup required",
+      "Built-in deployment",
+      "Collaborative",
+      "Good for prototyping"
+    ],
+    "cons": [
+      "Limited for production apps",
+      "UI can be slow",
+      "Expensive for heavy use"
+    ],
+    "url": "https://replit.com",
+    "featured": false,
+    "date": "2026-04-28",
+    "logo": "replit.com"
+  },
+  {
+    "id": "amazon-q",
+    "name": "Amazon Q Developer",
+    "tagline": "AI assistant for AWS development",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 4.0,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "Amazon Q Developer is AWS's AI coding assistant with deep integration for cloud services. It helps with code generation, debugging, and AWS architecture guidance.",
+    "pros": [
+      "AWS deep integration",
+      "Free to use",
+      "Good cloud guidance",
+      "Security scanning"
+    ],
+    "cons": [
+      "AWS-focused only",
+      "Less capable for non-AWS",
+      "Slower than competitors"
+    ],
+    "url": "https://aws.amazon.com/q",
+    "featured": false,
+    "date": "2026-04-22",
+    "logo": "aws.amazon.com"
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "tagline": "AI coding assistant for large codebases",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 4.1,
+    "price": "$9/mo",
+    "price_type": "freemium",
+    "excerpt": "Cody by Sourcegraph excels at understanding large, complex codebases. It provides context-aware code generation and answers based on your entire repository.",
+    "pros": [
+      "Excellent codebase context",
+      "Affordable",
+      "Good for large projects",
+      "Codebase search"
+    ],
+    "cons": [
+      "Smaller community",
+      "Basic autocomplete",
+      "Limited IDE support"
+    ],
+    "url": "https://sourcegraph.com",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "sourcegraph.com"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "tagline": "Privacy-focused AI code completion",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 3.9,
+    "price": "$9/mo",
+    "price_type": "freemium",
+    "excerpt": "Tabnine offers privacy-controlled AI code completion with enterprise deployment options. It can run fully on-premises for organizations with strict data requirements.",
+    "pros": [
+      "Enterprise privacy",
+      "On-premises option",
+      "Solid autocomplete",
+      "Multiple languages"
+    ],
+    "cons": [
+      "Less advanced AI",
+      "Basic features only",
+      "No agentic capabilities"
+    ],
+    "url": "https://tabnine.com",
+    "featured": false,
+    "date": "2026-04-08",
+    "logo": "tabnine.com"
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "tagline": "Autonomous AI software engineer",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 3.8,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "Devin by Cognition Labs is an autonomous AI software engineer that can plan, code, test, and deploy entire features end-to-end without human intervention.",
+    "pros": [
+      "Fully autonomous",
+      "Complete workflow",
+      "Issues to PR pipeline",
+      "Environment setup"
+    ],
+    "cons": [
+      "Very expensive",
+      "Still maturing",
+      "Best for specific tasks",
+      "Long processing times"
+    ],
+    "url": "https://devin.ai",
+    "featured": false,
+    "date": "2026-04-01",
+    "logo": "devin.ai"
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "tagline": "Rapid AI web app prototyping",
+    "category": "AI Coding",
+    "category_slug": "coding",
+    "rating": 3.7,
+    "price": "$25/mo",
+    "price_type": "freemium",
+    "excerpt": "Bolt.new lets you build and deploy full-stack web apps directly from your browser using natural language prompts. Perfect for rapid prototyping and MVPs.",
+    "pros": [
+      "Instant prototyping",
+      "No setup needed",
+      "Full-stack generation",
+      "Deploy in one click"
+    ],
+    "cons": [
+      "Not production-ready",
+      "Limited customization",
+      "Expensive for teams"
+    ],
+    "url": "https://bolt.new",
+    "featured": false,
+    "date": "2026-03-25",
+    "logo": "bolt.new"
+  },
+  {
+    "id": "hubspot-ai",
+    "name": "HubSpot AI",
+    "tagline": "All-in-one AI-powered marketing platform",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.6,
+    "price": "$800/mo",
+    "price_type": "paid",
+    "excerpt": "HubSpot AI integrates generative AI across the entire marketing stack — content creation, SEO, social media, email, analytics, and CRM — in one unified platform.",
+    "pros": [
+      "Complete marketing suite",
+      "CRM integration",
+      "AI content generation",
+      "Powerful analytics"
+    ],
+    "cons": [
+      "Very expensive",
+      "Steep learning curve",
+      "Overkill for small teams"
+    ],
+    "url": "https://hubspot.com",
+    "featured": true,
+    "date": "2026-05-16",
+    "logo": "hubspot.com"
+  },
+  {
+    "id": "semrush-ai",
+    "name": "Semrush AI",
+    "tagline": "Full-suite AI marketing with SEO at its core",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.5,
+    "price": "$139.95/mo",
+    "price_type": "paid",
+    "excerpt": "Semrush is the leading AI marketing platform with powerful SEO tools, content marketing, competitor analysis, PPC, and social media management.",
+    "pros": [
+      "Industry-leading SEO",
+      "Competitor analysis",
+      "Content marketing tools",
+      "PPC optimization"
+    ],
+    "cons": [
+      "Expensive premium tiers",
+      "Complex interface",
+      "Tons of features can overwhelm"
+    ],
+    "url": "https://semrush.com",
+    "featured": true,
+    "date": "2026-05-12",
+    "logo": "semrush.com"
+  },
+  {
+    "id": "surfer-seo",
+    "name": "Surfer SEO",
+    "tagline": "AI content optimization for search rankings",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.4,
+    "price": "$99/mo",
+    "price_type": "paid",
+    "excerpt": "Surfer SEO uses NLP to analyze top-ranking content and provides data-driven recommendations to optimize your articles for higher search engine rankings.",
+    "pros": [
+      "Data-driven optimization",
+      "SERP analysis",
+      "Real-time scoring",
+      "Google Docs integration"
+    ],
+    "cons": [
+      "SEO only",
+      "Expensive for individuals",
+      "No content generation"
+    ],
+    "url": "https://surferseo.com",
+    "featured": true,
+    "date": "2026-05-08",
+    "logo": "surferseo.com"
+  },
+  {
+    "id": "frase",
+    "name": "Frase.io",
+    "tagline": "AI content strategy and SEO optimization",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.3,
+    "price": "$49/mo",
+    "price_type": "paid",
+    "excerpt": "Frase combines AI content generation with powerful SEO research. It creates content briefs based on SERP analysis and helps optimize for search intent.",
+    "pros": [
+      "Great content briefs",
+      "SERP research",
+      "Affordable entry price",
+      "AI writing included"
+    ],
+    "cons": [
+      "Limited content quality",
+      "Basic editing",
+      "Advanced features need premium"
+    ],
+    "url": "https://frase.io",
+    "featured": false,
+    "date": "2026-05-02",
+    "logo": "frase.io"
+  },
+  {
+    "id": "lindy",
+    "name": "Lindy",
+    "tagline": "AI marketing agents for automated workflows",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.2,
+    "price": "$49/mo",
+    "price_type": "paid",
+    "excerpt": "Lindy lets you build AI agents that execute complex multi-step marketing tasks — lead nurturing, content repurposing, ad optimization — autonomously.",
+    "pros": [
+      "Autonomous agents",
+      "Multi-step workflows",
+      "CRM integration",
+      "Customizable"
+    ],
+    "cons": [
+      "Requires setup",
+      "Can be complex",
+      "Agent reliability varies"
+    ],
+    "url": "https://lindy.ai",
+    "featured": false,
+    "date": "2026-04-25",
+    "logo": "lindy.ai"
+  },
+  {
+    "id": "marketmuse",
+    "name": "MarketMuse",
+    "tagline": "Enterprise AI content planning and strategy",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.1,
+    "price": "Custom",
+    "price_type": "custom",
+    "excerpt": "MarketMuse uses AI to analyze content gaps, plan editorial strategies, and optimize existing content. Built for enterprise teams with serious content operations.",
+    "pros": [
+      "Deep content analysis",
+      "Gap identification",
+      "Editorial planning",
+      "Enterprise-grade"
+    ],
+    "cons": [
+      "Very expensive",
+      "Complex tool",
+      "Overkill for small teams"
+    ],
+    "url": "https://marketmuse.com",
+    "featured": false,
+    "date": "2026-04-18",
+    "logo": "marketmuse.com"
+  },
+  {
+    "id": "zapier-ai",
+    "name": "Zapier AI",
+    "tagline": "AI-powered marketing automation",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.3,
+    "price": "$19.99/mo",
+    "price_type": "freemium",
+    "excerpt": "Zapier connects your marketing tools with AI-powered workflows. Automate lead capture, email sequences, social posting, and data syncing across 6000+ apps.",
+    "pros": [
+      "6000+ app integrations",
+      "AI workflow builder",
+      "Easy automation",
+      "Generous free tier"
+    ],
+    "cons": [
+      "Complex workflows costly",
+      "Not a marketing platform",
+      "Debugging can be hard"
+    ],
+    "url": "https://zapier.com",
+    "featured": false,
+    "date": "2026-04-12",
+    "logo": "zapier.com"
+  },
+  {
+    "id": "activecampaign",
+    "name": "ActiveCampaign",
+    "tagline": "AI email marketing and campaign automation",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 4.0,
+    "price": "$15/mo",
+    "price_type": "paid",
+    "excerpt": "ActiveCampaign combines email marketing with AI-powered automation, predictive sending, and dynamic content personalization for smarter campaigns.",
+    "pros": [
+      "AI campaign building",
+      "Predictive sending",
+      "Good automation",
+      "Affordable start"
+    ],
+    "cons": [
+      "Can get expensive",
+      "Limited AI features",
+      "Template editor basic"
+    ],
+    "url": "https://activecampaign.com",
+    "featured": false,
+    "date": "2026-04-05",
+    "logo": "activecampaign.com"
+  },
+  {
+    "id": "mailchimp-ai",
+    "name": "Mailchimp AI",
+    "tagline": "AI email marketing for small businesses",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 3.9,
+    "price": "$13/mo",
+    "price_type": "freemium",
+    "excerpt": "Mailchimp adds AI features to its popular email platform — content generation, audience insights, send-time optimization, and smart segmentation.",
+    "pros": [
+      "Easy to use",
+      "AI content suggestions",
+      "Good free tier",
+      "Popular platform"
+    ],
+    "cons": [
+      "Limited AI depth",
+      "Expensive at scale",
+      "Basic automation"
+    ],
+    "url": "https://mailchimp.com",
+    "featured": false,
+    "date": "2026-03-30",
+    "logo": "mailchimp.com"
+  },
+  {
+    "id": "lately-ai",
+    "name": "Lately AI",
+    "tagline": "AI social media content generation",
+    "category": "AI Marketing",
+    "category_slug": "marketing",
+    "rating": 3.8,
+    "price": "$49/mo",
+    "price_type": "paid",
+    "excerpt": "Lately uses AI to transform long-form content into dozens of social media posts. It analyzes your brand voice and generates on-brand social content automatically.",
+    "pros": [
+      "Auto social content",
+      "Brand voice learning",
+      "Multi-platform",
+      "Time saver"
+    ],
+    "cons": [
+      "Expensive",
+      "Quality can vary",
+      "No direct publishing"
+    ],
+    "url": "https://lately.ai",
+    "featured": false,
+    "date": "2026-03-22",
+    "logo": "lately.ai"
+  }
+]

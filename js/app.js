@@ -1,0 +1,410 @@
+(function () {
+  'use strict';
+
+  var LANG = window.LANG || 'en';
+  var reviews = [];
+  var filteredResults = [];
+
+  var $ = function (sel) { return document.querySelector(sel); };
+  var $$ = function (sel) { return document.querySelectorAll(sel); };
+
+  var navbar = $('#navbar');
+  var searchInput = $('#searchInput');
+  var searchBtn = $('#searchBtn');
+  var categoryGrid = $('#categoryGrid');
+  var reviewGrid = $('#reviewGrid');
+  var resultsSection = $('#results');
+  var resultsGrid = $('#resultsGrid');
+  var resultsTitle = $('#resultsTitle');
+  var resultsCount = $('#resultsCount');
+  var filterCategory = $('#filterCategory');
+  var filterRating = $('#filterRating');
+  var filterPrice = $('#filterPrice');
+  var themeToggle = $('#themeToggle');
+  var scrollTop = $('#scrollTop');
+  var viewAllReviews = $('#viewAllReviews');
+  var clearSearch = $('#clearSearch');
+  var navSearchLink = $('#navSearchLink');
+  var heroCategories = $('#heroCategories');
+
+  var CATEGORIES = {
+    'music': { en: 'AI for Music', es: 'IA para Música' },
+    'writing': { en: 'AI Writing', es: 'Escritura IA' },
+    'images': { en: 'AI Images', es: 'Imágenes IA' },
+    'video': { en: 'AI Video', es: 'Video IA' },
+    'productivity': { en: 'AI Productivity', es: 'Productividad IA' },
+    'audio': { en: 'AI Audio', es: 'Audio IA' },
+    'coding': { en: 'AI Coding', es: 'Programación IA' },
+    'marketing': { en: 'AI Marketing', es: 'Marketing IA' }
+  };
+
+  function loadTheme() {
+    var saved = localStorage.getItem('ai-reviews-theme');
+    if (saved) {
+      document.documentElement.setAttribute('data-theme', saved);
+      themeToggle.textContent = saved === 'dark' ? '🌙' : '☀️';
+    } else {
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+      themeToggle.textContent = prefersDark ? '🌙' : '☀️';
+    }
+  }
+
+  function toggleTheme() {
+    var current = document.documentElement.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    themeToggle.textContent = next === 'dark' ? '🌙' : '☀️';
+    localStorage.setItem('ai-reviews-theme', next);
+  }
+
+  function handleScroll() {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+    scrollTop.classList.toggle('visible', window.scrollY > 400);
+  }
+
+  function starsHTML(rating) {
+    var full = Math.floor(rating);
+    var half = rating % 1 >= 0.5 ? 1 : 0;
+    var empty = 5 - full - half;
+    return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(empty);
+  }
+
+  function priceLabel(price, type) {
+    if (type === 'free') return 'Free';
+    if (type === 'freemium') return 'Free / ' + price;
+    return price;
+  }
+
+  function priceLabelES(price, type) {
+    if (type === 'free') return 'Gratis';
+    if (type === 'freemium') return 'Gratis / ' + price;
+    return price;
+  }
+
+  function logoHTML(domain, name) {
+    return '<div class="card-logo">'
+      + '<img src="../images/logos/' + domain + '.png" alt="' + name + '" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
+      + '<span class="card-logo-fallback">' + name.charAt(0).toUpperCase() + '</span>'
+      + '</div>';
+  }
+
+  function logoModalHTML(domain, name) {
+    return '<div class="modal-logo">'
+      + '<img src="../images/logos/' + domain + '.png" alt="' + name + '" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
+      + '<span class="modal-logo-fallback">' + name.charAt(0).toUpperCase() + '</span>'
+      + '</div>';
+  }
+
+  function renderCategories(p, data) {
+    var catMap = {};
+    data.forEach(function (r) {
+      var slug = r.category_slug;
+      if (!catMap[slug]) catMap[slug] = 0;
+      catMap[slug]++;
+    });
+
+    categoryGrid.innerHTML = Object.keys(catMap).map(function (slug) {
+      var cat = CATEGORIES[slug];
+      if (!cat) return '';
+      var name = cat[LANG] || cat.en;
+      return '<div class="category-card" data-cat="' + slug + '">'
+        + '<div class="cat-inner">'
+        + '<div class="name">' + name + '</div>'
+        + '<div class="count">' + catMap[slug] + ' ' + (LANG === 'en' ? 'tools' : 'herramientas') + '</div>'
+        + '</div></div>';
+    }).join('');
+
+    categoryGrid.querySelectorAll('.category-card').forEach(function (el) {
+      el.addEventListener('click', function () {
+        filterCategory.value = this.dataset.cat;
+        applyFilters();
+        scrollToReviews();
+      });
+    });
+  }
+
+  function renderReviews(data) {
+    if (!data || data.length === 0) {
+      reviewGrid.innerHTML = '<div class="no-results"><h3>' + (LANG === 'en' ? 'No reviews found' : 'No se encontraron reseñas') + '</h3><p>' + (LANG === 'en' ? 'Try adjusting your filters' : 'Ajusta los filtros') + '</p></div>';
+      return;
+    }
+
+    reviewGrid.innerHTML = data.map(function (r, i) {
+      var catName = CATEGORIES[r.category_slug] ? CATEGORIES[r.category_slug][LANG] || CATEGORIES[r.category_slug].en : r.category_en;
+      return '<div class="review-card" data-cat="' + r.category_slug + '" data-index="' + i + '">'
+        + '<div class="card-image">'
+        + logoHTML(r.logo, r.name)
+        + '<span class="category-badge">' + catName + '</span>'
+        + '<span class="rating-badge">' + starsHTML(r.rating) + ' ' + r.rating + '</span>'
+        + '</div>'
+        + '<div class="card-body">'
+        + '<div class="tool-name">' + highlightMatch(r.name) + '</div>'
+        + '<div class="tool-tagline">' + r.tagline + '</div>'
+        + '<div class="excerpt">' + r.excerpt + '</div>'
+        + '<div class="pros-cons">'
+        + '<ul class="pros">' + r.pros.slice(0, 3).map(function (p) { return '<li>✓ ' + p + '</li>'; }).join('') + '</ul>'
+        + '<ul class="cons">' + r.cons.slice(0, 3).map(function (c) { return '<li>✗ ' + c + '</li>'; }).join('') + '</ul>'
+        + '</div>'
+        + '<div class="meta">'
+        + '<span class="price' + (r.price_type === 'free' ? ' free' : '') + '">' + (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type)) + '</span>'
+        + '<span class="read-more">' + (LANG === 'en' ? 'Read review →' : 'Leer reseña →') + '</span>'
+        + '</div>'
+        + '</div></div>';
+    }).join('');
+
+    reviewGrid.querySelectorAll('.review-card').forEach(function (el) {
+      el.addEventListener('click', function () {
+        var idx = parseInt(this.dataset.index);
+        openModal(data[idx]);
+      });
+    });
+  }
+
+  function renderResults(data) {
+    if (!data || data.length === 0) {
+      resultsGrid.innerHTML = '<div class="no-results"><h3>' + (LANG === 'en' ? 'No results found' : 'Sin resultados') + '</h3><p>' + (LANG === 'en' ? 'Try different search terms or filters' : 'Prueba otros términos o filtros') + '</p></div>';
+      return;
+    }
+
+    resultsGrid.innerHTML = data.map(function (r, i) {
+      var catName = CATEGORIES[r.category_slug] ? CATEGORIES[r.category_slug][LANG] || CATEGORIES[r.category_slug].en : r.category_en;
+      return '<div class="review-card" data-cat="' + r.category_slug + '" data-result-index="' + i + '">'
+        + '<div class="card-image">'
+        + logoHTML(r.logo, r.name)
+        + '<span class="category-badge">' + catName + '</span>'
+        + '<span class="rating-badge">' + starsHTML(r.rating) + ' ' + r.rating + '</span>'
+        + '</div>'
+        + '<div class="card-body">'
+        + '<div class="tool-name">' + highlightMatch(r.name) + '</div>'
+        + '<div class="tool-tagline">' + highlightMatch(r.tagline) + '</div>'
+        + '<div class="excerpt">' + highlightMatch(r.excerpt) + '</div>'
+        + '<div class="meta">'
+        + '<span class="price' + (r.price_type === 'free' ? ' free' : '') + '">' + (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type)) + '</span>'
+        + '<span class="read-more">' + (LANG === 'en' ? 'Read review →' : 'Leer reseña →') + '</span>'
+        + '</div>'
+        + '</div></div>';
+    }).join('');
+
+    resultsGrid.querySelectorAll('.review-card').forEach(function (el) {
+      el.addEventListener('click', function () {
+        var idx = parseInt(this.dataset.resultIndex);
+        openModal(data[idx]);
+      });
+    });
+  }
+
+  var currentQuery = '';
+
+  function highlightMatch(text) {
+    if (!text || !currentQuery) return text || '';
+    var words = currentQuery.trim().split(/\s+/).filter(Boolean);
+    if (words.length === 0) return text;
+    var pattern = words.map(function (w) { return w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }).join('|');
+    try {
+      return text.replace(new RegExp('(' + pattern + ')', 'gi'), '<mark style="background:var(--accent-subtle);color:var(--accent);border-radius:2px;padding:0 2px">$1</mark>');
+    } catch (e) {
+      return text;
+    }
+  }
+
+  function applyFilters() {
+    var cat = filterCategory.value;
+    var rating = parseFloat(filterRating.value);
+    var price = filterPrice.value;
+
+    var filtered = reviews.filter(function (r) {
+      if (cat !== 'all' && r.category_slug !== cat) return false;
+      if (!isNaN(rating) && r.rating < rating) return false;
+      if (price !== 'all' && r.price_type !== price) return false;
+      return true;
+    });
+
+    filteredResults = filtered;
+    renderReviews(filtered);
+  }
+
+  function scrollToReviews() {
+    var el = document.getElementById('reviews');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function doSearch(query) {
+    currentQuery = query || '';
+    var q = (query || '').trim().toLowerCase();
+    var searchSection = document.getElementById('results');
+
+    if (!q) {
+      searchSection.style.display = 'none';
+      return;
+    }
+
+    var results = reviews.filter(function (r) {
+      var searchText = (r.name + ' ' + r.tagline + ' ' + r.excerpt + ' ' + (r.category_en || '') + ' ' + r.pros.join(' ') + ' ' + r.cons.join(' ')).toLowerCase();
+      var words = q.split(/\s+/).filter(Boolean);
+      return words.every(function (w) { return searchText.indexOf(w) !== -1; });
+    });
+
+    searchSection.style.display = 'block';
+    resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
+    resultsCount.textContent = results.length + (LANG === 'en' ? ' tools found' : ' herramientas encontradas');
+    renderResults(results);
+  }
+
+  function openModal(r) {
+    if (!r) return;
+    var overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+
+    var priceTxt = (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type));
+    var catName = CATEGORIES[r.category_slug] ? CATEGORIES[r.category_slug][LANG] || CATEGORIES[r.category_slug].en : r.category_en;
+
+    overlay.innerHTML = '<div class="modal-content">'
+      + '<button class="modal-close">✕</button>'
+      + '<div class="modal-header">'
+      + logoModalHTML(r.logo, r.name)
+      + '<div class="modal-header-right">'
+      + '<span class="modal-category" data-cat="' + r.category_slug + '">' + catName + '</span>'
+      + '<span class="modal-rating">' + starsHTML(r.rating) + ' ' + r.rating + '</span>'
+      + '</div>'
+      + '</div>'
+      + '<h2 class="modal-title">' + r.name + '</h2>'
+      + '<p class="modal-tagline">' + r.tagline + '</p>'
+      + '<div class="modal-price">' + priceTxt + '</div>'
+      + '<p class="modal-desc">' + r.excerpt + '</p>'
+      + '<div class="pros-cons">'
+      + '<ul class="pros">' + r.pros.map(function (p) { return '<li>✓ ' + p + '</li>'; }).join('') + '</ul>'
+      + '<ul class="cons">' + r.cons.map(function (c) { return '<li>✗ ' + c + '</li>'; }).join('') + '</ul>'
+      + '</div>'
+      + '<a href="' + r.url + '" class="modal-btn" target="_blank" rel="noopener">' + (LANG === 'en' ? 'Visit Website →' : 'Visitar Sitio →') + '</a>'
+      + '</div>';
+
+    document.body.appendChild(overlay);
+    document.body.style.overflow = 'hidden';
+
+    setTimeout(function () { overlay.classList.add('active'); }, 10);
+
+    overlay.querySelector('.modal-close').addEventListener('click', function () { closeModal(overlay); });
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(overlay); });
+    document.addEventListener('keydown', function esc(e) {
+      if (e.key === 'Escape') { closeModal(overlay); document.removeEventListener('keydown', esc); }
+    });
+  }
+
+  function closeModal(overlay) {
+    overlay.classList.remove('active');
+    setTimeout(function () {
+      overlay.remove();
+      document.body.style.overflow = '';
+    }, 200);
+  }
+
+  function loadReviews() {
+    var url = '../data/reviews-' + LANG + '.json';
+    fetch(url)
+      .then(function (resp) {
+        if (!resp.ok) throw new Error('Not found');
+        return resp.json();
+      })
+      .then(function (data) {
+        reviews = data;
+        init();
+      })
+      .catch(function () {
+        reviews = [];
+        init();
+      });
+  }
+
+  function initFilters() {
+    filterCategory.innerHTML = '<option value="all">' + (LANG === 'en' ? 'All Categories' : 'Todas las Categorías') + '</option>';
+    Object.keys(CATEGORIES).forEach(function (slug) {
+      var opt = document.createElement('option');
+      opt.value = slug;
+      opt.textContent = CATEGORIES[slug][LANG] || CATEGORIES[slug].en;
+      filterCategory.appendChild(opt);
+    });
+  }
+
+  function init() {
+    if (reviews.length === 0) return;
+
+    initFilters();
+    renderCategories(LANG, reviews);
+
+    var sorted = reviews.slice().sort(function (a, b) {
+      if (a.featured && !b.featured) return -1;
+      if (!a.featured && b.featured) return 1;
+      return new Date(b.date) - new Date(a.date);
+    });
+    filteredResults = sorted;
+    renderReviews(sorted);
+
+    themeToggle.addEventListener('click', toggleTheme);
+
+    searchBtn.addEventListener('click', function () {
+      doSearch(searchInput.value.trim());
+    });
+
+    searchInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        doSearch(searchInput.value.trim());
+      }
+    });
+
+    if (clearSearch) {
+      clearSearch.addEventListener('click', function (e) {
+        e.preventDefault();
+        searchInput.value = '';
+        resultsSection.style.display = 'none';
+        var sorted = reviews.slice().sort(function (a, b) {
+          if (a.featured && !b.featured) return -1;
+          if (!a.featured && b.featured) return 1;
+          return new Date(b.date) - new Date(a.date);
+        });
+        renderReviews(sorted);
+        scrollToReviews();
+      });
+    }
+
+    if (viewAllReviews) {
+      viewAllReviews.addEventListener('click', function (e) {
+        e.preventDefault();
+        scrollToReviews();
+      });
+    }
+
+    if (navSearchLink) {
+      navSearchLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        searchInput.focus();
+        searchInput.scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+
+    filterCategory.addEventListener('change', applyFilters);
+    filterRating.addEventListener('change', applyFilters);
+    filterPrice.addEventListener('change', applyFilters);
+
+    scrollTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('scroll', handleScroll);
+
+    if (heroCategories) {
+      heroCategories.addEventListener('click', function (e) {
+        var cat = e.target.dataset.cat;
+        if (cat) {
+          filterCategory.value = cat;
+          applyFilters();
+          scrollToReviews();
+        }
+      });
+    }
+  }
+
+  loadTheme();
+  handleScroll();
+  loadReviews();
+})();

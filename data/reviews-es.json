@@ -1,0 +1,1901 @@
+[
+  {
+    "id": "suno-ai",
+    "name": "Suno AI",
+    "tagline": "Genera complete canciones desde texto",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.6,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Suno IA es el most impressive IA music generator available today. It can create full songs with lyrics, vocals, y instrumentation from simple text descriptions.",
+    "pros": [
+      "Amazing vocal calidad",
+      "Full song structure",
+      "Rápido generación",
+      "Gratuito tier available"
+    ],
+    "cons": [
+      "Gibberish lyrics a veces",
+      "Limitado arrangement control",
+      "Sin stem separation"
+    ],
+    "url": "https://suno.ai",
+    "featured": true,
+    "date": "2026-05-15",
+    "logo": "suno.ai"
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "tagline": "música IA con unprecedented fidelidad de audio",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.5,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Udio rivals Suno with incredible audio fidelity y musical coherence. It excels at instrumental music y complex genre combinations.",
+    "pros": [
+      "Excelente audio calidad",
+      "Complex genre handling",
+      "Bueno instrumentals",
+      "Generoso free tier"
+    ],
+    "cons": [
+      "Sinnsensical lyrics",
+      "Less vocal control",
+      "Smaller community"
+    ],
+    "url": "https://udio.com",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "udio.com"
+  },
+  {
+    "id": "aiva",
+    "name": "AIVA",
+    "tagline": "compositor IA para classical y cinematográfico byas sonoras",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.3,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "IAVA es an award-winning IA composer specializing in classical y cinematic music. Used by filmmakers y game developers for professional-grade orchestral compositions.",
+    "pros": [
+      "Profesional orchestral calidad",
+      "MIDI export",
+      "Sheet music output",
+      "Personalizadoizable arrangements"
+    ],
+    "cons": [
+      "Instrumental only",
+      "Empinada curva de aprendizaje",
+      "Free tier very limited"
+    ],
+    "url": "https://creators.aiva.ai",
+    "featured": true,
+    "date": "2026-05-05",
+    "logo": "creators.aiva.ai"
+  },
+  {
+    "id": "mubert",
+    "name": "Mubert",
+    "tagline": "En tiempo real música IA para creadores y streamers",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.1,
+    "price": "$14/mo",
+    "price_type": "freemium",
+    "excerpt": "Mubert generates royalty-free electronic music in real time. Perfect for streamers, content creators, y apps that need adaptive background music.",
+    "pros": [
+      "Tiempo real generación",
+      "Royalty-free",
+      "API available",
+      "Unique electronic sound"
+    ],
+    "cons": [
+      "Sin vocals",
+      "Limitado genre range",
+      "Marca de agua on gratis plan"
+    ],
+    "url": "https://mubert.com",
+    "featured": false,
+    "date": "2026-04-28",
+    "logo": "mubert.com"
+  },
+  {
+    "id": "soundraw",
+    "name": "Soundraw",
+    "tagline": "Personalizable royalty-free generador de música",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.0,
+    "price": "$13/mo",
+    "price_type": "paid",
+    "excerpt": "Soundraw lets you generate y customize original music by selecting mood, genre, y length. Each track es fully editable with a simple interface.",
+    "pros": [
+      "Full customization",
+      "Royalty-free",
+      "Fácil to use",
+      "Bueno for video creators"
+    ],
+    "cons": [
+      "Sin vocals",
+      "Limitado genre depth",
+      "Repetitive patterns"
+    ],
+    "url": "https://soundraw.io",
+    "featured": false,
+    "date": "2026-04-20",
+    "logo": "soundraw.io"
+  },
+  {
+    "id": "boomy",
+    "name": "Boomy",
+    "tagline": "Instantáneo AI canción creación con global distribución",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 3.8,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Boomy makes instant song creation accessible to anyone. It offers global distribution to streaming platforms, letting you publish IA music to Spotify y Apple Music.",
+    "pros": [
+      "Instantáneo generación",
+      "Streaming distribution",
+      "Muy easy to use",
+      "Diferentes genres"
+    ],
+    "cons": [
+      "Average calidad",
+      "Limitado fine control",
+      "Many similar-sounding tracks"
+    ],
+    "url": "https://boomy.com",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "boomy.com"
+  },
+  {
+    "id": "riffusion",
+    "name": "Riffusion",
+    "tagline": "Gratuito música IA generación para experimentación",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 3.9,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "Riffusion es a completely free IA music generator that turns text prompts into catchy tunes. Fun for experimenting with weird sounds y unusual genre combinations.",
+    "pros": [
+      "Completamente free",
+      "Divertido to experiment",
+      "Fácil to use",
+      "Full songs not just loops"
+    ],
+    "cons": [
+      "Hit-or-miss calidad",
+      "Sin commercial use",
+      "Limitado control"
+    ],
+    "url": "https://riffusion.com",
+    "featured": false,
+    "date": "2026-04-10",
+    "logo": "riffusion.com"
+  },
+  {
+    "id": "beatoven",
+    "name": "Beatoven.ai",
+    "tagline": "música IA para videos y podcasts",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.0,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "Beatoven.ai creates royalty-free music tailored to your video or podcast. Select mood, genre, y duration to get unique tracks that match your content.",
+    "pros": [
+      "Basado en estado de ánimo generación",
+      "Royalty-free",
+      "Content-creator focused",
+      "Rápido generación"
+    ],
+    "cons": [
+      "Instrumental only",
+      "Limitado genre variety",
+      "Pricing per track adds up"
+    ],
+    "url": "https://beatoven.ai",
+    "featured": false,
+    "date": "2026-04-05",
+    "logo": "beatoven.ai"
+  },
+  {
+    "id": "landr",
+    "name": "LANDR",
+    "tagline": "música IA masterización y artist distribución",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.2,
+    "price": "$19/mo",
+    "price_type": "freemium",
+    "excerpt": "LANDR pioneered IA music mastering y now offers a full platform including distribution to all streaming services, samples, y collaboration tools.",
+    "pros": [
+      "Instantáneo IA mastering",
+      "Global distribution",
+      "Sample library",
+      "Plugin version"
+    ],
+    "cons": [
+      "One-size-fits-all mastering",
+      "Caro for distribution only",
+      "Competition catching up"
+    ],
+    "url": "https://landr.com",
+    "featured": false,
+    "date": "2026-03-28",
+    "logo": "landr.com"
+  },
+  {
+    "id": "elevenlabs-music",
+    "name": "ElevenLabs Music",
+    "tagline": "High-fidelity música IA con exceptional vocals",
+    "category": "IA para Música",
+    "category_slug": "music",
+    "rating": 4.4,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "ElevenLabs brings its legendary voice technology to music generation. The result es stunning vocal quality y naturally expressive musical performances.",
+    "pros": [
+      "Exceptional vocal calidad",
+      "Natural expression",
+      "Clean audio",
+      "Multi-genre soporte"
+    ],
+    "cons": [
+      "Newer platform",
+      "Limitado track length",
+      "Premium pricing"
+    ],
+    "url": "https://elevenlabs.io",
+    "featured": true,
+    "date": "2026-03-20",
+    "logo": "elevenlabs.io"
+  },
+  {
+    "id": "jasper-ai",
+    "name": "Jasper AI",
+    "tagline": "Empresarial escritura IA para equipos de marketing",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 4.3,
+    "price": "$49/mo",
+    "price_type": "paid",
+    "excerpt": "Jasper es a powerful IA writing assistant built for marketing teams who need brand-consistent content at scale with built-in SEO tools.",
+    "pros": [
+      "Marca voice customization",
+      "Integrado SEO analysis",
+      "Detección de plagio checker",
+      "Colaboración collaboration"
+    ],
+    "cons": [
+      "Caro for individuals",
+      "Empinada curva de aprendizaje",
+      "Some gimmicky templates"
+    ],
+    "url": "https://jasper.ai",
+    "featured": true,
+    "date": "2026-05-14",
+    "logo": "jasper.ai"
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "tagline": "escritura IA con strong funciones SEO",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 4.0,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Writesonic offers budget-friendly IA writing with solid output quality, SEO tools, y a generous word count limit for growing teams.",
+    "pros": [
+      "Asequible pricing",
+      "SEO optimization",
+      "Bueno for blog posts",
+      "Alto word limits"
+    ],
+    "cons": [
+      "Less polish than Jasper",
+      "Ocasional factual errors",
+      "Limitado brand voice"
+    ],
+    "url": "https://writesonic.com",
+    "featured": false,
+    "date": "2026-05-08",
+    "logo": "writesonic.com"
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "tagline": "copywriting IA con automatización",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 3.9,
+    "price": "$36/mo",
+    "price_type": "paid",
+    "excerpt": "Copy.ai helps marketing teams generate on-brand copy across channels. Its workflow automation y 90+ templates set it apart from simpler IA writing tools.",
+    "pros": [
+      "Workflow automation",
+      "90+ templates",
+      "Marca voice",
+      "Gratuito tier available"
+    ],
+    "cons": [
+      "Caro",
+      "Output needs editing",
+      "Overlapping features"
+    ],
+    "url": "https://copy.ai",
+    "featured": false,
+    "date": "2026-05-02",
+    "logo": "copy.ai"
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "tagline": "Budget-friendly escritura IA para todos",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 3.8,
+    "price": "$9/mo",
+    "price_type": "freemium",
+    "excerpt": "Rytr es one of el most affordable IA writing assistants with over 6 million users. It offers 40+ use cases y 30+ languages for versatile content creation.",
+    "pros": [
+      "Muy affordable",
+      "40+ use cases",
+      "30+ languages",
+      "Bueno for short content"
+    ],
+    "cons": [
+      "Básico long-form calidad",
+      "Limitado SEO",
+      "Genérico output a veces"
+    ],
+    "url": "https://rytr.me",
+    "featured": false,
+    "date": "2026-04-25",
+    "logo": "rytr.me"
+  },
+  {
+    "id": "sudowrite",
+    "name": "Sudowrite",
+    "tagline": "escritura IA para ficción y narrativa creativa",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 4.5,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Sudowrite es el premier IA writing tool for fiction authors. It helps with plot development, character creation, world-building, y overcoming writer's block.",
+    "pros": [
+      "Mejor for fiction",
+      "Plot development tools",
+      "Character consistency",
+      "Expand and rewrite"
+    ],
+    "cons": [
+      "Sint for business writing",
+      "Caro for hobbyists",
+      "Puede be too verbose"
+    ],
+    "url": "https://sudowrite.com",
+    "featured": true,
+    "date": "2026-04-18",
+    "logo": "sudowrite.com"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "tagline": "con IA asistente de escritura para todos",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 4.4,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "Grammarly es el most popular IA writing assistant, offering real-time grammar correction, style suggestions, y tone detection across all your apps.",
+    "pros": [
+      "Tiempo real everywhere",
+      "Tone detección",
+      "Detección de plagio checker",
+      "Excelente free tier"
+    ],
+    "cons": [
+      "Premium costly",
+      "Sint for long-form generation",
+      "Puede be overbearing"
+    ],
+    "url": "https://grammarly.com",
+    "featured": true,
+    "date": "2026-04-12",
+    "logo": "grammarly.com"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "tagline": "Mejor-in-class AI para nuanced writing tasks",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 4.7,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "Claude by Anthropic excels at nuanced writing, instruction following, y long-form content. Its large context window y careful reasoning make it ideal for complex documents.",
+    "pros": [
+      "Nuanced writing style",
+      "Enorme context window",
+      "Excelente reasoning",
+      "Fuerte safety"
+    ],
+    "cons": [
+      "Sin real-time search",
+      "Rate limits on gratis tier",
+      "Puede be overly cautious"
+    ],
+    "url": "https://claude.ai",
+    "featured": true,
+    "date": "2026-04-05",
+    "logo": "claude.ai"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "tagline": "El más versatile escritura IA y conversación tool",
+    "category": "Escritura IA",
+    "category_slug": "writing",
+    "rating": 4.6,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "ChatGPT by OpenIA es el most widely used IA tool for writing, brainstorming, coding, y research. GPT-5 brings enhanced reasoning y multimodal capabilities.",
+    "pros": [
+      "Most versatile",
+      "Fuerte free tier",
+      "Deep research",
+      "Multimodal"
+    ],
+    "cons": [
+      "Puede hallucinate",
+      "Internet only on paid",
+      "Genérico writing style"
+    ],
+    "url": "https://chatgpt.com",
+    "featured": true,
+    "date": "2026-03-25",
+    "logo": "chatgpt.com"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "tagline": "The estándar de oro para artística imagen IAs",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.8,
+    "price": "$10/mo",
+    "price_type": "paid",
+    "excerpt": "Midjourney continues to lead IA image generation with stunning artistic quality, unmatched style consistency, y a vibrant creative community.",
+    "pros": [
+      "Mejor artistic calidad",
+      "Consistent style",
+      "Activa community",
+      "Version 7 is a leap"
+    ],
+    "cons": [
+      "Sin gratis tier",
+      "Requiere Discord",
+      "Limitado photorealism"
+    ],
+    "url": "https://midjourney.com",
+    "featured": true,
+    "date": "2026-05-12",
+    "logo": "midjourney.com"
+  },
+  {
+    "id": "dall-e-3",
+    "name": "DALL-E 3 / GPT Image",
+    "tagline": "Mejor text rendering y fotorrealismo",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.6,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "OpenIA's DALL-E 3 excels at rendering text within images y photorealistic scenes. Seamlessly integrated with ChatGPT for iterative creation.",
+    "pros": [
+      "Mejor text-in-image",
+      "Photorealistic",
+      "ChatGPT integration",
+      "Reliable prompts"
+    ],
+    "cons": [
+      "Requiere ChatGPT Plus",
+      "Some style limitations",
+      "Content restrictions"
+    ],
+    "url": "https://openai.com",
+    "featured": true,
+    "date": "2026-05-08",
+    "logo": "openai.com"
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "tagline": "Commercial-safe imagen IA generación",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.2,
+    "price": "$4.99/mo",
+    "price_type": "freemium",
+    "excerpt": "Adobe Firefly generates images from licensed content, making it el safest choice for businesses. Deep integration with Photoshop y Creative Cloud.",
+    "pros": [
+      "100% commercial safe",
+      "Photoshop integration",
+      "Excelente text effects",
+      "Generative fill"
+    ],
+    "cons": [
+      "Less artistic",
+      "Limitado styles",
+      "Slow generation"
+    ],
+    "url": "https://firefly.adobe.com",
+    "featured": false,
+    "date": "2026-04-30",
+    "logo": "firefly.adobe.com"
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "tagline": "Open-source imagen IA generación con control total",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.4,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "Stable Diffusion es el leading open-source image model. Self-host for complete control, or use any of el many web interfaces available.",
+    "pros": [
+      "Completamente free",
+      "Full customization",
+      "Activa community",
+      "Fine-tuning soporte"
+    ],
+    "cons": [
+      "Requiere powerful GPU",
+      "Technical setup",
+      "Inconsistent calidad"
+    ],
+    "url": "https://stability.ai",
+    "featured": false,
+    "date": "2026-04-22",
+    "logo": "stability.ai"
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo AI",
+    "tagline": "Mejor para assets para juegos y ajustados models",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.3,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Leonardo IA offers el most model variety for game assets, character design, y stylized artwork. Its fine-tuning capabilities let you train custom models.",
+    "pros": [
+      "Múltiples model options",
+      "Personalizado model training",
+      "Excelente for games",
+      "Generoso free tier"
+    ],
+    "cons": [
+      "UI can be complex",
+      "Variable calidad",
+      "Token system confusing"
+    ],
+    "url": "https://leonardo.ai",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "leonardo.ai"
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI",
+    "tagline": "con IA diseño para todos",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.1,
+    "price": "$13/mo",
+    "price_type": "freemium",
+    "excerpt": "Canva Magic Studio brings IA image generation, editing, y design into an intuitive template-based platform. Create social media graphics y more.",
+    "pros": [
+      "Todo en uno design",
+      "Enorme template library",
+      "Colaboración collaboration",
+      "Gratuito tier useful"
+    ],
+    "cons": [
+      "Limitado AI control",
+      "Template-dependent",
+      "Export restrictions on gratis"
+    ],
+    "url": "https://canva.com",
+    "featured": false,
+    "date": "2026-04-08",
+    "logo": "canva.com"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "tagline": "Mejor tipografía y text rendering in images",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.2,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "Ideogram specializes in generating images with accurate, readable text. Perfect for logos, posters, social media graphics requiring typography.",
+    "pros": [
+      "Mejor font rendering",
+      "Logo design focused",
+      "Múltiples styles",
+      "Gratuito tier available"
+    ],
+    "cons": [
+      "Limitado art styles",
+      "Caro for pro",
+      "Fewer features than peers"
+    ],
+    "url": "https://ideogram.ai",
+    "featured": false,
+    "date": "2026-04-01",
+    "logo": "ideogram.ai"
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "tagline": "Bry-consistent vectoriales y illustration AI",
+    "category": "Imágenes IA",
+    "category_slug": "images",
+    "rating": 4.3,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "Recraft specializes in brand-consistent illustrations, vectors, y icons. Maintain your brand style across all IA-generated visuals with style presets.",
+    "pros": [
+      "Marca consistency",
+      "Vector output",
+      "Style presets",
+      "Illustration focus"
+    ],
+    "cons": [
+      "Sint for realism",
+      "Monthly limit",
+      "Higher curva de aprendizaje"
+    ],
+    "url": "https://recraft.ai",
+    "featured": false,
+    "date": "2026-03-25",
+    "logo": "recraft.ai"
+  },
+  {
+    "id": "runway-ml",
+    "name": "Runway",
+    "tagline": "Profesional video IA editing y generación",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.6,
+    "price": "$15/mo",
+    "price_type": "paid",
+    "excerpt": "Runway Gen-4 es el most advanced IA video platform, offering text-to-video, video-to-video, real-time editing, y professional VFX controls.",
+    "pros": [
+      "Mejor-in-class calidad",
+      "Múltiples generación modes",
+      "Tiempo real collaboration",
+      "Generoso trial"
+    ],
+    "cons": [
+      "4K export expensive",
+      "Inconsistent results",
+      "Sin offline mode"
+    ],
+    "url": "https://runwayml.com",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "runwayml.com"
+  },
+  {
+    "id": "pika-labs",
+    "name": "Pika Labs",
+    "tagline": "Accesible video IA generación para creadores",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.2,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Pika Labs makes IA video generation accessible with a simple interface, quick results, y an active community. Great for short-form social media content.",
+    "pros": [
+      "Fácil to use",
+      "Bueno for short clips",
+      "Gratuito tier available",
+      "Rápido generación"
+    ],
+    "cons": [
+      "Lower resolution",
+      "Limitado control",
+      "Sint for long videos"
+    ],
+    "url": "https://pika.art",
+    "featured": false,
+    "date": "2026-05-05",
+    "logo": "pika.art"
+  },
+  {
+    "id": "hey-gen",
+    "name": "HeyGen",
+    "tagline": "AI avatars para professional presentaciones en video",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.5,
+    "price": "$29/mo",
+    "price_type": "paid",
+    "excerpt": "HeyGen creates stunning IA avatar videos from text. Perfect for corporate training, marketing, y presentations with realistic avatars in 175+ languages.",
+    "pros": [
+      "Realistas avatars",
+      "175+ languages",
+      "Personalizado avatar creation",
+      "Profesional templates"
+    ],
+    "cons": [
+      "Caro",
+      "Lip-sync can be off",
+      "Limitado creative control"
+    ],
+    "url": "https://heygen.com",
+    "featured": true,
+    "date": "2026-04-28",
+    "logo": "heygen.com"
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "tagline": "Empresarial video IA con avatares personalizados",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.4,
+    "price": "$29/mo",
+    "price_type": "paid",
+    "excerpt": "Synthesia es el leading enterprise IA video platform with 230+ IA avatars, multi-language support, y compliance features for corporate training.",
+    "pros": [
+      "230+ professional avatars",
+      "Empresarial security",
+      "Screen recording",
+      "Colaboración collaboration"
+    ],
+    "cons": [
+      "Caro",
+      "Avatar feels less human",
+      "Limitado creative tools"
+    ],
+    "url": "https://synthesia.io",
+    "featured": false,
+    "date": "2026-04-22",
+    "logo": "synthesia.io"
+  },
+  {
+    "id": "capcut",
+    "name": "CapCut",
+    "tagline": "Gratuito con IA editor de video",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.3,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "CapCut es a powerful free video editor with IA features including auto-captions, text-to-speech, background removal, y one-click video enhancement.",
+    "pros": [
+      "Completamente free",
+      "Auto-captions",
+      "IA enhancement",
+      "Mobile and desktop"
+    ],
+    "cons": [
+      "Privacy concerns",
+      "Limitado high-end features",
+      "Export watermark workaround"
+    ],
+    "url": "https://capcut.com",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "capcut.com"
+  },
+  {
+    "id": "veo",
+    "name": "Google Veo 3.1",
+    "tagline": "Cinematic video IA con audio sincronizado",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.6,
+    "price": "$20/mo",
+    "price_type": "paid",
+    "excerpt": "Google Veo 3.1 generates stunning cinematic video with synchronized 48kHz dialogue y sound effects. It leads in video quality y audio alignment.",
+    "pros": [
+      "Cinematic calidad",
+      "Synchronized audio",
+      "Excelente physics",
+      "Native 1080p"
+    ],
+    "cons": [
+      "Requiere Google One",
+      "Limitado duration",
+      "Caro Ultra tier"
+    ],
+    "url": "https://deepmind.google",
+    "featured": true,
+    "date": "2026-04-08",
+    "logo": "deepmind.google"
+  },
+  {
+    "id": "kling",
+    "name": "Kling 3.0",
+    "tagline": "Mejor física de movimiento y 60fps video",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.5,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "Kling 3.0 leads in motion physics y smooth 60fps video generation. Its multi-prompting feature enables complex multi-scene narratives.",
+    "pros": [
+      "Excelente motion",
+      "60fps output",
+      "Multi-prompt scenes",
+      "10-second clips"
+    ],
+    "cons": [
+      "Max 10 seconds",
+      "Quality can vary",
+      "Requiere queue time"
+    ],
+    "url": "https://klingai.com",
+    "featured": true,
+    "date": "2026-04-02",
+    "logo": "klingai.com"
+  },
+  {
+    "id": "invideo",
+    "name": "InVideo",
+    "tagline": "Template-based video IA creación platparam",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 3.9,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "InVideo offers 5000+ templates for quick video creation. Its IA helps generate scripts, add voiceovers, y automatically match scenes to your content.",
+    "pros": [
+      "5000+ templates",
+      "Script generación",
+      "Voiceover included",
+      "Beginner friendly"
+    ],
+    "cons": [
+      "Template-dependent",
+      "Genérico results",
+      "Marca de agua on gratis"
+    ],
+    "url": "https://invideo.io",
+    "featured": false,
+    "date": "2026-03-28",
+    "logo": "invideo.io"
+  },
+  {
+    "id": "pictory",
+    "name": "Pictory",
+    "tagline": "Long-param to short-param video IA repurposing",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.0,
+    "price": "$23/mo",
+    "price_type": "paid",
+    "excerpt": "Pictory uses IA to transform long-form content into engaging short videos. Automatically extract highlights, add captions, y repurpose for social media.",
+    "pros": [
+      "Content repurposing",
+      "Auto-captioning",
+      "Altolight extraction",
+      "Marca-friendly"
+    ],
+    "cons": [
+      "Sin text-to-video",
+      "Limitado creative tools",
+      "Monthly video limit"
+    ],
+    "url": "https://pictory.ai",
+    "featured": false,
+    "date": "2026-03-20",
+    "logo": "pictory.ai"
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "tagline": "con IA espacio de trabajo para documentos y proyectos",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.4,
+    "price": "$10/mo",
+    "price_type": "paid",
+    "excerpt": "Notion IA transforms el popular workspace into an intelligent assistant that helps you write, summarize, brainstorm, y organize faster.",
+    "pros": [
+      "Integración perfecta Notion integration",
+      "Excelente summarization",
+      "Creativo brainstorming",
+      "Q&A over docs"
+    ],
+    "cons": [
+      "Sintion ecosystem only",
+      "Slow with large DBs",
+      "Extra cost on top"
+    ],
+    "url": "https://notion.so",
+    "featured": true,
+    "date": "2026-05-12",
+    "logo": "notion.so"
+  },
+  {
+    "id": "gamma-app",
+    "name": "Gamma",
+    "tagline": "presentaciones IAs that look de diseñador",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.5,
+    "price": "$8/mo",
+    "price_type": "freemium",
+    "excerpt": "Gamma creates stunning presentations, documents, y web pages from a simple prompt. Its IA designs professional layouts instantly.",
+    "pros": [
+      "Hermoso auto-designs",
+      "One-click themes",
+      "Fácil collaboration",
+      "Generoso free tier"
+    ],
+    "cons": [
+      "Limitado animations",
+      "Básico export options",
+      "Requiere internet"
+    ],
+    "url": "https://gamma.app",
+    "featured": true,
+    "date": "2026-05-05",
+    "logo": "gamma.app"
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "tagline": "reuniones IA assistant con automatic notas",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.3,
+    "price": "$16.99/mo",
+    "price_type": "freemium",
+    "excerpt": "Otter.ai automatically joins your meetings, takes notes, captures slides, y generates searchable summaries with speaker identification.",
+    "pros": [
+      "Automático notes",
+      "Speaker identification",
+      "Calendar integration",
+      "Action items"
+    ],
+    "cons": [
+      "Limitado gratis 300 min/mo",
+      "Accent accuracy issues",
+      "Sin desktop app"
+    ],
+    "url": "https://otter.ai",
+    "featured": false,
+    "date": "2026-04-28",
+    "logo": "otter.ai"
+  },
+  {
+    "id": "motion",
+    "name": "Motion",
+    "tagline": "calendario IA y gestión de tareas",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.2,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Motion uses IA to automatically schedule your tasks, protect focus time, y reschedule conflicts. It plans your day around priorities y deadlines.",
+    "pros": [
+      "Auto-scheduling",
+      "Focus time protection",
+      "Smart rescheduling",
+      "Project management"
+    ],
+    "cons": [
+      "Caro",
+      "Sint for simple to-do lists",
+      "Over-engineered"
+    ],
+    "url": "https://usemotion.com",
+    "featured": false,
+    "date": "2026-04-20",
+    "logo": "usemotion.com"
+  },
+  {
+    "id": "fireflies",
+    "name": "Fireflies.ai",
+    "tagline": "reuniones IA transcripción y búsqueda",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.1,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Fireflies.ai records, transcribes, y indexes your meetings across Zoom, Teams, y Google Meet. Search conversations, create clips, y automate workflows.",
+    "pros": [
+      "Multi-platform soporte",
+      "Searchable transcripts",
+      "Soundbite creation",
+      "CRM integration"
+    ],
+    "cons": [
+      "Transcription accuracy varies",
+      "Sin desktop app",
+      "Free tier limited"
+    ],
+    "url": "https://fireflies.ai",
+    "featured": false,
+    "date": "2026-04-14",
+    "logo": "fireflies.ai"
+  },
+  {
+    "id": "krisp",
+    "name": "Krisp",
+    "tagline": "AI cancelación de ruido para meetings",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.0,
+    "price": "$8/mo",
+    "price_type": "freemium",
+    "excerpt": "Krisp removes background noise, echo, y speech from your meetings in real time. Works with any communication app without special hardware.",
+    "pros": [
+      "Tiempo real noise removal",
+      "Works with any app",
+      "Echo cancellation",
+      "Asequible"
+    ],
+    "cons": [
+      "Quality dips at low bandwidth",
+      "Ocasional voice clipping",
+      "Sint a full meeting tool"
+    ],
+    "url": "https://krisp.ai",
+    "featured": false,
+    "date": "2026-04-08",
+    "logo": "krisp.ai"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "tagline": "con IA rebúsqueda y motor de respuestas",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.5,
+    "price": "$20/mo",
+    "price_type": "freemium",
+    "excerpt": "Perplexity es el leading IA answer engine with real-time web search, cited sources, y deep research capabilities. Like ChatGPT with live internet access.",
+    "pros": [
+      "Tiempo real research",
+      "Cited sources",
+      "Deep research mode",
+      "Excelente free tier"
+    ],
+    "cons": [
+      "Pro for advanced features",
+      "Ocasional source errors",
+      "Sin document collaboration"
+    ],
+    "url": "https://perplexity.ai",
+    "featured": true,
+    "date": "2026-04-01",
+    "logo": "perplexity.ai"
+  },
+  {
+    "id": "reclaim",
+    "name": "Reclaim AI",
+    "tagline": "Smart programación y bloqueo de tiempo",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.0,
+    "price": "$10/mo",
+    "price_type": "freemium",
+    "excerpt": "Reclaim analyzes your calendar y automatically schedules tasks, habits, breaks, y meetings. It protects your focus time y optimizes your week.",
+    "pros": [
+      "Auto time blocking",
+      "Habit scheduling",
+      "Focus time defense",
+      "Google Calendar integration"
+    ],
+    "cons": [
+      "Google Calendar only",
+      "Limitado task management",
+      "Puede feel robotic"
+    ],
+    "url": "https://reclaim.ai",
+    "featured": false,
+    "date": "2026-03-25",
+    "logo": "reclaim.ai"
+  },
+  {
+    "id": "mem",
+    "name": "Mem",
+    "tagline": "conocimiento IA base that organizes solo",
+    "category": "Productividad IA",
+    "category_slug": "productivity",
+    "rating": 4.1,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "Mem es an IA-powered knowledge base that automatically connects your notes, documents, y ideas. It surfaces relevant information without manual tagging.",
+    "pros": [
+      "Auto-organizing notes",
+      "IA connections",
+      "Powerful search",
+      "Clean interface"
+    ],
+    "cons": [
+      "Limitado formatting",
+      "Export limitations",
+      "Relatively new platform"
+    ],
+    "url": "https://mem.ai",
+    "featured": false,
+    "date": "2026-03-18",
+    "logo": "mem.ai"
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "tagline": "audio IA y editor de video that edits like a doc",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.7,
+    "price": "$24/mo",
+    "price_type": "paid",
+    "excerpt": "Descript es el most innovative audio/video editor on el market. Edit audio by editing text. Its IA features are game-changing for podcasters y creators.",
+    "pros": [
+      "Edit audio by text",
+      "Studio Sound IA",
+      "IA voice clonación",
+      "Screen recording"
+    ],
+    "cons": [
+      "Video editing basic",
+      "Caro casual use",
+      "AI voices robotic a veces"
+    ],
+    "url": "https://descript.com",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "descript.com"
+  },
+  {
+    "id": "cleanvoice",
+    "name": "Cleanvoice",
+    "tagline": "Automatically clean up grabaciones de audio",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.0,
+    "price": "$12/mo",
+    "price_type": "paid",
+    "excerpt": "Cleanvoice uses IA to automatically remove filler words, silence, y mouth sounds from audio recordings, saving hours of manual editing.",
+    "pros": [
+      "Removes ums/ahs",
+      "Dead air removal",
+      "Multi-language",
+      "Simple interface"
+    ],
+    "cons": [
+      "Puede remove pauses",
+      "Sint real-time",
+      "Sin video support"
+    ],
+    "url": "https://cleanvoice.ai",
+    "featured": false,
+    "date": "2026-05-03",
+    "logo": "cleanvoice.ai"
+  },
+  {
+    "id": "podcastle",
+    "name": "Podcastle",
+    "tagline": "con IA podcast recording y editing",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.3,
+    "price": "$12/mo",
+    "price_type": "freemium",
+    "excerpt": "Podcastle es an all-in-one podcast platform with IA recording, editing, magic dust audio enhancement, y distribution all in one place.",
+    "pros": [
+      "Todo en uno platform",
+      "Magic Dust enhancement",
+      "Remote recording",
+      "Text-to-speech"
+    ],
+    "cons": [
+      "Free tier limited",
+      "Export restrictions",
+      "Less powerful editing"
+    ],
+    "url": "https://podcastle.ai",
+    "featured": false,
+    "date": "2026-04-25",
+    "logo": "podcastle.ai"
+  },
+  {
+    "id": "riverside",
+    "name": "Riverside",
+    "tagline": "High-quality grabación remota con AI features",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.2,
+    "price": "$15/mo",
+    "price_type": "freemium",
+    "excerpt": "Riverside records high-quality local audio y video for each participant. Its IA tools include text-based editing, speaker detection, y automatic show notes.",
+    "pros": [
+      "Local recording calidad",
+      "Separate tracks",
+      "IA show notes",
+      "Reliable low bandwidth"
+    ],
+    "cons": [
+      "Caro",
+      "Free tier limited to 2h",
+      "AI features recent"
+    ],
+    "url": "https://riverside.fm",
+    "featured": false,
+    "date": "2026-04-18",
+    "logo": "riverside.fm"
+  },
+  {
+    "id": "auphonic",
+    "name": "Auphonic",
+    "tagline": "Profesional audio IA leveling y masterización",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.4,
+    "price": "$11/mo",
+    "price_type": "freemium",
+    "excerpt": "Auphonic es el industry standard for IA audio post-production. It automatically levels loudness, reduces noise, y produces broadcast-ready audio.",
+    "pros": [
+      "Broadcast-standard leveling",
+      "Noise reduction",
+      "Multi-track soporte",
+      "Chapter markers"
+    ],
+    "cons": [
+      "Sint for real-time",
+      "Complex interface",
+      "Free hours limited"
+    ],
+    "url": "https://auphonic.com",
+    "featured": false,
+    "date": "2026-04-10",
+    "logo": "auphonic.com"
+  },
+  {
+    "id": "adobe-podcast",
+    "name": "Adobe Podcast",
+    "tagline": "Gratuito audio IA enhancement",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.1,
+    "price": "Free",
+    "price_type": "free",
+    "excerpt": "Adobe Podcast offers free IA-powered audio enhancement that makes voice recordings sound like they were recorded in a professional studio.",
+    "pros": [
+      "Calidad estudio enhancement",
+      "Gratuito to use",
+      "Fácil to use",
+      "Voice isolation"
+    ],
+    "cons": [
+      "Web-only",
+      "Sin multi-track",
+      "Limitado editing"
+    ],
+    "url": "https://podcast.adobe.com",
+    "featured": false,
+    "date": "2026-04-03",
+    "logo": "podcast.adobe.com"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "tagline": "El más realistic voz IA generación",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.8,
+    "price": "$5/mo",
+    "price_type": "freemium",
+    "excerpt": "ElevenLabs produces el most realistic IA voices available. Used for audiobooks, voiceovers, dubbing, y content creation with unmatched emotional range.",
+    "pros": [
+      "Most realistic voices",
+      "Emotional range",
+      "Voice clonación",
+      "Multi-language soporte"
+    ],
+    "cons": [
+      "Ethical concerns",
+      "Caro at scale",
+      "Free generation limits"
+    ],
+    "url": "https://elevenlabs.io",
+    "featured": true,
+    "date": "2026-03-28",
+    "logo": "elevenlabs.io"
+  },
+  {
+    "id": "murf",
+    "name": "Murf",
+    "tagline": "voz IAover para professional contenido",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.1,
+    "price": "$19/mo",
+    "price_type": "paid",
+    "excerpt": "Murf offers 120+ IA voices in 20+ languages for professional voiceovers. Its studio editor lets you fine-tune pitch, emphasis, y pacing for natural delivery.",
+    "pros": [
+      "120+ voices",
+      "20+ languages",
+      "Fine pitch control",
+      "Video integration"
+    ],
+    "cons": [
+      "Caro",
+      "Sin gratis tier",
+      "Voices can sound AI"
+    ],
+    "url": "https://murf.ai",
+    "featured": false,
+    "date": "2026-03-22",
+    "logo": "murf.ai"
+  },
+  {
+    "id": "respeecher",
+    "name": "Respeecher",
+    "tagline": "Profesional voz IA cloning para medios",
+    "category": "Audio IA",
+    "category_slug": "audio",
+    "rating": 4.3,
+    "price": "$30/mo",
+    "price_type": "paid",
+    "excerpt": "Respeecher provides enterprise-grade voice cloning used in film, gaming, y media production. Its emotional voice conversion maintains natural performance.",
+    "pros": [
+      "Film-grade calidad",
+      "Emotion preservation",
+      "Multi-speaker soporte",
+      "Studio integrations"
+    ],
+    "cons": [
+      "Caro",
+      "Professional tool only",
+      "Requiere clean source audio"
+    ],
+    "url": "https://respeecher.com",
+    "featured": false,
+    "date": "2026-03-15",
+    "logo": "respeecher.com"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "tagline": "IA-native editor de código con multi-model support",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 4.7,
+    "price": "$20/mes",
+    "price_type": "freemium",
+    "excerpt": "Cursor is the most popular IA-native code editor, forked from VS Code. Its tab completion, multi-file editing, y agentic code generation make it the developer favorite.",
+    "pros": [
+      "Multi-file context understanding",
+      "Agente code generation",
+      "Modo Arena for model comparison",
+      "VS Code compatible"
+    ],
+    "cons": [
+      "Requiere aprendizaje",
+      "Puede be slow on large files",
+      "\\/mo para full features"
+    ],
+    "url": "https://cursor.com",
+    "featured": true,
+    "date": "2026-05-18",
+    "logo": "cursor.com"
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "tagline": "Agentic programación asistente para terminal flujos de trabajo",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 4.6,
+    "price": "$20/mes",
+    "price_type": "paid",
+    "excerpt": "Claude Code by Anthropic is the leading agentic coding tool for senior developers. It understands entire projects, handles multi-file changes, y manages complex workflows.",
+    "pros": [
+      "Full project context",
+      "Multi-file reasoning",
+      "Excelente debugging",
+      "Terminal-native design"
+    ],
+    "cons": [
+      "Command-line only",
+      "Requiere structured prompts",
+      "Sin GInterfaz"
+    ],
+    "url": "https://claude.ai",
+    "featured": true,
+    "date": "2026-05-14",
+    "logo": "claude.ai"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "tagline": "Más usado  IA programación asistente",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 4.5,
+    "price": "$10/mes",
+    "price_type": "freemium",
+    "excerpt": "GitHub Copilot is the most used IA coding assistant with deep GitHub integration for pull requests, code review, y repository-wide context.",
+    "pros": [
+      "Largest user base",
+      "Profunda GitHub integración",
+      "Gratis tier available",
+      "Multiple IDE soporte"
+    ],
+    "cons": [
+      "Weaker on complex tasks",
+      "Limitado agentic capabilities",
+      "Privacidad concerns"
+    ],
+    "url": "https://github.com/features/copilot",
+    "featured": true,
+    "date": "2026-05-10",
+    "logo": "github.com"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "tagline": "Gratuito IA IDE con cascade agent",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 4.3,
+    "price": "$15/mes",
+    "price_type": "freemium",
+    "excerpt": "Windsurf by Codeium offers a free IA IDE with a Cascade agent that handles multi-file reasoning y pair programming. Best free option for IA-assisted development.",
+    "pros": [
+      "Completely free",
+      "Cascade IA agent",
+      "Multi-file reasoning",
+      "Bueno code completion"
+    ],
+    "cons": [
+      "Incierto roadmap",
+      "Menos popular than Cursor",
+      "Limitado integrations"
+    ],
+    "url": "https://windsurf.com",
+    "featured": false,
+    "date": "2026-05-05",
+    "logo": "windsurf.com"
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "tagline": "Browser-based IA desarrollo environment",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 4.2,
+    "price": "$25/mes",
+    "price_type": "freemium",
+    "excerpt": "Replit Agent is a browser-based IA development platform that lets you build y deploy apps from natural language descriptions without local setup.",
+    "pros": [
+      "Sin setup required",
+      "Integrado deployment",
+      "Collaborative",
+      "Bueno for prototyping"
+    ],
+    "cons": [
+      "Limitado para production apps",
+      "Interfaz puede ser slow",
+      "Caro para uso intensivo"
+    ],
+    "url": "https://replit.com",
+    "featured": false,
+    "date": "2026-04-28",
+    "logo": "replit.com"
+  },
+  {
+    "id": "amazon-q",
+    "name": "Amazon Q Developer",
+    "tagline": "IA asistente para AWS desarrollo",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 4.0,
+    "price": "Gratis",
+    "price_type": "free",
+    "excerpt": "Amazon Q Developer is AWS's IA coding assistant with deep integration for cloud services. It helps with code generation, debugging, y AWS architecture guidance.",
+    "pros": [
+      "AWS deep integración",
+      "Gratis to use",
+      "Bueno cloud guidance",
+      "Security scanning"
+    ],
+    "cons": [
+      "AWS-focused only",
+      "Menos capable para non-AWS",
+      "Slower than competitors"
+    ],
+    "url": "https://aws.amazon.com/q",
+    "featured": false,
+    "date": "2026-04-22",
+    "logo": "aws.amazon.com"
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "tagline": "IA programación asistente para large codebases grandes",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 4.1,
+    "price": "$9/mes",
+    "price_type": "freemium",
+    "excerpt": "Cody by Sourcegraph excels at understanding large, complex codebases. It provides context-aware code generation y answers based on your entire repository.",
+    "pros": [
+      "Excelente codebase context",
+      "Asequible",
+      "Bueno for large projects",
+      "Codebase búsqueda"
+    ],
+    "cons": [
+      "Comunidad pequeña community",
+      "Básico autocomplete",
+      "Limitado IDE support"
+    ],
+    "url": "https://sourcegraph.com",
+    "featured": false,
+    "date": "2026-04-15",
+    "logo": "sourcegraph.com"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "tagline": "Privacy-focused IA autocompletado",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 3.9,
+    "price": "$9/mes",
+    "price_type": "freemium",
+    "excerpt": "Tabnine offers privacy-controlled IA code completion with enterprise deployment options. It can run fully on-premises for organizations with strict data requirements.",
+    "pros": [
+      "Empresarial privacy",
+      "On-premises option",
+      "Sólido autocomplete",
+      "Multiple languages"
+    ],
+    "cons": [
+      "Menos advanced IA",
+      "Básico features only",
+      "Sin agentic capabilities"
+    ],
+    "url": "https://tabnine.com",
+    "featured": false,
+    "date": "2026-04-08",
+    "logo": "tabnine.com"
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "tagline": "Autonomous IA ingeniero de software",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 3.8,
+    "price": "$20/mes",
+    "price_type": "paid",
+    "excerpt": "Devin by Cognition Labs is an autonomous IA software engineer that can plan, code, test, y deploy entire features end-to-end without human intervention.",
+    "pros": [
+      "Fully autonomous",
+      "Complete workflow",
+      "Issues to PR pipeline",
+      "Environment setup"
+    ],
+    "cons": [
+      "Muy expensive",
+      "Todavía maturing",
+      "Mejor para specific tasks",
+      "Largos processing times"
+    ],
+    "url": "https://devin.ai",
+    "featured": false,
+    "date": "2026-04-01",
+    "logo": "devin.ai"
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "tagline": "Rapid IA web app prototipado",
+    "category": "Programación IA",
+    "category_slug": "coding",
+    "rating": 3.7,
+    "price": "$25/mes",
+    "price_type": "freemium",
+    "excerpt": "Bolt.new lets you build y deploy full-stack web apps directly from your browser using natural language prompts. Perfect for rapid prototyping y MVPs.",
+    "pros": [
+      "Instant prototyping",
+      "No setup needed",
+      "Full-stack generation",
+      "Deploy in one click"
+    ],
+    "cons": [
+      "Sint production-ready",
+      "Limitado customization",
+      "Caro para teams"
+    ],
+    "url": "https://bolt.new",
+    "featured": false,
+    "date": "2026-03-25",
+    "logo": "bolt.new"
+  },
+  {
+    "id": "hubspot-ai",
+    "name": "HubSpot AI",
+    "tagline": "Todo en uno IA-potenciado marketing platparam",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.6,
+    "price": "$800/mes",
+    "price_type": "paid",
+    "excerpt": "HubSpot IA integrates generative IA across the entire marketing stack — content creation, SEO, social media, email, analytics, y CRM — in one unified platform.",
+    "pros": [
+      "Complete marketing suite",
+      "CRM integración",
+      "IA contenido generation",
+      "Potente analytics"
+    ],
+    "cons": [
+      "Muy expensive",
+      "Empinada curva de aprendizaje",
+      "Excesivo para small teams"
+    ],
+    "url": "https://hubspot.com",
+    "featured": true,
+    "date": "2026-05-16",
+    "logo": "hubspot.com"
+  },
+  {
+    "id": "semrush-ai",
+    "name": "Semrush AI",
+    "tagline": "Full-suite IA marketing con SEO at its core",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.5,
+    "price": "$139.95/mes",
+    "price_type": "paid",
+    "excerpt": "Semrush is the leading IA marketing platform with powerful SEO tools, content marketing, competitor analysis, PPC, y social media management.",
+    "pros": [
+      "Líder SEO",
+      "Competencia análisis",
+      "Content marketing tools",
+      "PPC optimization"
+    ],
+    "cons": [
+      "Caro premium tiers",
+      "Complejo interface",
+      "Muchas of features can overwhelm"
+    ],
+    "url": "https://semrush.com",
+    "featured": true,
+    "date": "2026-05-12",
+    "logo": "semrush.com"
+  },
+  {
+    "id": "surfer-seo",
+    "name": "Surfer SEO",
+    "tagline": "IA contenido optimization para posicionamiento",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.4,
+    "price": "$99/mes",
+    "price_type": "paid",
+    "excerpt": "Surfer SEO uses NLP to analyze top-ranking content y provides data-driven recommendations to optimize your articles for higher search engine rankings.",
+    "pros": [
+      "Basado en datos optimization",
+      "SERP análisis",
+      "Tiempo real scoring",
+      "Google Docs integración"
+    ],
+    "cons": [
+      "SEO only",
+      "Caro para individuals",
+      "Sin content generation"
+    ],
+    "url": "https://surferseo.com",
+    "featured": true,
+    "date": "2026-05-08",
+    "logo": "surferseo.com"
+  },
+  {
+    "id": "frase",
+    "name": "Frase.io",
+    "tagline": "IA contenido estrategia and SEO optimization",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.3,
+    "price": "$49/mes",
+    "price_type": "paid",
+    "excerpt": "Frase combines IA content generation with powerful SEO research. It creates content briefs based on SERP analysis y helps optimize for search intent.",
+    "pros": [
+      "Excelente contenido briefs",
+      "SERP rebúsqueda",
+      "Asequible entry price",
+      "IA writing included"
+    ],
+    "cons": [
+      "Limitado content quality",
+      "Básico editing",
+      "Advanced features need premium"
+    ],
+    "url": "https://frase.io",
+    "featured": false,
+    "date": "2026-05-02",
+    "logo": "frase.io"
+  },
+  {
+    "id": "lindy",
+    "name": "Lindy",
+    "tagline": "IA marketing agents para automated flujos de trabajo",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.2,
+    "price": "$49/mes",
+    "price_type": "paid",
+    "excerpt": "Lindy lets you build IA agents that execute complex multi-step marketing tasks — lead nurturing, content repurposing, ad optimization — autonomously.",
+    "pros": [
+      "Automáticonomous agents",
+      "Multi-step workflows",
+      "CRM integración",
+      "Customizable"
+    ],
+    "cons": [
+      "Requiere setup",
+      "Puede be complex",
+      "Agent reliability varies"
+    ],
+    "url": "https://lindy.ai",
+    "featured": false,
+    "date": "2026-04-25",
+    "logo": "lindy.ai"
+  },
+  {
+    "id": "marketmuse",
+    "name": "MarketMuse",
+    "tagline": "Enterprise IA contenido planificación and estrategia",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.1,
+    "price": "Custom",
+    "price_type": "custom",
+    "excerpt": "MarketMuse uses IA to analyze content gaps, plan editorial strategies, y optimize existing content. Built for enterprise teams with serious content operations.",
+    "pros": [
+      "Profunda contenido análisis",
+      "Gap identification",
+      "Editorial planificación",
+      "Empresarial-grade"
+    ],
+    "cons": [
+      "Muy expensive",
+      "Complejo tool",
+      "Excesivo para small teams"
+    ],
+    "url": "https://marketmuse.com",
+    "featured": false,
+    "date": "2026-04-18",
+    "logo": "marketmuse.com"
+  },
+  {
+    "id": "zapier-ai",
+    "name": "Zapier AI",
+    "tagline": "IA-potenciado marketing automatización",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.3,
+    "price": "$19.99/mes",
+    "price_type": "freemium",
+    "excerpt": "Zapier connects your marketing tools with IA-powered workflows. Automate lead capture, email sequences, social posting, y data syncing across 6000+ apps.",
+    "pros": [
+      "6000+ app integracións",
+      "IA workflow builder",
+      "Fácil automatización",
+      "Generoso free tier"
+    ],
+    "cons": [
+      "Complejo workflows costoso",
+      "Sint a marketing platparam",
+      "Debugging puede ser hard"
+    ],
+    "url": "https://zapier.com",
+    "featured": false,
+    "date": "2026-04-12",
+    "logo": "zapier.com"
+  },
+  {
+    "id": "activecampaign",
+    "name": "ActiveCampaign",
+    "tagline": "IA email marketing and campañas automatización",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 4.0,
+    "price": "$15/mes",
+    "price_type": "paid",
+    "excerpt": "ActiveCampaign combines email marketing with IA-powered automation, predictive sending, y dynamic content personalization for smarter campaigns.",
+    "pros": [
+      "IA campaign building",
+      "Predictive sending",
+      "Bueno automatización",
+      "Asequible start"
+    ],
+    "cons": [
+      "Puede get expensive",
+      "Limitado IA features",
+      "Template editor basic"
+    ],
+    "url": "https://activecampaign.com",
+    "featured": false,
+    "date": "2026-04-05",
+    "logo": "activecampaign.com"
+  },
+  {
+    "id": "mailchimp-ai",
+    "name": "Mailchimp AI",
+    "tagline": "IA email marketing para pequeños negocios",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 3.9,
+    "price": "$13/mes",
+    "price_type": "freemium",
+    "excerpt": "Mailchimp adds IA features to its popular email platform — content generation, audience insights, send-time optimization, y smart segmentation.",
+    "pros": [
+      "Fácil to use",
+      "IA contenido suggestions",
+      "Bueno free tier",
+      "Popular platform"
+    ],
+    "cons": [
+      "Limitado IA depth",
+      "Caro a escala",
+      "Básico automation"
+    ],
+    "url": "https://mailchimp.com",
+    "featured": false,
+    "date": "2026-03-30",
+    "logo": "mailchimp.com"
+  },
+  {
+    "id": "lately-ai",
+    "name": "Lately AI",
+    "tagline": "IA redes sociales contenido generación",
+    "category": "Marketing IA",
+    "category_slug": "marketing",
+    "rating": 3.8,
+    "price": "$49/mes",
+    "price_type": "paid",
+    "excerpt": "Lately uses IA to transform long-form content into dozens of social media posts. It analyzes your brand voice y generates on-brand social content automatically.",
+    "pros": [
+      "Automático social contenido",
+      "Brand voice learning",
+      "Multi-platform",
+      "Time saver"
+    ],
+    "cons": [
+      "Caro",
+      "Quality can vary",
+      "Sin direct publishing"
+    ],
+    "url": "https://lately.ai",
+    "featured": false,
+    "date": "2026-03-22",
+    "logo": "lately.ai"
+  }
+]

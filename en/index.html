@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Reviews — Honest Reviews By Real Users</title>
+<meta name="description" content="Find the best AI tools for music, writing, images, video, productivity, audio, coding, and marketing. Honest reviews, comparisons, and ratings by real users.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="./" class="logo">AI<span>Reviews</span></a>
+      <div class="nav-links">
+        <a href="#categories">Categories</a>
+        <a href="#reviews">Reviews</a>
+        <a href="./comparisons.html">Comparisons</a>
+        <a href="#" id="navSearchLink">Search</a>
+        <div class="lang-switch">
+          <a href="../en/" class="active">EN</a>
+          <a href="../es/">ES</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-nodes"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="hero-content">
+      <h1>Find The Best <span>AI Tools</span><br>Honest Reviews By Real Users</h1>
+      <p>Cut through the hype. We test, review, and compare AI tools so you can find what actually works — from music generation to AI coding.</p>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search tools, categories, features..." autocomplete="off">
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="hero-categories" id="heroCategories">
+        <span class="hero-category" data-cat="music">AI Music</span>
+        <span class="hero-category" data-cat="writing">AI Writing</span>
+        <span class="hero-category" data-cat="images">AI Images</span>
+        <span class="hero-category" data-cat="video">AI Video</span>
+        <span class="hero-category" data-cat="productivity">AI Productivity</span>
+        <span class="hero-category" data-cat="audio">AI Audio</span>
+        <span class="hero-category" data-cat="coding">AI Coding</span>
+        <span class="hero-category" data-cat="marketing">AI Marketing</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories" class="section">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Browse by Category</h2>
+        <p class="section-subtitle">Find the perfect AI tool for your needs</p>
+      </div>
+    </div>
+    <div class="category-grid" id="categoryGrid"></div>
+  </section>
+
+  <section id="reviews" class="section">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Featured Reviews</h2>
+        <p class="section-subtitle">Hand-picked tools we've tested thoroughly</p>
+      </div>
+      <a href="#" class="section-link" id="viewAllReviews">View all →</a>
+    </div>
+    <div class="filters-bar" id="filtersBar">
+      <span class="filter-label">Category:</span>
+      <select id="filterCategory">
+        <option value="all">All Categories</option>
+      </select>
+      <span class="filter-label">Rating:</span>
+      <select id="filterRating">
+        <option value="all">Any Rating</option>
+        <option value="4.5">4.5+ ★</option>
+        <option value="4.0">4.0+ ★</option>
+        <option value="3.5">3.5+ ★</option>
+      </select>
+      <span class="filter-label">Price:</span>
+      <select id="filterPrice">
+        <option value="all">Any Price</option>
+        <option value="free">Free</option>
+        <option value="freemium">Freemium</option>
+        <option value="paid">Paid</option>
+      </select>
+    </div>
+    <div class="review-grid" id="reviewGrid"></div>
+  </section>
+
+  <section id="results" class="section" style="display:none">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title" id="resultsTitle">Search Results</h2>
+        <p class="section-subtitle" id="resultsCount"></p>
+      </div>
+      <a href="#" class="section-link" id="clearSearch">Clear search</a>
+    </div>
+    <div class="review-grid" id="resultsGrid"></div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>AI Reviews</h4>
+          <p>Honest, in-depth reviews of the best AI tools. We help you find what actually works.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <a href="#">AI for Music</a>
+          <a href="#">AI Writing</a>
+          <a href="#">AI Images</a>
+          <a href="#">AI Video</a>
+          <a href="#">AI Productivity</a>
+          <a href="#">AI Audio</a>
+          <a href="#">AI Coding</a>
+          <a href="#">AI Marketing</a>
+        </div>
+        <div class="footer-col">
+          <h4>Content</h4>
+          <a href="#">Reviews</a>
+          <a href="#">Comparisons</a>
+          <a href="#">Best Of Lists</a>
+          <a href="#">Tutorials</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Affiliate Disclosure</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 AI Reviews. All rights reserved.</span>
+        <span>Powered by honest opinions</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script>
+  var LANG = 'en';
+  </script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
