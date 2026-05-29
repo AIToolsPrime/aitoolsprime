@@ -148,7 +148,7 @@
   }
 
   function loadReviews() {
-    var url = '../data/reviews-' + LANG + '.json';
+    var url = '../data/reviews-' + LANG + '.json?t=' + Date.now();
     fetch(url)
       .then(function (resp) {
         if (!resp.ok) throw new Error('Not found');
