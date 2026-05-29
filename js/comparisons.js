@@ -244,8 +244,8 @@ function showPrefsModal(t, saveAndDismiss) {
     + '<div class="cookie-option"><div class="cookie-option-info"><strong>' + t.analytics + '</strong><span>' + t.analyticsDesc + '</span></div><label class="cookie-toggle"><input type="checkbox" id="ck-analytics" checked><span class="slider"></span></label></div>'
     + '<div class="cookie-option"><div class="cookie-option-info"><strong>' + t.preferences + '</strong><span>' + t.preferencesDesc + '</span></div><label class="cookie-toggle"><input type="checkbox" id="ck-preferences" checked><span class="slider"></span></label></div>'
     + '<div class="cookie-modal-btns">'
-    + '<button class="cookie-btn reject" id="ck-cancel">' + t.cancel + '</button>'
-    + '<button class="cookie-btn accept" id="ck-save">' + t.save + '</button>'
+    + '<button class="cookie-modal-btn secondary" id="ck-cancel">' + t.cancel + '</button>'
+    + '<button class="cookie-modal-btn primary" id="ck-save">' + t.save + '</button>'
     + '</div></div>';
 
   document.body.appendChild(overlay);
