@@ -81,24 +81,13 @@ body {
   position: relative;
 }
 
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  background: url('../images/ai-bg.jpg') center/cover fixed;
-  opacity: 0.06;
-  filter: grayscale(1) brightness(1.5);
-  pointer-events: none;
-}
-
-body::after {
-  content: '';
+.page-bg {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: radial-gradient(ellipse at 50% 0%, rgba(99,102,241,0.04) 0%, transparent 50%);
   pointer-events: none;
+  background: url('../images/ai-bg.jpg') center/cover no-repeat;
+  opacity: 0.35;
 }
 
 ::selection { background: var(--accent); color: white; }
