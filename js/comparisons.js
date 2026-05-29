@@ -83,7 +83,7 @@
     var catName = cat[LANG] || cat.en;
     var title = COMPARISONS[slug][LANG] || COMPARISONS[slug].en;
 
-    var winner = a.rating > b.rating ? a : (b.rating > a.rating ? b : null);
+    var winner = a.rating > b.rating ? a : (b.rating > a.rating ? b : (a.pros.length >= b.pros.length ? a : b));
 
     function cardHTML(tool, rank) {
       var logoDomain = tool.logo || tool.id;
