@@ -967,19 +967,27 @@ footer {
   width: 100%;
   padding: 64px 5vw 32px;
   border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
   margin-bottom: 36px;
+  flex-wrap: wrap;
 }
 
 .footer-col h4 {
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 14px;
+  color: var(--text);
 }
 
 .footer-col p,
@@ -994,13 +1002,18 @@ footer {
 .footer-col a:hover { color: var(--text-secondary); }
 
 .footer-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding-top: 20px;
   border-top: 1px solid var(--border);
   font-size: 0.8rem;
   color: var(--text-muted);
+}
+
+.footer-bottom span {
+  display: block;
+}
+
+.footer-bottom span + span {
+  margin-top: 4px;
 }
 
 /* ── Scroll to top ── */
