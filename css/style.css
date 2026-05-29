@@ -87,7 +87,8 @@ body {
   z-index: -1;
   pointer-events: none;
   background: url('../images/ai-bg.jpg') center/cover no-repeat;
-  opacity: 0.35;
+  opacity: 0.5;
+  filter: grayscale(1) brightness(1.8) contrast(0.6);
 }
 
 ::selection { background: var(--accent); color: white; }
