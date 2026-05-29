@@ -87,8 +87,8 @@ body {
   z-index: -1;
   pointer-events: none;
   background: url('../images/ai-bg.jpg') center/cover no-repeat;
-  opacity: 0.5;
-  filter: grayscale(1) brightness(1.8) contrast(0.6);
+  opacity: 0.3;
+  filter: grayscale(1) brightness(0.3) contrast(1.2);
 }
 
 ::selection { background: var(--accent); color: white; }
@@ -883,9 +883,10 @@ nav.scrolled {
   padding: 4px 12px;
   border-radius: 60px;
   color: white;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
-
-.modal-category { background: var(--accent); }
 
 .modal-rating {
   font-size: 1rem;
