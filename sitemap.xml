@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://AIToolsPrime.github.io/aitoolsprime/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://AIToolsPrime.github.io/aitoolsprime/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://AIToolsPrime.github.io/aitoolsprime/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://AIToolsPrime.github.io/aitoolsprime/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://AIToolsPrime.github.io/aitoolsprime/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://AIToolsPrime.github.io/aitoolsprime/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://AIToolsPrime.github.io/aitoolsprime/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://AIToolsPrime.github.io/aitoolsprime/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://AIToolsPrime.github.io/aitoolsprime/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/en/comparisons.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://AIToolsPrime.github.io/aitoolsprime/en/comparisons.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://AIToolsPrime.github.io/aitoolsprime/es/comparaciones.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/es/comparaciones.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://AIToolsPrime.github.io/aitoolsprime/en/comparisons.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://AIToolsPrime.github.io/aitoolsprime/es/comparaciones.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/en/privacy.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/en/terms.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/en/affiliate.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/es/privacidad.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/es/terminos.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://AIToolsPrime.github.io/aitoolsprime/es/divulgacion.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
