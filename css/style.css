@@ -328,6 +328,7 @@ nav.scrolled {
   max-width: 900px;
   line-height: 1.7;
   white-space: nowrap;
+  text-align: center;
 }
 
 .search-container {
