@@ -624,9 +624,10 @@ nav.scrolled {
   font-size: 0.7rem;
   font-weight: 600;
   color: white;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
-
-.review-card .category-badge { background: var(--accent); }
 
 .review-card .card-image .rating-badge {
   position: absolute;
