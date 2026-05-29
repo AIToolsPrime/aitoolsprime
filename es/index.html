@@ -66,9 +66,12 @@
 </head>
 <body>
 
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <a href="#main-content" class="skip-link" lang="es">Saltar al contenido principal</a>
+
   <nav id="navbar">
     <div class="nav-inner">
-      <a href="./" class="logo"><svg viewBox="0 0 260 44" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:36px;width:auto;display:block">
+      <a href="./" class="logo" aria-label="AIToolsPrime home"><svg viewBox="0 0 260 44" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:36px;width:auto;display:block">
   <g transform="translate(0,2)">
     <rect x="0" y="0" width="40" height="40" rx="10" fill="var(--accent)" opacity="0.95"/>
     <polygon points="20,6 33,14 33,26 20,34 7,26 7,14" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/>
@@ -93,12 +96,14 @@
   </nav>
 
   <div class="page-bg" aria-hidden="true"></div>
+  <main id="main-content">
   <section id="hero">
     <div class="hero-nodes"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
     <div class="hero-content">
       <h1>Encuentra las Mejores <span>Herramientas IA</span><br>Reseñas Honestas de Usuarios Reales</h1>
       <p>Más allá del hype. Probamos, reseñamos y comparamos herramientas IA para que encuentres lo que realmente funciona.</p>
       <div class="search-container">
+        <label for="searchInput" class="sr-only">Buscar herramientas</label>
         <input type="text" id="searchInput" placeholder="Buscar herramientas, categorías, funciones..." autocomplete="off">
         <button id="searchBtn">Buscar</button>
       </div>
@@ -134,19 +139,19 @@
       <a href="#" class="section-link" id="viewAllReviews">Ver todas →</a>
     </div>
     <div class="filters-bar" id="filtersBar">
-      <span class="filter-label">Categoría:</span>
-      <select id="filterCategory">
+      <label for="filterCategory" class="filter-label">Categoría:</label>
+      <select id="filterCategory" aria-label="Filter by category">
         <option value="all">Todas</option>
       </select>
-      <span class="filter-label">Puntuación:</span>
-      <select id="filterRating">
+      <label for="filterRating" class="filter-label">Puntuación:</label>
+      <select id="filterRating" aria-label="Filter by rating">
         <option value="all">Cualquier</option>
         <option value="4.5">4.5+ ★</option>
         <option value="4.0">4.0+ ★</option>
         <option value="3.5">3.5+ ★</option>
       </select>
-      <span class="filter-label">Precio:</span>
-      <select id="filterPrice">
+      <label for="filterPrice" class="filter-label">Precio:</label>
+      <select id="filterPrice" aria-label="Filter by price">
         <option value="all">Cualquier</option>
         <option value="free">Gratis</option>
         <option value="freemium">Freemium</option>
@@ -167,6 +172,7 @@
     <div class="review-grid" id="resultsGrid"></div>
   </section>
 
+  </main>
   <footer>
     <div class="footer-inner">
       <div class="footer-grid">
