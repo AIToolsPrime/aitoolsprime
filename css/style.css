@@ -285,6 +285,7 @@ nav.scrolled {
   text-align: left;
   width: 100%;
   max-width: calc(100vw - 10vw);
+  padding-left: 8vw;
   position: relative;
   z-index: 1;
 }
