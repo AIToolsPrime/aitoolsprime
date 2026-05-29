@@ -47,6 +47,13 @@
   box-shadow: 0 0 0 4px var(--accent-subtle), 0 4px 24px rgba(0,0,0,0.08);
 }
 
+[data-theme="light"] footer,
+[data-theme="light"] .footer-col p,
+[data-theme="light"] .footer-col a,
+[data-theme="light"] .footer-bottom {
+  color: #1d1d1f;
+}
+
 [data-theme="dark"] {
   --bg: #060608;
   --bg-secondary: #0c0c10;
