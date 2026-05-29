@@ -1173,8 +1173,14 @@ footer {
 .vs-card .vs-price {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--accent);
+  color: white;
   margin-bottom: 16px;
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 60px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 .vs-card .vs-type {
@@ -1183,8 +1189,10 @@ footer {
   font-weight: 600;
   padding: 3px 10px;
   border-radius: 60px;
-  background: var(--accent-subtle);
-  color: var(--accent);
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: white;
   margin-bottom: 16px;
 }
 
