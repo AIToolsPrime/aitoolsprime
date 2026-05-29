@@ -964,19 +964,21 @@ nav.scrolled {
   display: inline-block;
   padding: 16px 40px;
   border-radius: 60px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   color: white;
   font-size: 0.95rem;
   font-weight: 500;
   cursor: pointer;
   transition: all var(--transition);
   font-family: var(--font);
-  border: none;
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 .modal-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px var(--accent-glow);
+  background: rgba(0,0,0,0.55);
+  border-color: rgba(255,255,255,0.15);
 }
 
 /* ── Footer ── */
