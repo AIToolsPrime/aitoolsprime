@@ -82,6 +82,9 @@
 [data-theme="light"] .footer-bottom {
   color: #1d1d1f;
 }
+[data-theme="light"] .nav-links a {
+  color: #1d1d1f;
+}
 
 [data-theme="dark"] {
   --bg: #060608;
