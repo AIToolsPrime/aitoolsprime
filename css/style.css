@@ -349,7 +349,7 @@ nav.scrolled {
 
 .search-container input {
   flex: 1;
-  min-width: 240px;
+  min-width: 340px;
   background: none;
   border: none;
   outline: none;
