@@ -222,9 +222,9 @@ nav.scrolled {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 120px 10vw 80px;
+  padding: 120px 5vw 80px;
   position: relative;
   overflow: hidden;
 }
@@ -282,15 +282,15 @@ nav.scrolled {
 }
 
 .hero-content {
-  text-align: center;
+  text-align: left;
   width: 100%;
-  max-width: 1200px;
+  max-width: calc(100vw - 10vw);
   position: relative;
   z-index: 1;
 }
 
 #hero h1 {
-  font-size: clamp(4.5rem, 9vw, 8.5rem);
+  font-size: clamp(3rem, 5.5vw, 5rem);
   font-weight: 800;
   letter-spacing: -2px;
   line-height: 1.1;
@@ -321,10 +321,10 @@ nav.scrolled {
 }
 
 #hero p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: var(--text-secondary);
-  margin: 0 auto 44px;
-  max-width: 720px;
+  margin: 0 0 44px;
+  max-width: 640px;
   line-height: 1.7;
 }
 
@@ -339,7 +339,6 @@ nav.scrolled {
   box-shadow: 0 4px 24px rgba(0,0,0,0.2);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  max-width: 100%;
 }
 
 .search-container:focus-within {
@@ -388,7 +387,7 @@ nav.scrolled {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 52px;
 }
 
