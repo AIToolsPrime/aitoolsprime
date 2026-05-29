@@ -1413,3 +1413,38 @@ footer {
 #cookie-banner .cookie-btn.accept { background: var(--accent); color: #fff; }
 #cookie-banner .cookie-btn.reject { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
 #cookie-banner a { color: var(--accent); text-decoration: underline; }
+#cookie-banner .cookie-btn.prefs { background: transparent; color: var(--text); border: 1px solid var(--border); }
+
+.cookie-modal-overlay {
+  position: fixed; inset: 0; z-index: 100000;
+  background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center;
+  opacity: 0; transition: opacity 0.2s; padding: 5vw;
+}
+.cookie-modal-overlay.active { opacity: 1; }
+.cookie-modal {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px;
+  padding: 32px; max-width: 480px; width: 100%; color: var(--text);
+}
+.cookie-modal h3 { margin: 0 0 20px; font-size: 1.2rem; }
+.cookie-option {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 12px 0; border-bottom: 1px solid var(--border);
+}
+.cookie-option:last-of-type { border-bottom: none; }
+.cookie-option-info { flex: 1; }
+.cookie-option-info strong { display: block; font-size: 0.9rem; margin-bottom: 2px; }
+.cookie-option-info span { font-size: 0.8rem; color: var(--text-muted); }
+.cookie-toggle { position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; }
+.cookie-toggle input { opacity: 0; width: 0; height: 0; }
+.cookie-toggle .slider {
+  position: absolute; cursor: pointer; inset: 0; background: var(--border); border-radius: 24px; transition: 0.2s;
+}
+.cookie-toggle .slider::before {
+  content: ''; position: absolute; left: 3px; top: 3px; width: 18px; height: 18px;
+  background: var(--text-muted); border-radius: 50%; transition: 0.2s;
+}
+.cookie-toggle input:checked + .slider { background: var(--accent); }
+.cookie-toggle input:checked + .slider::before { background: #fff; transform: translateX(20px); }
+.cookie-toggle.disabled { opacity: 0.5; }
+.cookie-toggle.disabled .slider { cursor: not-allowed; }
+.cookie-modal-btns { display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px; }
