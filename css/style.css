@@ -679,21 +679,31 @@ nav.scrolled {
 .card-body .meta .price {
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--accent);
+  color: #818cf8;
   letter-spacing: -0.3px;
+  padding: 4px 12px;
+  border-radius: 60px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
-.card-body .meta .price.free { color: var(--green); }
+.card-body .meta .price.free { color: #34d399; }
 
 .card-body .meta .read-more {
   font-size: 0.82rem;
-  color: var(--text-muted);
+  color: white;
   font-weight: 500;
-  transition: color var(--transition);
+  padding: 4px 12px;
+  border-radius: 60px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: background var(--transition);
 }
 
 .review-card:hover .read-more {
-  color: var(--accent);
+  background: rgba(129,140,248,0.2);
 }
 
 /* ── Pros/Cons ── */
