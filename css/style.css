@@ -288,23 +288,25 @@ nav.scrolled {
 }
 
 @media (max-width: 480px) {
-  nav { height: 50px; padding: 0 2vw; }
+  nav { height: 48px; padding: 0 1.5vw; }
   .nav-inner { gap: 3px; }
-  .logo svg { height: 17px; }
-  .nav-links { gap: 4px; }
-  .nav-links a { font-size: 0.6rem; }
-  .lang-switch a { padding: 2px 4px; font-size: 0.55rem; }
-  .theme-toggle { width: 22px; height: 22px; font-size: 0.7rem; }
-}
-
-@media (max-width: 360px) {
-  nav { height: 44px; padding: 0 1.5vw; }
-  .nav-inner { gap: 2px; }
-  .logo svg { height: 14px; }
+  .logo svg { height: 15px; }
   .nav-links { gap: 3px; }
   .nav-links a { font-size: 0.55rem; }
   .lang-switch a { padding: 1px 3px; font-size: 0.5rem; }
+  .lang-switch { gap: 1px; padding: 1px; }
   .theme-toggle { width: 20px; height: 20px; font-size: 0.65rem; }
+}
+
+@media (max-width: 360px) {
+  nav { height: 42px; padding: 0 1vw; }
+  .nav-inner { gap: 2px; }
+  .logo svg { height: 13px; }
+  .nav-links { gap: 2px; }
+  .nav-links a { font-size: 0.5rem; }
+  .lang-switch a { padding: 1px 2px; font-size: 0.45rem; }
+  .lang-switch { gap: 1px; padding: 1px; }
+  .theme-toggle { width: 18px; height: 18px; font-size: 0.6rem; }
 }
 
 /* ── Hero ── */
@@ -1197,7 +1199,10 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .vs-grid { grid-template-columns: 1fr; gap: 16px; }
+  .vs-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .vs-card:nth-child(1) { grid-column: 1; grid-row: 1; }
+  .vs-card:nth-child(3) { grid-column: 2; grid-row: 1; }
+  .vs-divider { grid-column: 1 / -1; grid-row: 2; width: 100%; padding: 8px 0; }
 }
 
 .vs-card {
@@ -1448,7 +1453,7 @@ footer {
   #hero p { font-size: clamp(0.75rem, 3vw, 0.9rem); margin-bottom: 28px; }
   .hero-categories { margin-top: 32px; gap: 6px; }
   .hero-category { font-size: 0.75rem; padding: 6px 14px; }
-  .review-grid { grid-template-columns: 1fr; gap: 16px; }
+  .review-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .section-title { font-size: 1.5rem; }
   .section-subtitle { font-size: 0.82rem; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -1467,6 +1472,13 @@ footer {
   #hero h1 { font-size: clamp(1.3rem, 7vw, 1.8rem); }
   #hero p { font-size: clamp(0.7rem, 3vw, 0.85rem); margin-bottom: 24px; }
   .hero-category { font-size: 0.7rem; padding: 5px 12px; }
+  .review-grid { gap: 8px; }
+  .review-card .card-image { height: 120px; }
+  .card-body { padding: 12px; }
+  .card-body .tool-name { font-size: 0.85rem; }
+  .card-body .tool-tagline { font-size: 0.72rem; }
+  .review-card .card-logo { width: 56px; height: 56px; }
+  .review-card .card-logo img { width: 34px; height: 34px; }
 }
 
 @media (max-width: 360px) {
@@ -1479,9 +1491,13 @@ footer {
   .category-grid { gap: 8px; }
   .category-card .cat-inner { padding: 10px; }
   .category-card .name { font-size: 0.78rem; }
-  .review-card .card-image { height: 120px; }
-  .card-body { padding: 12px; }
-  .card-body .tool-name { font-size: 0.9rem; }
+  .review-grid { gap: 6px; }
+  .review-card .card-image { height: 100px; }
+  .card-body { padding: 10px; }
+  .card-body .tool-name { font-size: 0.8rem; }
+  .card-body .tool-tagline { font-size: 0.68rem; }
+  .review-card .card-logo { width: 48px; height: 48px; }
+  .review-card .card-logo img { width: 28px; height: 28px; }
   .card-body .tool-tagline { font-size: 0.75rem; }
   #cookie-banner { padding: 12px 4vw; font-size: 0.8rem; }
   #cookie-banner .cookie-btns button { font-size: 0.75rem; padding: 8px 14px; }
