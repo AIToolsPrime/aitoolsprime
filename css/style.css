@@ -322,12 +322,12 @@ nav.scrolled {
 }
 
 #hero p {
-  font-size: 1.2rem;
+  font-size: clamp(0.75rem, 1vw, 1.05rem);
   color: var(--text-secondary);
   margin: 0 auto 44px;
-  max-width: 800px;
   line-height: 1.7;
   text-align: center;
+  white-space: nowrap;
 }
 
 .search-container {
