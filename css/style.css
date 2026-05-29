@@ -1268,18 +1268,21 @@ footer {
   margin-top: 16px;
   padding: 12px 28px;
   border-radius: 60px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   color: white;
   font-size: 0.85rem;
   font-weight: 500;
   text-align: center;
   transition: all var(--transition);
   width: 100%;
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 .vs-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 16px var(--accent-glow);
+  background: rgba(0,0,0,0.55);
+  border-color: rgba(255,255,255,0.15);
 }
 
 .vs-winner {
