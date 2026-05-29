@@ -6,6 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://aitoolsdash.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://aitoolsdash.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aitoolsdash.com/"/>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,6 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://aitoolsdash.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://aitoolsdash.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aitoolsdash.com/"/>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -22,6 +24,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://aitoolsdash.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://aitoolsdash.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aitoolsdash.com/"/>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -29,6 +32,7 @@
     <loc>https://aitoolsdash.com/en/comparisons.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://aitoolsdash.com/en/comparisons.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://aitoolsdash.com/es/comparaciones.html"/>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -36,41 +40,49 @@
     <loc>https://aitoolsdash.com/es/comparaciones.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://aitoolsdash.com/en/comparisons.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://aitoolsdash.com/es/comparaciones.html"/>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aitoolsdash.com/en/privacy.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://aitoolsdash.com/en/terms.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://aitoolsdash.com/en/affiliate.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://aitoolsdash.com/es/privacidad.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://aitoolsdash.com/es/terminos.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://aitoolsdash.com/es/divulgacion.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://aitoolsdash.com/404.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
