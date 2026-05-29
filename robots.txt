@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://AIToolsPrime.github.io/aitoolsdash/sitemap.xml
+Sitemap: https://aitoolsdash.com/sitemap.xml
