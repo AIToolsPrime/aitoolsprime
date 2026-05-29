@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "suno-ai",
     "name": "Suno AI",
@@ -468,6 +468,40 @@
     "logo": "chatgpt.com"
   },
   {
+    "id": "prowritingaid",
+    "name": "ProWritingAid",
+    "tagline": "AI-powered grammar checker and style editor",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.3,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "ProWritingAid goes beyond grammar checking with in-depth style suggestions, structure analysis, and readability improvements.",
+    "pros": [ "Deep style analysis", "Integrations everywhere", "Writing reports", "Affordable" ],
+    "cons": [ "Overwhelming for beginners", "No AI generation", "Desktop app limited" ],
+    "url": "https://prowritingaid.com",
+    "featured": false,
+    "date": "2026-03-15",
+    "logo": "prowritingaid.com"
+  },
+  {
+    "id": "anyword",
+    "name": "Anyword",
+    "tagline": "AI copywriting with predictive performance scoring",
+    "category": "AI Writing",
+    "category_slug": "writing",
+    "rating": 4.1,
+    "price": "/mo",
+    "price_type": "paid",
+    "excerpt": "Anyword uses AI copywriting with data-driven performance predictions. It scores your copy for engagement and conversion before you publish.",
+    "pros": [ "Performance scoring", "Data-driven insights", "Good for ads", "A/B testing" ],
+    "cons": [ "Expensive", "No free tier", "Best for marketing only" ],
+    "url": "https://anyword.com",
+    "featured": false,
+    "date": "2026-03-10",
+    "logo": "anyword.com"
+  },
+  {
     "id": "midjourney",
     "name": "Midjourney",
     "tagline": "The gold standard for artistic AI images",
@@ -674,6 +708,40 @@
     "featured": false,
     "date": "2026-03-25",
     "logo": "recraft.ai"
+  },
+  {
+    "id": "clipdrop",
+    "name": "Clipdrop",
+    "tagline": "AI image editing suite from Stability AI",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 4.0,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "Clipdrop offers a suite of AI image tools including background removal, relighting, upscaling, and clean object removal.",
+    "pros": [ "Clean object removal", "Background removal", "API access", "Fast processing" ],
+    "cons": [ "Limited creative control", "Fewer styles than peers", "Free tier restrictions" ],
+    "url": "https://clipdrop.co",
+    "featured": false,
+    "date": "2026-03-18",
+    "logo": "clipdrop.co"
+  },
+  {
+    "id": "pixlr-ai",
+    "name": "Pixlr AI",
+    "tagline": "AI-powered photo editor in your browser",
+    "category": "AI Images",
+    "category_slug": "images",
+    "rating": 3.9,
+    "price": ".99/mo",
+    "price_type": "freemium",
+    "excerpt": "Pixlr brings AI photo editing to your browser with generative fill, AI upscaling, background removal, and one-click enhancements.",
+    "pros": [ "Browser-based", "Generative fill", "One-click enhance", "Affordable" ],
+    "cons": [ "Limited advanced tools", "Not for professionals", "Requires internet" ],
+    "url": "https://pixlr.com",
+    "featured": false,
+    "date": "2026-03-12",
+    "logo": "pixlr.com"
   },
   {
     "id": "runway-ml",
@@ -910,6 +978,23 @@
     "logo": "pictory.ai"
   },
   {
+    "id": "veed-io",
+    "name": "Veed.io",
+    "tagline": "AI video editing platform with auto-subtitles",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.1,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "Veed.io offers browser-based AI video editing with automatic subtitles, translation, background removal, and screen recording.",
+    "pros": [ "Auto-subtitles", "Browser-based", "Translation included", "Easy to use" ],
+    "cons": [ "No offline mode", "Limited effects", "Export watermarks on free" ],
+    "url": "https://veed.io",
+    "featured": false,
+    "date": "2026-03-15",
+    "logo": "veed.io"
+  },
+  {
     "id": "notion-ai",
     "name": "Notion AI",
     "tagline": "AI-powered workspace for docs and projects",
@@ -1144,6 +1229,23 @@
     "logo": "mem.ai"
   },
   {
+    "id": "tome",
+    "name": "Tome",
+    "tagline": "AI storytelling for presentations and pitches",
+    "category": "AI Productivity",
+    "category_slug": "productivity",
+    "rating": 4.2,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "Tome uses AI to craft narratives for presentations, pitches, and proposals. Generate entire decks from a single prompt with dynamic layouts.",
+    "pros": [ "Dynamic storytelling", "One-prompt decks", "Built-in media", "Embeddable" ],
+    "cons": [ "Limited export formats", "Not for data-heavy slides", "No offline access" ],
+    "url": "https://tome.app",
+    "featured": false,
+    "date": "2026-03-10",
+    "logo": "tome.app"
+  },
+  {
     "id": "descript",
     "name": "Descript",
     "tagline": "AI audio and video editor that edits like a doc",
@@ -1376,6 +1478,23 @@
     "featured": false,
     "date": "2026-03-15",
     "logo": "respeecher.com"
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "tagline": "AI text-to-speech for reading and listening",
+    "category": "AI Audio",
+    "category_slug": "audio",
+    "rating": 4.4,
+    "price": ".58/mo",
+    "price_type": "freemium",
+    "excerpt": "Speechify is the leading AI text-to-speech app with natural voices, OCR scanning of physical books, and 30+ languages.",
+    "pros": [ "Natural voices", "OCR scanning", "30+ languages", "Up to 9x speed" ],
+    "cons": [ "Premium costly", "AI voices noticeable", "Limited free tier" ],
+    "url": "https://speechify.com",
+    "featured": false,
+    "date": "2026-03-05",
+    "logo": "speechify.com"
   },
   {
     "id": "cursor",
@@ -1647,7 +1766,7 @@
     "rating": 4.6,
     "price": "$800/mo",
     "price_type": "paid",
-    "excerpt": "HubSpot AI integrates generative AI across the entire marketing stack — content creation, SEO, social media, email, analytics, and CRM — in one unified platform.",
+    "excerpt": "HubSpot AI integrates generative AI across the entire marketing stack â€” content creation, SEO, social media, email, analytics, and CRM â€” in one unified platform.",
     "pros": [
       "Complete marketing suite",
       "CRM integration",
@@ -1751,7 +1870,7 @@
     "rating": 4.2,
     "price": "$49/mo",
     "price_type": "paid",
-    "excerpt": "Lindy lets you build AI agents that execute complex multi-step marketing tasks — lead nurturing, content repurposing, ad optimization — autonomously.",
+    "excerpt": "Lindy lets you build AI agents that execute complex multi-step marketing tasks â€” lead nurturing, content repurposing, ad optimization â€” autonomously.",
     "pros": [
       "Autonomous agents",
       "Multi-step workflows",
@@ -1855,7 +1974,7 @@
     "rating": 3.9,
     "price": "$13/mo",
     "price_type": "freemium",
-    "excerpt": "Mailchimp adds AI features to its popular email platform — content generation, audience insights, send-time optimization, and smart segmentation.",
+    "excerpt": "Mailchimp adds AI features to its popular email platform â€” content generation, audience insights, send-time optimization, and smart segmentation.",
     "pros": [
       "Easy to use",
       "AI content suggestions",
@@ -1899,3 +2018,4 @@
     "logo": "lately.ai"
   }
 ]
+

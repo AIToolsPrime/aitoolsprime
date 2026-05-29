@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "suno-ai",
     "name": "Suno AI",
@@ -468,6 +468,40 @@
     "logo": "chatgpt.com"
   },
   {
+    "id": "prowritingaid",
+    "name": "ProWritingAid",
+    "tagline": "Corrector gramatical y editor de estilo con IA",
+    "category": "Escritura con IA",
+    "category_slug": "writing",
+    "rating": 4.3,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "ProWritingAid va más allá de la corrección gramatical con sugerencias de estilo profundas, análisis de estructura y mejoras de legibilidad.",
+    "pros": [ "Análisis de estilo profundo", "Integraciones en todas partes", "Informes de escritura", "Asequible" ],
+    "cons": [ "Abrumador para principiantes", "Sin generación con IA", "App de escritorio limitada" ],
+    "url": "https://prowritingaid.com",
+    "featured": false,
+    "date": "2026-03-15",
+    "logo": "prowritingaid.com"
+  },
+  {
+    "id": "anyword",
+    "name": "Anyword",
+    "tagline": "Copywriting con IA con puntuación predictiva de rendimiento",
+    "category": "Escritura con IA",
+    "category_slug": "writing",
+    "rating": 4.1,
+    "price": "/mo",
+    "price_type": "paid",
+    "excerpt": "Anyword usa copywriting con IA con predicciones de rendimiento basadas en datos. Puntúa tu texto para engagement y conversión antes de publicar.",
+    "pros": [ "Puntuación de rendimiento", "Información basada en datos", "Ideal para anuncios", "Pruebas A/B" ],
+    "cons": [ "Caro", "Sin nivel gratuito", "Mejor solo para marketing" ],
+    "url": "https://anyword.com",
+    "featured": false,
+    "date": "2026-03-10",
+    "logo": "anyword.com"
+  },
+  {
     "id": "midjourney",
     "name": "Midjourney",
     "tagline": "El estándar de oro para imágenes artísticas con IA",
@@ -674,6 +708,40 @@
     "featured": false,
     "date": "2026-03-25",
     "logo": "recraft.ai"
+  },
+  {
+    "id": "clipdrop",
+    "name": "Clipdrop",
+    "tagline": "Suite de edición de imágenes con IA de Stability AI",
+    "category": "Imágenes con IA",
+    "category_slug": "images",
+    "rating": 4.0,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "Clipdrop ofrece un conjunto de herramientas de imagen con IA que incluyen eliminación de fondos, reiluminación, mejora de resolución y eliminación de objetos.",
+    "pros": [ "Eliminación limpia de objetos", "Eliminación de fondos", "Acceso a API", "Procesamiento rápido" ],
+    "cons": [ "Control creativo limitado", "Menos estilos que la competencia", "Restricciones del nivel gratuito" ],
+    "url": "https://clipdrop.co",
+    "featured": false,
+    "date": "2026-03-18",
+    "logo": "clipdrop.co"
+  },
+  {
+    "id": "pixlr-ai",
+    "name": "Pixlr AI",
+    "tagline": "Editor de fotos con IA en tu navegador",
+    "category": "Imágenes con IA",
+    "category_slug": "images",
+    "rating": 3.9,
+    "price": ".99/mo",
+    "price_type": "freemium",
+    "excerpt": "Pixlr lleva la edición de fotos con IA a tu navegador con relleno generativo, mejora de resolución, eliminación de fondos y mejoras con un clic.",
+    "pros": [ "Basado en navegador", "Relleno generativo", "Mejora con un clic", "Asequible" ],
+    "cons": [ "Herramientas avanzadas limitadas", "No para profesionales", "Requiere internet" ],
+    "url": "https://pixlr.com",
+    "featured": false,
+    "date": "2026-03-12",
+    "logo": "pixlr.com"
   },
   {
     "id": "runway-ml",
@@ -910,6 +978,23 @@
     "logo": "pictory.ai"
   },
   {
+    "id": "veed-io",
+    "name": "Veed.io",
+    "tagline": "Plataforma de edición de video con IA con subtítulos automáticos",
+    "category": "Vídeo con IA",
+    "category_slug": "video",
+    "rating": 4.1,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "Veed.io ofrece edición de video con IA basada en navegador con subtítulos automáticos, traducción, eliminación de fondos y grabación de pantalla.",
+    "pros": [ "Subtítulos automáticos", "Basado en navegador", "Traducción incluida", "Fácil de usar" ],
+    "cons": [ "Sin modo sin conexión", "Efectos limitados", "Marca de agua en versión gratuita" ],
+    "url": "https://veed.io",
+    "featured": false,
+    "date": "2026-03-15",
+    "logo": "veed.io"
+  },
+  {
     "id": "notion-ai",
     "name": "Notion AI",
     "tagline": "Espacio de trabajo con IA para documentos y proyectos",
@@ -1144,6 +1229,23 @@
     "logo": "mem.ai"
   },
   {
+    "id": "tome",
+    "name": "Tome",
+    "tagline": "Narrativa con IA para presentaciones y propuestas",
+    "category": "Productividad con IA",
+    "category_slug": "productivity",
+    "rating": 4.2,
+    "price": "/mo",
+    "price_type": "freemium",
+    "excerpt": "Tome usa IA para crear narrativas para presentaciones, propuestas y pitches. Genera presentaciones completas desde una sola instrucción con diseños dinámicos.",
+    "pros": [ "Narrativa dinámica", "Presentaciones con una instrucción", "Multimedia integrada", "Incrustable" ],
+    "cons": [ "Formatos de exportación limitados", "No para diapositivas con muchos datos", "Sin acceso sin conexión" ],
+    "url": "https://tome.app",
+    "featured": false,
+    "date": "2026-03-10",
+    "logo": "tome.app"
+  },
+  {
     "id": "descript",
     "name": "Descript",
     "tagline": "Editor de audio y video con IA que se edita como un documento",
@@ -1376,6 +1478,23 @@
     "featured": false,
     "date": "2026-03-15",
     "logo": "respeecher.com"
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "tagline": "Texto a voz con IA para leer y escuchar",
+    "category": "Audio con IA",
+    "category_slug": "audio",
+    "rating": 4.4,
+    "price": ".58/mo",
+    "price_type": "freemium",
+    "excerpt": "Speechify es la aplicación líder de texto a voz con IA con voces naturales, escaneo OCR de libros físicos y más de 30 idiomas.",
+    "pros": [ "Voces naturales", "Escaneo OCR", "Más de 30 idiomas", "Hasta 9x velocidad" ],
+    "cons": [ "Premium costoso", "Voces de IA notorias", "Nivel gratuito limitado" ],
+    "url": "https://speechify.com",
+    "featured": false,
+    "date": "2026-03-05",
+    "logo": "speechify.com"
   },
   {
     "id": "cursor",
