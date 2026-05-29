@@ -1392,4 +1392,24 @@ footer {
   .pros-cons { grid-template-columns: 1fr; }
   footer { padding: 40px 5vw 24px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  #cookie-banner { flex-direction: column; text-align: center; gap: 12px; padding: 16px 5vw; }
+  #cookie-banner .cookie-btns { flex-direction: column; width: 100%; }
 }
+
+#cookie-banner {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 99999;
+  background: var(--bg-card); backdrop-filter: blur(16px); border-top: 1px solid var(--border);
+  padding: 16px 24px; display: none; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap;
+  font-size: 0.85rem; color: var(--text); box-shadow: 0 -4px 24px rgba(0,0,0,0.2);
+}
+#cookie-banner.show { display: flex; }
+#cookie-banner p { margin: 0; flex: 1; min-width: 200px; }
+#cookie-banner .cookie-btns { display: flex; gap: 10px; flex-shrink: 0; }
+#cookie-banner .cookie-btn {
+  padding: 8px 20px; border: none; border-radius: 8px; cursor: pointer; font-size: 0.85rem;
+  font-weight: 600; transition: opacity 0.2s;
+}
+#cookie-banner .cookie-btn:hover { opacity: 0.85; }
+#cookie-banner .cookie-btn.accept { background: var(--accent); color: #fff; }
+#cookie-banner .cookie-btn.reject { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
+#cookie-banner a { color: var(--accent); text-decoration: underline; }
