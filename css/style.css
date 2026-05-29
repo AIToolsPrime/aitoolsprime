@@ -284,7 +284,7 @@ nav.scrolled {
 .hero-content {
   text-align: left;
   width: 100%;
-  max-width: 900px;
+  max-width: none;
   position: relative;
   z-index: 1;
 }
@@ -295,6 +295,7 @@ nav.scrolled {
   letter-spacing: -2px;
   line-height: 1.05;
   margin-bottom: 24px;
+  max-width: none;
 }
 
 #hero h1 span {
@@ -323,7 +324,7 @@ nav.scrolled {
   font-size: 1.2rem;
   color: var(--text-secondary);
   margin: 0 0 44px;
-  max-width: 560px;
+  max-width: none;
   line-height: 1.7;
 }
 
@@ -336,8 +337,6 @@ nav.scrolled {
   padding: 4px;
   transition: all var(--transition);
   box-shadow: 0 4px 24px rgba(0,0,0,0.2);
-  max-width: 540px;
-  margin: 0;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
