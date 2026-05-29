@@ -290,7 +290,7 @@ nav.scrolled {
 }
 
 #hero h1 {
-  font-size: clamp(2.8rem, 7vw, 5rem);
+  font-size: clamp(3.5rem, 8vw, 6rem);
   font-weight: 800;
   letter-spacing: -2px;
   line-height: 1.05;
@@ -321,15 +321,15 @@ nav.scrolled {
 }
 
 #hero p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: var(--text-secondary);
   margin: 0 0 44px;
-  max-width: none;
+  max-width: 800px;
   line-height: 1.7;
 }
 
 .search-container {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
@@ -339,6 +339,7 @@ nav.scrolled {
   box-shadow: 0 4px 24px rgba(0,0,0,0.2);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  max-width: 100%;
 }
 
 .search-container:focus-within {
@@ -348,6 +349,7 @@ nav.scrolled {
 
 .search-container input {
   flex: 1;
+  min-width: 240px;
   background: none;
   border: none;
   outline: none;
