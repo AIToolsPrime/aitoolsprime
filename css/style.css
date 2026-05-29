@@ -290,10 +290,10 @@ nav.scrolled {
 }
 
 #hero h1 {
-  font-size: clamp(4.5rem, 10vw, 8rem);
+  font-size: clamp(4rem, 7vw, 6.5rem);
   font-weight: 800;
-  letter-spacing: -2px;
-  line-height: 1.05;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
   margin-bottom: 24px;
   max-width: none;
 }
