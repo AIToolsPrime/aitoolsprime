@@ -79,7 +79,8 @@
 [data-theme="light"] footer,
 [data-theme="light"] .footer-col p,
 [data-theme="light"] .footer-col a,
-[data-theme="light"] .footer-bottom {
+[data-theme="light"] .footer-bottom,
+[data-theme="light"] .footer-affiliate {
   color: #1d1d1f;
 }
 [data-theme="light"] .nav-links a {
@@ -1153,6 +1154,15 @@ footer {
 
 .footer-bottom span + span {
   margin-top: 4px;
+}
+
+.footer-affiliate {
+  padding: 12px 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  border-top: 1px solid var(--border);
+  margin-bottom: 4px;
 }
 
 /* ── Scroll to top ── */
