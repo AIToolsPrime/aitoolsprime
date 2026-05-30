@@ -278,35 +278,35 @@ nav.scrolled {
 }
 
 @media (max-width: 600px) {
-  nav { height: 56px; padding: 0 3vw; }
+  nav { height: 60px; padding: 0 3vw; }
   .nav-inner { gap: 4px; }
-  .logo svg { height: 20px; }
+  .logo svg { height: 22px; }
   .nav-links { gap: 5px; }
-  .nav-links a { font-size: 0.72rem; }
-  .lang-switch a { padding: 2px 6px; font-size: 0.65rem; }
-  .theme-toggle { width: 28px; height: 28px; font-size: 0.9rem; }
+  .nav-links a { font-size: 0.75rem; }
+  .lang-switch a { padding: 3px 7px; font-size: 0.65rem; }
+  .theme-toggle { width: 30px; height: 30px; font-size: 0.9rem; }
 }
 
-@media (max-width: 480px) {
-  nav { height: 52px; padding: 0 2vw; }
+@media (max-width: 420px) {
+  nav { height: 54px; padding: 0 2vw; }
   .nav-inner { gap: 3px; }
-  .logo svg { height: 18px; }
+  .logo svg { height: 17px; }
   .nav-links { gap: 3px; }
-  .nav-links a { font-size: 0.6rem; }
-  .lang-switch a { padding: 1px 4px; font-size: 0.55rem; }
+  .nav-links a { font-size: 0.68rem; }
+  .lang-switch a { padding: 2px 5px; font-size: 0.6rem; }
   .lang-switch { gap: 1px; padding: 1px; }
-  .theme-toggle { width: 22px; height: 22px; font-size: 0.75rem; }
+  .theme-toggle { width: 24px; height: 24px; font-size: 0.8rem; }
 }
 
 @media (max-width: 360px) {
-  nav { height: 46px; padding: 0 1.5vw; }
+  nav { height: 48px; padding: 0 1.5vw; }
   .nav-inner { gap: 2px; }
   .logo svg { height: 15px; }
   .nav-links { gap: 2px; }
-  .nav-links a { font-size: 0.55rem; }
-  .lang-switch a { padding: 1px 3px; font-size: 0.5rem; }
+  .nav-links a { font-size: 0.6rem; }
+  .lang-switch a { padding: 1px 3px; font-size: 0.55rem; }
   .lang-switch { gap: 1px; padding: 1px; }
-  .theme-toggle { width: 20px; height: 20px; font-size: 0.65rem; }
+  .theme-toggle { width: 20px; height: 20px; font-size: 0.7rem; }
 }
 
 /* ── Hero ── */
