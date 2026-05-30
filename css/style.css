@@ -291,6 +291,7 @@ nav.scrolled {
   #hero { padding-top: 108px; justify-content: flex-start; min-height: 0; }
   .nav-links { gap: 8px; }
   .nav-links a { font-size: 0.7rem; }
+  .nav-links a[href="#categories"] { display: none; }
   .lang-switch a { padding: 3px 7px; font-size: 0.65rem; }
   .theme-toggle { width: 30px; height: 30px; font-size: 0.85rem; }
 }
