@@ -204,6 +204,10 @@ nav.scrolled {
   white-space: nowrap;
 }
 
+.site-name-rest {
+  color: var(--accent);
+}
+
 .nav-links {
   display: flex;
   align-items: center;
