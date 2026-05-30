@@ -292,6 +292,7 @@ nav.scrolled {
   .nav-inner { gap: 6px; }
   .logo svg { height: 32px; }
   .site-name { font-size: 0.65rem; }
+  #hero { padding-top: 90px; }
   .nav-links { gap: 8px; }
   .nav-links a { font-size: 0.7rem; }
   .lang-switch a { padding: 3px 7px; font-size: 0.65rem; }
@@ -303,6 +304,7 @@ nav.scrolled {
   .nav-inner { gap: 4px; }
   .logo svg { height: 40px; }
   .site-name { font-size: 0.6rem; }
+  #hero { padding-top: 76px; }
   .nav-links { flex: 1; gap: 4px; justify-content: center; }
   .nav-links a { font-size: 0.7rem; }
   .nav-right { gap: 6px; }
@@ -315,6 +317,7 @@ nav.scrolled {
   .nav-inner { gap: 3px; }
   .logo svg { height: 36px; }
   .site-name { font-size: 0.55rem; }
+  #hero { padding-top: 72px; }
   .nav-links { flex: 1; gap: 2px; justify-content: center; }
   .nav-links a { font-size: 0.65rem; }
   .nav-right { gap: 4px; }
@@ -328,6 +331,7 @@ nav.scrolled {
   .nav-inner { gap: 2px; }
   .logo svg { height: 30px; }
   .site-name { font-size: 0.5rem; }
+  #hero { padding-top: 66px; }
   .nav-links { flex: 1; gap: 1px; justify-content: center; }
   .nav-links a { font-size: 0.6rem; }
   .nav-right { gap: 3px; }
