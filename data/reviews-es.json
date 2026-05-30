@@ -1240,10 +1240,10 @@
     "excerpt": "Tome usa IA para crear narrativas para presentaciones, propuestas y pitches. Genera presentaciones completas desde una sola instrucción con diseños dinámicos.",
     "pros": [ "Narrativa dinámica", "Presentaciones con una instrucción", "Multimedia integrada", "Incrustable" ],
     "cons": [ "Formatos de exportación limitados", "No para diapositivas con muchos datos", "Sin acceso sin conexión" ],
-    "url": "https://tome.app",
+    "url": "https://tomeapp.ai",
     "featured": false,
     "date": "2026-03-10",
-    "logo": "tome.app"
+    "logo": "tomeapp.ai"
   },
   {
     "id": "descript",

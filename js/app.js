@@ -104,14 +104,23 @@
       catMap[slug]++;
     });
 
-    categoryGrid.innerHTML = Object.keys(catMap).map(function (slug) {
+    var totalTools = data.length;
+    var allLabel = LANG === 'en' ? 'All Categories' : 'Todas las Categorías';
+    var toolsLabel = LANG === 'en' ? 'tools' : 'herramientas';
+    var allCard = '<div class="category-card" data-cat="all">'
+      + '<div class="cat-inner">'
+      + '<div class="name">' + allLabel + '</div>'
+      + '<div class="count">' + totalTools + ' ' + toolsLabel + '</div>'
+      + '</div></div>';
+
+    categoryGrid.innerHTML = allCard + Object.keys(catMap).map(function (slug) {
       var cat = CATEGORIES[slug];
       if (!cat) return '';
       var name = cat[LANG] || cat.en;
       return '<div class="category-card" data-cat="' + slug + '">'
         + '<div class="cat-inner">'
         + '<div class="name">' + name + '</div>'
-        + '<div class="count">' + catMap[slug] + ' ' + (LANG === 'en' ? 'tools' : 'herramientas') + '</div>'
+        + '<div class="count">' + catMap[slug] + ' ' + toolsLabel + '</div>'
         + '</div></div>';
     }).join('');
 

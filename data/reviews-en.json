@@ -1240,10 +1240,10 @@
     "excerpt": "Tome uses AI to craft narratives for presentations, pitches, and proposals. Generate entire decks from a single prompt with dynamic layouts.",
     "pros": [ "Dynamic storytelling", "One-prompt decks", "Built-in media", "Embeddable" ],
     "cons": [ "Limited export formats", "Not for data-heavy slides", "No offline access" ],
-    "url": "https://tome.app",
+    "url": "https://tomeapp.ai",
     "featured": false,
     "date": "2026-03-10",
-    "logo": "tome.app"
+    "logo": "tomeapp.ai"
   },
   {
     "id": "descript",
