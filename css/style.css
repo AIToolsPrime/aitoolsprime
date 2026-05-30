@@ -1248,10 +1248,10 @@ footer {
   .vs-pros-cons .pc-list li { padding: 1px 0; }
   .vs-btn { margin-top: 10px; padding: 8px 16px; font-size: 0.7rem; }
   .vs-winner { top: 6px; right: 6px; font-size: 0.5rem; padding: 2px 6px; }
-  .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; max-width: 100%; }
   .footer-col h4 { font-size: 0.7rem; margin-bottom: 8px; }
   .footer-col p, .footer-col a { font-size: 0.65rem; margin-bottom: 4px; }
-  .footer-col { min-width: 0; }
+  .footer-grid .footer-col { min-width: 0; }
 }
 
 .vs-card {
@@ -1566,19 +1566,19 @@ footer {
   #cookie-banner { padding: 12px 4vw; font-size: 0.8rem; }
   #cookie-banner .cookie-btns button { font-size: 0.75rem; padding: 8px 14px; }
   footer { padding: 32px 4vw 20px; }
-  .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; max-width: 100%; }
   .footer-col h4 { font-size: 0.6rem; margin-bottom: 6px; }
   .footer-col p, .footer-col a { font-size: 0.55rem; margin-bottom: 3px; }
-  .footer-col { min-width: 0; }
+  .footer-grid .footer-col { min-width: 0; }
 }
 
 @media (max-width: 600px) {
   .pros-cons { grid-template-columns: 1fr; }
   footer { padding: 40px 5vw 24px; }
-  .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; max-width: 100%; }
   .footer-col h4 { font-size: 0.7rem; margin-bottom: 8px; }
   .footer-col p, .footer-col a { font-size: 0.65rem; margin-bottom: 4px; }
-  .footer-col { min-width: 0; }
+  .footer-grid .footer-col { min-width: 0; }
   #cookie-banner { flex-direction: column; text-align: center; gap: 12px; padding: 16px 5vw; }
   #cookie-banner .cookie-btns { flex-direction: column; width: 100%; }
 }
