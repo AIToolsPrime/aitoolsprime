@@ -1228,13 +1228,25 @@ footer {
 
 @media (max-width: 768px) {
   .vs-grid { grid-template-columns: 1fr auto 1fr; gap: 4px; }
-  .vs-card { padding: 16px 12px; }
-  .vs-card .vs-rank { font-size: 0.6rem; padding: 3px 10px; margin-bottom: 8px; }
-  .vs-card .vs-name { font-size: 1rem; margin-bottom: 4px; }
-  .vs-card .vs-tagline { font-size: 0.7rem; margin-bottom: 8px; }
-  .vs-card .vs-rating { font-size: 0.8rem; margin-bottom: 8px; }
-  .vs-divider { width: auto; padding: 0 6px; }
-  .vs-divider span { font-size: 0.8rem; }
+  .vs-card { padding: 12px 8px; }
+  .vs-card .vs-rank { font-size: 0.55rem; padding: 2px 8px; margin-bottom: 4px; }
+  .vs-card .vs-name { font-size: 0.85rem; margin-bottom: 2px; }
+  .vs-card .vs-rating { font-size: 0.7rem; margin-bottom: 4px; }
+  .vs-card .vs-tagline { font-size: 0.65rem; margin-bottom: 8px; }
+  .vs-card .vs-price { font-size: 0.75rem; padding: 3px 10px; margin-bottom: 8px; }
+  .vs-card .vs-type { font-size: 0.55rem; padding: 2px 8px; margin-bottom: 8px; }
+  .vs-divider { width: auto; padding: 0 4px; }
+  .vs-divider span { font-size: 0.7rem; }
+  .vs-logo { width: 40px; height: 40px; margin-bottom: 8px; border-radius: 10px; }
+  .vs-logo img { width: 24px; height: 24px; }
+  .vs-logo-fallback { font-size: 1rem; }
+  .vs-table { margin-top: 12px; padding-top: 10px; }
+  .vs-table-row { padding: 4px 0; font-size: 0.65rem; }
+  .vs-pros-cons { margin-top: 10px; gap: 4px; }
+  .vs-pros-cons .pc-list { font-size: 0.6rem; }
+  .vs-pros-cons .pc-list li { padding: 1px 0; }
+  .vs-btn { margin-top: 10px; padding: 8px 16px; font-size: 0.7rem; }
+  .vs-winner { top: 6px; right: 6px; font-size: 0.5rem; padding: 2px 6px; }
 }
 
 .vs-card {
