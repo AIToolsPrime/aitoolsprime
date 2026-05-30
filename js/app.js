@@ -11,21 +11,18 @@
   var navbar = $('#navbar');
   var searchInput = $('#searchInput');
   var searchBtn = $('#searchBtn');
-  var categoryGrid = $('#categoryGrid');
+  var filterCategory = $('#filterCategory');
   var reviewGrid = $('#reviewGrid');
   var resultsSection = $('#results');
   var resultsGrid = $('#resultsGrid');
   var resultsTitle = $('#resultsTitle');
   var resultsCount = $('#resultsCount');
-  var filterCategory = $('#filterCategory');
   var filterRating = $('#filterRating');
   var filterPrice = $('#filterPrice');
   var themeToggle = $('#themeToggle');
   var scrollTop = $('#scrollTop');
-  var viewAllReviews = $('#viewAllReviews');
   var clearSearch = $('#clearSearch');
   var navSearchLink = $('#navSearchLink');
-  var heroCategories = $('#heroCategories');
 
   var CATEGORIES = {
     'music': { en: 'AI for Music', es: 'IA para Música' },
@@ -95,43 +92,6 @@
       + '<img src="../images/logos/' + domain + '.png" alt="' + name + '" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
       + '<span class="modal-logo-fallback">' + name.charAt(0).toUpperCase() + '</span>'
       + '</div>';
-  }
-
-  function renderCategories(p, data) {
-    var catMap = {};
-    data.forEach(function (r) {
-      var slug = r.category_slug;
-      if (!catMap[slug]) catMap[slug] = 0;
-      catMap[slug]++;
-    });
-
-    var totalTools = data.length;
-    var allLabel = LANG === 'en' ? 'All Categories' : 'Todas las Categorías';
-    var toolsLabel = LANG === 'en' ? 'tools' : 'herramientas';
-    var allCard = '<div class="category-card" data-cat="all">'
-      + '<div class="cat-inner">'
-      + '<div class="name">' + allLabel + '</div>'
-      + '<div class="count">' + totalTools + ' ' + toolsLabel + '</div>'
-      + '</div></div>';
-
-    categoryGrid.innerHTML = allCard + Object.keys(catMap).map(function (slug) {
-      var cat = CATEGORIES[slug];
-      if (!cat) return '';
-      var name = cat[LANG] || cat.en;
-      return '<div class="category-card" data-cat="' + slug + '">'
-        + '<div class="cat-inner">'
-        + '<div class="name">' + name + '</div>'
-        + '<div class="count">' + catMap[slug] + ' ' + toolsLabel + '</div>'
-        + '</div></div>';
-    }).join('');
-
-    categoryGrid.querySelectorAll('.category-card').forEach(function (el) {
-      el.addEventListener('click', function () {
-        filterCategory.value = this.dataset.cat;
-        applyFilters();
-        scrollToReviews();
-      });
-    });
   }
 
   function renderReviews(data) {
@@ -256,12 +216,10 @@
     });
 
     document.getElementById('hero').style.display = 'none';
-    document.getElementById('categories').style.display = 'none';
     document.getElementById('reviews').style.display = 'none';
     var navLinks = document.querySelectorAll('.nav-links a');
     navLinks[0].textContent = LANG === 'en' ? 'Home' : 'Inicio'; navLinks[0].href = './'; navLinks[0].style.display = '';
-    navLinks[1].style.display = 'none';
-    navLinks[2].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[2].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[2].style.display = '';
+    navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
     searchSection.style.display = 'block';
     resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
     resultsCount.textContent = results.length + (LANG === 'en' ? ' tools found' : ' herramientas encontradas');
@@ -348,7 +306,6 @@
     if (reviews.length === 0) return;
 
     initFilters();
-    renderCategories(LANG, reviews);
 
     var sorted = reviews.slice().sort(function (a, b) {
       if (a.featured && !b.featured) return -1;
@@ -376,25 +333,16 @@
         searchInput.value = '';
         resultsSection.style.display = 'none';
         document.getElementById('hero').style.display = '';
-        document.getElementById('categories').style.display = '';
         document.getElementById('reviews').style.display = '';
         var navLinks = document.querySelectorAll('.nav-links a');
-        navLinks[0].textContent = LANG === 'en' ? 'Categories' : 'Categorías'; navLinks[0].href = '#categories'; navLinks[0].style.display = '';
-        navLinks[1].textContent = LANG === 'en' ? 'Reviews' : 'Reseñas'; navLinks[1].href = '#reviews'; navLinks[1].style.display = '';
-        navLinks[2].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[2].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[2].style.display = '';
+        navLinks[0].textContent = LANG === 'en' ? 'Reviews' : 'Reseñas'; navLinks[0].href = '#reviews'; navLinks[0].style.display = '';
+        navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
         var sorted = reviews.slice().sort(function (a, b) {
           if (a.featured && !b.featured) return -1;
           if (!a.featured && b.featured) return 1;
           return new Date(b.date) - new Date(a.date);
         });
         renderReviews(sorted);
-        scrollToReviews();
-      });
-    }
-
-    if (viewAllReviews) {
-      viewAllReviews.addEventListener('click', function (e) {
-        e.preventDefault();
         scrollToReviews();
       });
     }
@@ -417,26 +365,12 @@
 
     window.addEventListener('scroll', handleScroll);
 
-    if (heroCategories) {
-      heroCategories.addEventListener('click', function (e) {
-        var cat = e.target.dataset.cat;
-        if (cat) {
-          filterCategory.value = cat;
-          applyFilters();
-          scrollToReviews();
-        }
-      });
-    }
-
     if (window.location.hash === '#reviews') {
       var hero = document.getElementById('hero');
-      var cats = document.getElementById('categories');
       if (hero) hero.style.display = 'none';
-      if (cats) cats.style.display = 'none';
       var navLinks = document.querySelectorAll('.nav-links a');
       navLinks[0].textContent = LANG === 'en' ? 'Home' : 'Inicio'; navLinks[0].href = './'; navLinks[0].style.display = '';
-      navLinks[1].style.display = 'none';
-      navLinks[2].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[2].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[2].style.display = '';
+      navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
       scrollToReviews();
       window.scrollTo({ top: 0 });
       history.replaceState(null, '', window.location.pathname);
