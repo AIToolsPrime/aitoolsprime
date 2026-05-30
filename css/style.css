@@ -1229,7 +1229,7 @@ footer {
 @media (max-width: 768px) {
   .vs-grid { grid-template-columns: 1fr 1fr; gap: 6px; }
   .vs-divider { display: none; }
-  .vs-card { padding: 12px 4px; display: flex; flex-direction: column; height: 100%; }
+  .vs-card { padding: 12px 4px; display: flex; flex-direction: column; height: 100%; overflow: visible; }
   .vs-card .vs-rank { font-size: 0.55rem; padding: 2px 8px; margin-bottom: 4px; }
   .vs-card .vs-name { font-size: 0.85rem; margin-bottom: 2px; }
   .vs-card .vs-rating { font-size: 0.7rem; margin-bottom: 4px; }
@@ -1521,7 +1521,7 @@ footer {
   .card-body .tool-tagline { font-size: 0.72rem; }
   .review-card .card-logo { width: 56px; height: 56px; }
   .review-card .card-logo img { width: 34px; height: 34px; }
-  .vs-card { padding: 8px 2px; display: flex; flex-direction: column; height: 100%; }
+  .vs-card { padding: 8px 2px; display: flex; flex-direction: column; height: 100%; overflow: visible; }
   .vs-card .vs-name { font-size: 0.7rem; margin-bottom: 1px; }
   .vs-card .vs-rating { font-size: 0.6rem; margin-bottom: 2px; }
   .vs-card .vs-tagline { font-size: 0.55rem; margin-bottom: 4px; line-height: 1.3; }
