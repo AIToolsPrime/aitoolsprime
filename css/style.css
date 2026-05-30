@@ -1251,6 +1251,7 @@ footer {
   .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
   .footer-col h4 { font-size: 0.7rem; margin-bottom: 8px; }
   .footer-col p, .footer-col a { font-size: 0.65rem; margin-bottom: 4px; }
+  .footer-col { min-width: 0; }
 }
 
 .vs-card {
@@ -1568,6 +1569,7 @@ footer {
   .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
   .footer-col h4 { font-size: 0.6rem; margin-bottom: 6px; }
   .footer-col p, .footer-col a { font-size: 0.55rem; margin-bottom: 3px; }
+  .footer-col { min-width: 0; }
 }
 
 @media (max-width: 600px) {
@@ -1576,6 +1578,7 @@ footer {
   .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
   .footer-col h4 { font-size: 0.7rem; margin-bottom: 8px; }
   .footer-col p, .footer-col a { font-size: 0.65rem; margin-bottom: 4px; }
+  .footer-col { min-width: 0; }
   #cookie-banner { flex-direction: column; text-align: center; gap: 12px; padding: 16px 5vw; }
   #cookie-banner .cookie-btns { flex-direction: column; width: 100%; }
 }
