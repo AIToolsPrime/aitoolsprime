@@ -951,32 +951,7 @@
     "date": "2026-03-28",
     "logo": "invideo.io"
   },
-  {
-    "id": "pictory",
-    "name": "Pictory",
-    "tagline": "Reutilización de video con IA de formato largo a corto",
-    "category": "Vídeo con IA",
-    "category_slug": "video",
-    "rating": 4.0,
-    "price": "$23/mo",
-    "price_type": "paid",
-    "excerpt": "Pictory utiliza IA para transformar contenido de formato largo en videos cortos atractivos. Extrae automáticamente lo más destacado, añade subtítulos y reutiliza el contenido para redes sociales.",
-    "pros": [
-      "Reutilización de contenido",
-      "Subtitulado automático",
-      "Extracción de lo más destacado",
-      "Adaptable a la marca"
-    ],
-    "cons": [
-      "Sin función de texto a video",
-      "Herramientas creativas limitadas",
-      "Límite mensual de videos"
-    ],
-    "url": "https://pictory.ai",
-    "featured": false,
-    "date": "2026-03-20",
-    "logo": "pictory.ai"
-  },
+
   {
     "id": "veed-io",
     "name": "Veed.io",
@@ -994,6 +969,7 @@
     "date": "2026-03-15",
     "logo": "veed.io"
   },
+
   {
     "id": "wondershare-filmora",
     "name": "Wondershare Filmora",

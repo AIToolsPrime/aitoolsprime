@@ -951,32 +951,7 @@
     "date": "2026-03-28",
     "logo": "invideo.io"
   },
-  {
-    "id": "pictory",
-    "name": "Pictory",
-    "tagline": "Long-form to short-form AI video repurposing",
-    "category": "AI Video",
-    "category_slug": "video",
-    "rating": 4.0,
-    "price": "$23/mo",
-    "price_type": "paid",
-    "excerpt": "Pictory uses AI to transform long-form content into engaging short videos. Automatically extract highlights, add captions, and repurpose for social media.",
-    "pros": [
-      "Content repurposing",
-      "Auto-captioning",
-      "Highlight extraction",
-      "Brand-friendly"
-    ],
-    "cons": [
-      "No text-to-video",
-      "Limited creative tools",
-      "Monthly video limit"
-    ],
-    "url": "https://pictory.ai",
-    "featured": false,
-    "date": "2026-03-20",
-    "logo": "pictory.ai"
-  },
+
   {
     "id": "veed-io",
     "name": "Veed.io",
@@ -994,6 +969,7 @@
     "date": "2026-03-15",
     "logo": "veed.io"
   },
+
   {
     "id": "wondershare-filmora",
     "name": "Wondershare Filmora",
