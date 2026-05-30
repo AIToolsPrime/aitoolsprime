@@ -255,7 +255,7 @@
     var catName = CATEGORIES[r.category_slug] ? CATEGORIES[r.category_slug][LANG] || CATEGORIES[r.category_slug].en : r.category_en;
 
     overlay.innerHTML = '<div class="modal-content">'
-      + '<button class="modal-close">✕</button>'
+      + '<button class="modal-close" aria-label="Close modal">✕</button>'
       + '<div class="modal-header">'
       + logoModalHTML(r.logo, r.name)
       + '<div class="modal-header-right">'
