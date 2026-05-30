@@ -259,6 +259,7 @@
     resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
     resultsCount.textContent = results.length + (LANG === 'en' ? ' tools found' : ' herramientas encontradas');
     renderResults(results);
+    searchSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function openModal(r) {
