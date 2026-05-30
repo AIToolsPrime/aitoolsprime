@@ -250,7 +250,7 @@
     }
 
     var results = reviews.filter(function (r) {
-      var searchText = (r.name + ' ' + r.tagline + ' ' + r.excerpt + ' ' + (r.category_en || '') + ' ' + r.pros.join(' ') + ' ' + r.cons.join(' ')).toLowerCase();
+      var searchText = (r.name + ' ' + r.tagline + ' ' + r.excerpt + ' ' + (r.category || '') + ' ' + (r.category_slug || '') + ' ' + r.pros.join(' ') + ' ' + r.cons.join(' ')).toLowerCase();
       var words = q.split(/\s+/).filter(Boolean);
       return words.every(function (w) { return searchText.indexOf(w) !== -1; });
     });
