@@ -1333,7 +1333,41 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .vs-divider { width: 100%; padding: 8px 0; }
+  .nav-inner { gap: 6px; }
+  .nav-links { gap: 10px; }
+  .nav-links a { font-size: 0.7rem; }
+}
+
+@media (max-width: 600px) {
+  nav { height: 58px; padding: 0 2vw; }
+  .nav-inner { gap: 3px; }
+  .logo svg { height: 20px; }
+  .nav-links { gap: 6px; margin-left: auto; }
+  .nav-links a { font-size: 0.72rem; }
+  .lang-switch a { padding: 2px 6px; font-size: 0.62rem; }
+  .theme-toggle { width: 28px; height: 28px; font-size: 0.85rem; }
+}
+
+@media (max-width: 480px) {
+  nav { height: 52px; padding: 0 1.5vw; }
+  .nav-inner { gap: 2px; }
+  .logo svg { height: 16px; }
+  .nav-links { gap: 4px; }
+  .nav-links a { font-size: 0.65rem; }
+  .lang-switch a { padding: 1px 4px; font-size: 0.55rem; }
+  .lang-switch { gap: 1px; padding: 1px; }
+  .theme-toggle { width: 22px; height: 22px; font-size: 0.75rem; }
+}
+
+@media (max-width: 360px) {
+  nav { height: 44px; padding: 0 1.5vw; }
+  .nav-inner { gap: 2px; }
+  .logo svg { height: 13px; }
+  .nav-links { gap: 3px; }
+  .nav-links a { font-size: 0.55rem; }
+  .lang-switch a { padding: 1px 3px; font-size: 0.5rem; }
+  .lang-switch { gap: 1px; padding: 1px; }
+  .theme-toggle { width: 18px; height: 18px; font-size: 0.65rem; }
 }
 
 .vs-divider span {
