@@ -258,8 +258,8 @@
     document.getElementById('hero').style.display = 'none';
     document.getElementById('categories').style.display = 'none';
     document.getElementById('reviews').style.display = 'none';
-    var catLink = document.getElementById('navCategories');
-    if (catLink) { catLink.textContent = LANG === 'en' ? 'Home' : 'Inicio'; catLink.href = './'; }
+    var navLinks = document.querySelectorAll('.nav-links a');
+    navLinks.forEach(function (link) { link.textContent = LANG === 'en' ? 'Home' : 'Inicio'; link.href = './'; });
     searchSection.style.display = 'block';
     resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
     resultsCount.textContent = results.length + (LANG === 'en' ? ' tools found' : ' herramientas encontradas');
@@ -376,8 +376,10 @@
         document.getElementById('hero').style.display = '';
         document.getElementById('categories').style.display = '';
         document.getElementById('reviews').style.display = '';
-        var catLink = document.getElementById('navCategories');
-        if (catLink) { catLink.textContent = LANG === 'en' ? 'Categories' : 'Categorías'; catLink.href = '#categories'; }
+        var navLinks = document.querySelectorAll('.nav-links a');
+        navLinks[0].textContent = LANG === 'en' ? 'Categories' : 'Categorías'; navLinks[0].href = '#categories';
+        navLinks[1].textContent = LANG === 'en' ? 'Reviews' : 'Reseñas'; navLinks[1].href = '#reviews';
+        navLinks[2].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[2].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html';
         var sorted = reviews.slice().sort(function (a, b) {
           if (a.featured && !b.featured) return -1;
           if (!a.featured && b.featured) return 1;
@@ -429,8 +431,7 @@
       var cats = document.getElementById('categories');
       if (hero) hero.style.display = 'none';
       if (cats) cats.style.display = 'none';
-      var catLink = document.getElementById('navCategories');
-      if (catLink) { catLink.textContent = 'Home'; catLink.href = './'; }
+      document.querySelectorAll('.nav-links a').forEach(function (link) { link.textContent = 'Home'; link.href = './'; });
       scrollToReviews();
       window.scrollTo({ top: 0 });
       history.replaceState(null, '', window.location.pathname);
