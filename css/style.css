@@ -1459,8 +1459,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-  #hero { min-height: 90vh; padding: 120px 5vw 60px; }
-  #hero.hero-short { min-height: 40vh; padding: 120px 5vw 50px; }
+  #hero { min-height: 90vh; padding: 64px 5vw 60px; justify-content: flex-start; }
+  #hero.hero-short { min-height: 40vh; padding: 64px 5vw 50px; justify-content: flex-start; }
   .section { padding: 64px 5vw; }
   .category-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
   .hero-categories { gap: 8px; }
@@ -1474,8 +1474,8 @@ footer {
 }
 
 @media (max-width: 600px) {
-  #hero { min-height: 100dvh; padding: 110px 4vw 50px; }
-  #hero.hero-short { min-height: 40vh; padding: 110px 4vw 40px; }
+  #hero { min-height: 100dvh; padding: 64px 4vw 50px; justify-content: flex-start; }
+  #hero.hero-short { min-height: 40vh; padding: 64px 4vw 40px; justify-content: flex-start; }
   #hero h1 { font-size: clamp(1.5rem, 8vw, 2.5rem); }
   #hero p { font-size: clamp(0.75rem, 3vw, 0.9rem); margin-bottom: 28px; }
   .hero-categories { margin-top: 32px; gap: 6px; }
@@ -1494,8 +1494,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-  #hero { padding: 100px 4vw 40px; min-height: 100dvh; }
-  #hero.hero-short { min-height: 35vh; padding: 100px 4vw 30px; }
+  #hero { padding: 60px 4vw 40px; min-height: 100dvh; justify-content: flex-start; }
+  #hero.hero-short { min-height: 35vh; padding: 60px 4vw 30px; justify-content: flex-start; }
   #hero h1 { font-size: clamp(1.3rem, 7vw, 1.8rem); }
   #hero p { font-size: clamp(0.7rem, 3vw, 0.85rem); margin-bottom: 24px; }
   .hero-category { font-size: 0.7rem; padding: 5px 12px; }
@@ -1509,8 +1509,8 @@ footer {
 }
 
 @media (max-width: 360px) {
-  #hero { min-height: 100dvh; padding: 90px 3vw 30px; }
-  #hero.hero-short { min-height: 30vh; padding: 90px 3vw 24px; }
+  #hero { min-height: 100dvh; padding: 54px 3vw 30px; justify-content: flex-start; }
+  #hero.hero-short { min-height: 30vh; padding: 54px 3vw 24px; justify-content: flex-start; }
   #hero h1 { font-size: clamp(1.2rem, 7vw, 1.5rem); }
   #hero p { font-size: 0.7rem; margin-bottom: 20px; }
   .section { padding: 32px 4vw; }
