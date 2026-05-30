@@ -319,7 +319,7 @@
     "category_slug": "assistant",
     "rating": 3.9,
     "price": "$36/mo",
-    "price_type": "paid",
+    "price_type": "freemium",
     "excerpt": "Copy.ai helps marketing teams generate on-brand copy across channels. Its workflow automation and 90+ templates set it apart from simpler AI writing tools.",
     "pros": [
       "Workflow automation",
@@ -1486,7 +1486,7 @@
     "category": "AI Audio",
     "category_slug": "audio",
     "rating": 4.4,
-    "price": "$11.58/mo",
+    "price": "$11.59/mo",
     "price_type": "freemium",
     "excerpt": "Speechify is the leading AI text-to-speech app with natural voices, OCR scanning of physical books, and 30+ languages.",
     "pros": [ "Natural voices", "OCR scanning", "30+ languages", "Up to 9x speed" ],
@@ -1585,8 +1585,8 @@
     "price_type": "freemium",
     "excerpt": "Windsurf by Codeium offers a free AI IDE with a Cascade agent that handles multi-file reasoning and pair programming. Best free option for AI-assisted development.",
     "pros": [
-      "Completely free",
-      "Cascade AI agent",
+        "Free tier available",
+        "Cascade AI agent",
       "Multi-file reasoning",
       "Good code completion"
     ],
@@ -2058,7 +2058,7 @@
     "category": "AI Writing",
     "category_slug": "writing",
     "rating": 4.2,
-    "price": "$10/one",
+    "price": "$10 one-time",
     "price_type": "paid",
     "excerpt": "Hemingway App uses AI to analyze and improve your writing's readability. It highlights complex sentences, passive voice, adverbs, and suggests simpler alternatives.",
     "pros": [ "Clear readability scores", "Color-coded suggestions", "Desktop & web versions", "One-time purchase" ],

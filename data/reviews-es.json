@@ -319,7 +319,7 @@
     "category_slug": "assistant",
     "rating": 3.9,
     "price": "$36/mo",
-    "price_type": "paid",
+    "price_type": "freemium",
     "excerpt": "Copy.ai ayuda a los equipos de marketing a generar textos publicitarios coherentes con la marca en todos los canales. Su automatización de flujos de trabajo y más de 90 plantillas lo diferencian de herramientas de redacción con IA más simples.",
     "pros": [
       "Automatización de flujos de trabajo",
@@ -1486,7 +1486,7 @@
     "category": "Audio con IA",
     "category_slug": "audio",
     "rating": 4.4,
-    "price": "$11.58/mo",
+    "price": "$11.59/mo",
     "price_type": "freemium",
     "excerpt": "Speechify es la aplicación líder de texto a voz con IA con voces naturales, escaneo OCR de libros físicos y más de 30 idiomas.",
     "pros": [ "Voces naturales", "Escaneo OCR", "Más de 30 idiomas", "Hasta 9x velocidad" ],
@@ -1585,8 +1585,8 @@
     "price_type": "freemium",
     "excerpt": "Windsurf de Codeium ofrece un IDE gratuito con IA con un agente Cascade que maneja razonamiento multia archivo y programación en pareja. La mejor opción gratuita para desarrollo asistido por IA.",
     "pros": [
-      "Completamente gratuito",
-      "Agente Cascade con IA",
+        "Tier gratuito disponible",
+        "Agente Cascade con IA",
       "Razonamiento multia archivo",
       "Buen autocompletado de código"
     ],
@@ -2058,7 +2058,7 @@
     "category": "Escritura con IA",
     "category_slug": "writing",
     "rating": 4.2,
-    "price": "$10/único",
+    "price": "$10 único",
     "price_type": "paid",
     "excerpt": "Hemingway App usa IA para analizar y mejorar la legibilidad de tu escritura. Resalta oraciones complejas, voz pasiva, adverbios y sugiere alternativas más simples.",
     "pros": [ "Puntuaciones claras de legibilidad", "Sugerencias con código de colores", "Versiones web y de escritorio", "Pago único" ],
