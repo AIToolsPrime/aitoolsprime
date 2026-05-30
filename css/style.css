@@ -1482,7 +1482,7 @@ footer {
   .section-title { font-size: 1.5rem; }
   .section-subtitle { font-size: 0.82rem; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .category-grid { grid-template-columns: 1fr; gap: 10px; }
+  .category-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .category-card .cat-inner { padding: 14px; }
   .review-card .card-image { height: 140px; }
   .card-body { padding: 16px; }
