@@ -330,6 +330,14 @@
     filteredResults = sorted;
     renderReviews(sorted);
 
+    var urlParams = new URLSearchParams(window.location.search);
+    var catParam = urlParams.get('cat');
+    if (catParam && CATEGORIES[catParam]) {
+      filterCategory.value = catParam;
+      applyFilters();
+      setTimeout(function () { scrollToReviews(); }, 100);
+    }
+
     themeToggle.addEventListener('click', toggleTheme);
 
     searchBtn.addEventListener('click', function () {
@@ -376,18 +384,6 @@
 
     scrollTop.addEventListener('click', function () {
       window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    document.querySelectorAll('.footer-categories a').forEach(function (el) {
-      el.addEventListener('click', function (e) {
-        e.preventDefault();
-        var cat = this.dataset.cat;
-        if (cat) {
-          filterCategory.value = cat;
-          applyFilters();
-          scrollToReviews();
-        }
-      });
     });
 
     window.addEventListener('scroll', handleScroll);
