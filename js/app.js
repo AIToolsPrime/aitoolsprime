@@ -417,6 +417,16 @@
         }
       });
     }
+
+    if (window.location.hash === '#reviews') {
+      var hero = document.getElementById('hero');
+      var cats = document.getElementById('categories');
+      if (hero) hero.style.display = 'none';
+      if (cats) cats.style.display = 'none';
+      scrollToReviews();
+      window.scrollTo({ top: 0 });
+      history.replaceState(null, '', window.location.pathname);
+    }
   }
 
   loadTheme();
