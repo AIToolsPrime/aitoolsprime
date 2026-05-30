@@ -389,32 +389,7 @@
     "date": "2026-04-18",
     "logo": "sudowrite.com"
   },
-  {
-    "id": "grammarly",
-    "name": "Grammarly",
-    "tagline": "Asistente de redacción con IA para todos",
-    "category": "Escritura con IA",
-    "category_slug": "writing",
-    "rating": 4.4,
-    "price": "$12/mo",
-    "price_type": "freemium",
-    "excerpt": "Grammarly es el asistente de redacción con IA más popular, que ofrece corrección gramatical en tiempo real, sugerencias de estilo y detección de tono en todas tus aplicaciones.",
-    "pros": [
-      "Funciona en tiempo real en todas partes",
-      "Detección de tono",
-      "Detector de plagio",
-      "Excelente nivel gratuito"
-    ],
-    "cons": [
-      "Premium costoso",
-      "No es para generación de textos largos",
-      "Puede ser intrusivo"
-    ],
-    "url": "https://grammarly.com",
-    "featured": true,
-    "date": "2026-04-12",
-    "logo": "grammarly.com"
-  },
+
   {
     "id": "claude",
     "name": "Claude",
@@ -996,32 +971,7 @@
     "date": "2026-05-30",
     "logo": "filmora.wondershare.com"
   },
-  {
-    "id": "notion-ai",
-    "name": "Notion AI",
-    "tagline": "Espacio de trabajo con IA para documentos y proyectos",
-    "category": "Asistente IA",
-    "category_slug": "assistant",
-    "rating": 4.4,
-    "price": "$10/mo",
-    "price_type": "paid",
-    "excerpt": "Notion AI transforma el popular espacio de trabajo en un asistente inteligente que te ayuda a escribir, resumir, generar ideas y organizarte más rápido.",
-    "pros": [
-      "Integración perfecta con Notion",
-      "Resumen excelente",
-      "Lluvia de ideas creativa",
-      "Preguntas y respuestas sobre documentos"
-    ],
-    "cons": [
-      "Solo en el ecosistema de Notion",
-      "Lento con bases de datos grandes",
-      "Costo adicional"
-    ],
-    "url": "https://notion.so",
-    "featured": true,
-    "date": "2026-05-12",
-    "logo": "notion.so"
-  },
+
   {
     "id": "gamma-app",
     "name": "Gamma",
