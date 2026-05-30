@@ -746,6 +746,12 @@ nav.scrolled {
   filter: brightness(0) invert(1);
 }
 
+[data-theme="light"] .review-card .card-logo img[alt="LANDR"],
+[data-theme="light"] .vs-logo img[alt="LANDR"],
+[data-theme="light"] .modal-logo img[alt="LANDR"] {
+  filter: brightness(0);
+}
+
 .review-card .card-logo-fallback {
   display: none;
   width: 100%;
