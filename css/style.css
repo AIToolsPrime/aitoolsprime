@@ -305,12 +305,34 @@ nav.scrolled {
   .nav-inner { gap: 4px; }
   .logo svg { height: 40px; }
   .site-name { font-size: 0.6rem; }
-  #hero { padding-top: 108px; justify-content: flex-start; min-height: 0; }
   .nav-links { flex: 1; gap: 4px; justify-content: center; }
   .nav-links a { font-size: 0.7rem; }
   .nav-right { gap: 6px; }
   .lang-switch a { padding: 2px 5px; font-size: 0.6rem; }
   .theme-toggle { width: 28px; height: 28px; font-size: 0.85rem; }
+  #hero { padding: 108px 4vw 50px; justify-content: flex-start; min-height: 0; }
+  #hero.hero-short { padding: 108px 4vw 40px; justify-content: flex-start; }
+  #hero h1 { font-size: clamp(1.5rem, 8vw, 2.5rem); }
+  #hero p { font-size: clamp(0.75rem, 3vw, 0.9rem); margin-bottom: 28px; }
+  .hero-categories { margin-top: 32px; gap: 6px; }
+  .hero-category { font-size: 0.75rem; padding: 6px 14px; }
+  .review-grid { grid-template-columns: 1fr; gap: 12px; }
+  .section-title { font-size: 1.5rem; }
+  .section-subtitle { font-size: 0.82rem; }
+  .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .category-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .category-card .cat-inner { padding: 14px; }
+  .review-card .card-image { height: 140px; }
+  .card-body { padding: 16px; }
+  .card-body .tool-name { font-size: 1rem; }
+  .search-container input { font-size: 0.85rem; padding: 12px 16px; }
+  .search-container button { padding: 10px 20px; font-size: 0.85rem; }
+  .pros-cons { grid-template-columns: 1fr; }
+  footer { padding: 40px 5vw 24px; }
+  .footer-grid { display: flex; gap: 12px; }
+  .footer-grid .footer-col { min-width: 0; flex: 1; }
+  #cookie-banner { flex-direction: column; text-align: center; gap: 12px; padding: 16px 5vw; }
+  #cookie-banner .cookie-btns { flex-direction: column; width: 100%; }
 }
 
 @media (max-width: 480px) {
@@ -1544,26 +1566,6 @@ footer {
   #hero p { font-size: clamp(0.75rem, 2.8vw, 0.95rem); }
 }
 
-@media (max-width: 600px) {
-  #hero { padding: 108px 4vw 50px; justify-content: flex-start; min-height: 0; }
-  #hero.hero-short { padding: 108px 4vw 40px; justify-content: flex-start; }
-  #hero h1 { font-size: clamp(1.5rem, 8vw, 2.5rem); }
-  #hero p { font-size: clamp(0.75rem, 3vw, 0.9rem); margin-bottom: 28px; }
-  .hero-categories { margin-top: 32px; gap: 6px; }
-  .hero-category { font-size: 0.75rem; padding: 6px 14px; }
-  .review-grid { grid-template-columns: 1fr; gap: 12px; }
-  .section-title { font-size: 1.5rem; }
-  .section-subtitle { font-size: 0.82rem; }
-  .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .category-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .category-card .cat-inner { padding: 14px; }
-  .review-card .card-image { height: 140px; }
-  .card-body { padding: 16px; }
-  .card-body .tool-name { font-size: 1rem; }
-  .search-container input { font-size: 0.85rem; padding: 12px 16px; }
-  .search-container button { padding: 10px 20px; font-size: 0.85rem; }
-}
-
 @media (max-width: 480px) {
   #hero { padding: 104px 4vw 40px; justify-content: flex-start; min-height: 0; }
   #hero.hero-short { padding: 104px 4vw 30px; justify-content: flex-start; }
@@ -1620,15 +1622,6 @@ footer {
   footer { padding: 32px 4vw 20px; }
   .footer-grid { display: flex; gap: 8px; }
   .footer-grid .footer-col { min-width: 0; flex: 1; }
-}
-
-@media (max-width: 600px) {
-  .pros-cons { grid-template-columns: 1fr; }
-  footer { padding: 40px 5vw 24px; }
-  .footer-grid { display: flex; gap: 12px; }
-  .footer-grid .footer-col { min-width: 0; flex: 1; }
-  #cookie-banner { flex-direction: column; text-align: center; gap: 12px; padding: 16px 5vw; }
-  #cookie-banner .cookie-btns { flex-direction: column; width: 100%; }
 }
 
 #cookie-banner {

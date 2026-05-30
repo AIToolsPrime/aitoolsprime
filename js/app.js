@@ -40,11 +40,11 @@
     var saved = localStorage.getItem('ai-reviews-theme');
     if (saved) {
       document.documentElement.setAttribute('data-theme', saved);
-      themeToggle.textContent = saved === 'dark' ? '🌙' : '☀️';
+      if (themeToggle) themeToggle.textContent = saved === 'dark' ? '🌙' : '☀️';
     } else {
       var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
-      themeToggle.textContent = prefersDark ? '🌙' : '☀️';
+      if (themeToggle) themeToggle.textContent = prefersDark ? '🌙' : '☀️';
     }
   }
 
@@ -52,13 +52,13 @@
     var current = document.documentElement.getAttribute('data-theme');
     var next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
-    themeToggle.textContent = next === 'dark' ? '🌙' : '☀️';
+    if (themeToggle) themeToggle.textContent = next === 'dark' ? '🌙' : '☀️';
     localStorage.setItem('ai-reviews-theme', next);
   }
 
   function handleScroll() {
-    navbar.classList.toggle('scrolled', window.scrollY > 60);
-    scrollTop.classList.toggle('visible', window.scrollY > 400);
+    if (navbar) navbar.classList.toggle('scrolled', window.scrollY > 60);
+    if (scrollTop) scrollTop.classList.toggle('visible', window.scrollY > 400);
   }
 
   function starsHTML(rating) {
@@ -237,8 +237,10 @@
     document.getElementById('hero').style.display = 'none';
     document.getElementById('reviews').style.display = 'none';
     var navLinks = document.querySelectorAll('.nav-links a');
-    navLinks[0].textContent = LANG === 'en' ? 'Home' : 'Inicio'; navLinks[0].href = './'; navLinks[0].style.display = '';
-    navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
+    if (navLinks.length >= 2) {
+      navLinks[0].textContent = LANG === 'en' ? 'Home' : 'Inicio'; navLinks[0].href = './'; navLinks[0].style.display = '';
+      navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
+    }
     searchSection.style.display = 'block';
     resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
     resultsCount.textContent = results.length + (LANG === 'en' ? ' tools found' : ' herramientas encontradas');
@@ -281,9 +283,6 @@
 
     overlay.querySelector('.modal-close').addEventListener('click', function () { closeModal(overlay); });
     overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(overlay); });
-    document.addEventListener('keydown', function esc(e) {
-      if (e.key === 'Escape') { closeModal(overlay); document.removeEventListener('keydown', esc); }
-    });
   }
 
   function closeModal(overlay) {
@@ -342,7 +341,7 @@
       setTimeout(function () { scrollToReviews(); }, 100);
     }
 
-    themeToggle.addEventListener('click', toggleTheme);
+    if (themeToggle) themeToggle.addEventListener('click', toggleTheme);
 
     searchBtn.addEventListener('click', function () {
       doSearch(searchInput.value.trim());
@@ -362,8 +361,10 @@
         document.getElementById('hero').style.display = '';
         document.getElementById('reviews').style.display = '';
         var navLinks = document.querySelectorAll('.nav-links a');
-        navLinks[0].textContent = LANG === 'en' ? 'Reviews' : 'Reseñas'; navLinks[0].href = '#reviews'; navLinks[0].style.display = '';
-        navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
+        if (navLinks.length >= 2) {
+          navLinks[0].textContent = LANG === 'en' ? 'Reviews' : 'Reseñas'; navLinks[0].href = '#reviews'; navLinks[0].style.display = '';
+          navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
+        }
         var sorted = reviews.slice().sort(function (a, b) {
           if (a.featured && !b.featured) return -1;
           if (!a.featured && b.featured) return 1;
@@ -382,11 +383,11 @@
       });
     }
 
-    filterCategory.addEventListener('change', applyFilters);
-    filterRating.addEventListener('change', applyFilters);
-    filterPrice.addEventListener('change', applyFilters);
+    if (filterCategory) filterCategory.addEventListener('change', applyFilters);
+    if (filterRating) filterRating.addEventListener('change', applyFilters);
+    if (filterPrice) filterPrice.addEventListener('change', applyFilters);
 
-    scrollTop.addEventListener('click', function () {
+    if (scrollTop) scrollTop.addEventListener('click', function () {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
@@ -396,8 +397,10 @@
       var hero = document.getElementById('hero');
       if (hero) hero.style.display = 'none';
       var navLinks = document.querySelectorAll('.nav-links a');
-      navLinks[0].textContent = LANG === 'en' ? 'Home' : 'Inicio'; navLinks[0].href = './'; navLinks[0].style.display = '';
-      navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
+      if (navLinks.length >= 2) {
+        navLinks[0].textContent = LANG === 'en' ? 'Home' : 'Inicio'; navLinks[0].href = './'; navLinks[0].style.display = '';
+        navLinks[1].textContent = LANG === 'en' ? 'Comparisons' : 'Comparativas'; navLinks[1].href = LANG === 'en' ? './comparisons.html' : '../es/comparaciones.html'; navLinks[1].style.display = '';
+      }
       scrollToReviews();
       window.scrollTo({ top: 0 });
       history.replaceState(null, '', window.location.pathname);
@@ -408,6 +411,13 @@
   handleScroll();
   loadReviews();
   initCookieBanner();
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      var active = document.querySelector('.modal-overlay.active');
+      if (active) closeModal(active);
+    }
+  });
 })();
 
 function initCookieBanner() {
