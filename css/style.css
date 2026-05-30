@@ -281,8 +281,9 @@ nav.scrolled {
   nav { height: 58px; padding: 0 3vw; }
   .nav-inner { gap: 4px; }
   .logo svg { height: 20px; }
-  .nav-links { gap: 4px; }
+  .nav-links { flex: 1; gap: 6px; justify-content: center; }
   .nav-links a { font-size: 0.72rem; }
+  .lang-switch { margin-left: auto; }
   .lang-switch a { padding: 2px 6px; font-size: 0.62rem; }
   .theme-toggle { width: 28px; height: 28px; font-size: 0.85rem; }
 }
@@ -291,10 +292,10 @@ nav.scrolled {
   nav { height: 54px; padding: 0 2vw; }
   .nav-inner { gap: 3px; }
   .logo svg { height: 17px; }
-  .nav-links { gap: 3px; }
+  .nav-links { flex: 1; gap: 4px; justify-content: center; }
   .nav-links a { font-size: 0.68rem; }
+  .lang-switch { margin-left: auto; gap: 1px; padding: 1px; }
   .lang-switch a { padding: 2px 5px; font-size: 0.6rem; }
-  .lang-switch { gap: 1px; padding: 1px; }
   .theme-toggle { width: 24px; height: 24px; font-size: 0.8rem; }
 }
 
@@ -302,10 +303,10 @@ nav.scrolled {
   nav { height: 48px; padding: 0 1.5vw; }
   .nav-inner { gap: 2px; }
   .logo svg { height: 15px; }
-  .nav-links { gap: 2px; }
+  .nav-links { flex: 1; gap: 3px; justify-content: center; }
   .nav-links a { font-size: 0.6rem; }
+  .lang-switch { margin-left: auto; gap: 1px; padding: 1px; }
   .lang-switch a { padding: 1px 3px; font-size: 0.55rem; }
-  .lang-switch { gap: 1px; padding: 1px; }
   .theme-toggle { width: 20px; height: 20px; font-size: 0.7rem; }
 }
 
