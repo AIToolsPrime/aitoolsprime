@@ -209,12 +209,26 @@
       return;
     }
 
-    var results = reviews.filter(function (r) {
-      var searchText = (r.name + ' ' + r.tagline + ' ' + r.excerpt + ' ' + (r.category || '') + ' ' + (r.category_slug || '') + ' ' + r.pros.join(' ') + ' ' + r.cons.join(' ')).toLowerCase()
-        .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-      var words = q.normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/\s+/).filter(Boolean);
-      return words.every(function (w) { return searchText.indexOf(w) !== -1; });
+    var matchedCat = null;
+    Object.keys(CATEGORIES).forEach(function (slug) {
+      var cat = CATEGORIES[slug];
+      var name = (cat[LANG] || cat.en).toLowerCase();
+      if (slug === q || name === q || name.indexOf(q) !== -1) {
+        matchedCat = slug;
+      }
     });
+
+    var results;
+    if (matchedCat) {
+      results = reviews.filter(function (r) { return r.category_slug === matchedCat; });
+    } else {
+      results = reviews.filter(function (r) {
+        var searchText = (r.name + ' ' + r.tagline + ' ' + r.excerpt + ' ' + (r.category || '') + ' ' + (r.category_slug || '') + ' ' + r.pros.join(' ') + ' ' + r.cons.join(' ')).toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        var words = q.normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/\s+/).filter(Boolean);
+        return words.every(function (w) { return searchText.indexOf(w) !== -1; });
+      });
+    }
 
     document.getElementById('hero').style.display = 'none';
     document.getElementById('reviews').style.display = 'none';
