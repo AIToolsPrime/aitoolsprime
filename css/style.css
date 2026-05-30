@@ -278,16 +278,16 @@ nav.scrolled {
 }
 
 @media (max-width: 600px) {
-  nav { height: 60px; padding: 0 3vw; }
+  nav { height: 58px; padding: 0 3vw; }
   .nav-inner { gap: 4px; }
-  .logo svg { height: 22px; }
-  .nav-links { gap: 5px; }
-  .nav-links a { font-size: 0.75rem; }
-  .lang-switch a { padding: 3px 7px; font-size: 0.65rem; }
-  .theme-toggle { width: 30px; height: 30px; font-size: 0.9rem; }
+  .logo svg { height: 20px; }
+  .nav-links { gap: 4px; }
+  .nav-links a { font-size: 0.72rem; }
+  .lang-switch a { padding: 2px 6px; font-size: 0.62rem; }
+  .theme-toggle { width: 28px; height: 28px; font-size: 0.85rem; }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   nav { height: 54px; padding: 0 2vw; }
   .nav-inner { gap: 3px; }
   .logo svg { height: 17px; }
