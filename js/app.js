@@ -378,6 +378,18 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
+    document.querySelectorAll('.footer-categories a').forEach(function (el) {
+      el.addEventListener('click', function (e) {
+        e.preventDefault();
+        var cat = this.dataset.cat;
+        if (cat) {
+          filterCategory.value = cat;
+          applyFilters();
+          scrollToReviews();
+        }
+      });
+    });
+
     window.addEventListener('scroll', handleScroll);
 
     if (window.location.hash === '#reviews') {
