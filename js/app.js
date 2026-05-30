@@ -257,6 +257,7 @@
 
     document.getElementById('hero').style.display = 'none';
     document.getElementById('categories').style.display = 'none';
+    document.getElementById('reviews').style.display = 'none';
     searchSection.style.display = 'block';
     resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
     resultsCount.textContent = results.length + (LANG === 'en' ? ' tools found' : ' herramientas encontradas');
@@ -372,6 +373,7 @@
         resultsSection.style.display = 'none';
         document.getElementById('hero').style.display = '';
         document.getElementById('categories').style.display = '';
+        document.getElementById('reviews').style.display = '';
         var sorted = reviews.slice().sort(function (a, b) {
           if (a.featured && !b.featured) return -1;
           if (!a.featured && b.featured) return 1;
