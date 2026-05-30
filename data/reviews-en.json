@@ -1103,25 +1103,25 @@
   {
     "id": "fireflies",
     "name": "Fireflies.ai",
-    "tagline": "AI meeting transcription and search",
+    "tagline": "AI notetaker for meetings",
     "category": "AI Productivity",
     "category_slug": "productivity",
-    "rating": 4.1,
+    "rating": 4.5,
     "price": "$10/mo",
-    "price_type": "freemium",
-    "excerpt": "Fireflies.ai records, transcribes, and indexes your meetings across Zoom, Teams, and Google Meet. Search conversations, create clips, and automate workflows.",
+    "price_type": "paid",
+    "excerpt": "Fireflies.ai is an AI meeting assistant that automatically records, transcribes, and summarizes your meetings across platforms like Zoom, Google Meet, and Teams.",
     "pros": [
-      "Multi-platform support",
-      "Searchable transcripts",
-      "Soundbite creation",
-      "CRM integration"
+      "Auto-join meetings",
+      "Search transcripts",
+      "Integrates with CRM",
+      "Team collaboration"
     ],
     "cons": [
-      "Transcription accuracy varies",
-      "No desktop app",
-      "Free tier limited"
+      "Limited free tier",
+      "No mobile recording",
+      "Language support"
     ],
-    "url": "https://fireflies.ai",
+    "url": "https://fireflies.ai/?fpr=affiliate-dc",
     "featured": false,
     "date": "2026-04-14",
     "logo": "fireflies.ai"
