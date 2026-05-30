@@ -851,6 +851,12 @@ nav.scrolled {
   background: rgba(129,140,248,0.2);
 }
 
+.card-body .meta .review-date {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
 /* ── Pros/Cons ── */
 .pros-cons {
   display: grid;

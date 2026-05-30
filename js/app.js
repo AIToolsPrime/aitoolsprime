@@ -102,6 +102,7 @@
 
     reviewGrid.innerHTML = data.map(function (r, i) {
       var catName = CATEGORIES[r.category_slug] ? CATEGORIES[r.category_slug][LANG] || CATEGORIES[r.category_slug].en : r.category_en;
+      var dateStr = r.date ? new Date(r.date).toLocaleDateString(LANG === 'en' ? 'en-US' : 'es-ES', { year: 'numeric', month: 'short' }) : '';
       return '<div class="review-card" data-cat="' + r.category_slug + '" data-index="' + i + '">'
         + '<div class="card-image">'
         + logoHTML(r.logo, r.name)
@@ -118,6 +119,7 @@
         + '</div>'
         + '<div class="meta">'
         + '<span class="price' + (r.price_type === 'free' ? ' free' : '') + '">' + (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type)) + '</span>'
+        + (dateStr ? '<span class="review-date">' + dateStr + '</span>' : '')
         + '<span class="read-more">' + (LANG === 'en' ? 'Read review' : 'Leer reseña') + '</span>'
         + '</div>'
         + '</div></div>';
@@ -139,6 +141,7 @@
 
     resultsGrid.innerHTML = data.map(function (r, i) {
       var catName = CATEGORIES[r.category_slug] ? CATEGORIES[r.category_slug][LANG] || CATEGORIES[r.category_slug].en : r.category_en;
+      var dateStr = r.date ? new Date(r.date).toLocaleDateString(LANG === 'en' ? 'en-US' : 'es-ES', { year: 'numeric', month: 'short' }) : '';
       return '<div class="review-card" data-cat="' + r.category_slug + '" data-result-index="' + i + '">'
         + '<div class="card-image">'
         + logoHTML(r.logo, r.name)
@@ -151,6 +154,7 @@
         + '<div class="excerpt">' + highlightMatch(r.excerpt) + '</div>'
         + '<div class="meta">'
         + '<span class="price' + (r.price_type === 'free' ? ' free' : '') + '">' + (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type)) + '</span>'
+        + (dateStr ? '<span class="review-date">' + dateStr + '</span>' : '')
         + '<span class="read-more">' + (LANG === 'en' ? 'Read review' : 'Leer reseña') + '</span>'
         + '</div>'
         + '</div></div>';
