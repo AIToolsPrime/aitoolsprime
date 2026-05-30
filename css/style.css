@@ -186,12 +186,22 @@ nav.scrolled {
 .logo {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .logo svg {
   height: 36px;
   width: auto;
   display: block;
+}
+
+.site-name {
+  font-family: var(--font);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text);
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -271,6 +281,7 @@ nav.scrolled {
   nav { height: 64px; padding: 0 4vw; }
   .nav-inner { gap: 6px; }
   .logo svg { height: 32px; }
+  .site-name { font-size: 0.65rem; }
   .nav-links { gap: 8px; }
   .nav-links a { font-size: 0.7rem; }
   .lang-switch a { padding: 3px 7px; font-size: 0.65rem; }
@@ -281,6 +292,7 @@ nav.scrolled {
   nav { height: 64px; padding: 0 2vw; overflow: hidden; }
   .nav-inner { gap: 4px; }
   .logo svg { height: 40px; }
+  .site-name { font-size: 0.6rem; }
   .nav-links { flex: 1; gap: 4px; justify-content: center; }
   .nav-links a { font-size: 0.7rem; }
   .lang-switch { margin-left: auto; }
@@ -292,6 +304,7 @@ nav.scrolled {
   nav { height: 60px; padding: 0 2vw; overflow: hidden; }
   .nav-inner { gap: 3px; }
   .logo svg { height: 36px; }
+  .site-name { font-size: 0.55rem; }
   .nav-links { flex: 1; gap: 2px; justify-content: center; }
   .nav-links a { font-size: 0.65rem; }
   .lang-switch { margin-left: auto; gap: 1px; padding: 1px; }
@@ -303,6 +316,7 @@ nav.scrolled {
   nav { height: 54px; padding: 0 1.5vw; overflow: hidden; }
   .nav-inner { gap: 2px; }
   .logo svg { height: 30px; }
+  .site-name { font-size: 0.5rem; }
   .nav-links { flex: 1; gap: 1px; justify-content: center; }
   .nav-links a { font-size: 0.6rem; }
   .lang-switch { margin-left: auto; gap: 1px; padding: 1px; }
