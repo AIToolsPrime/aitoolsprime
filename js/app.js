@@ -255,11 +255,13 @@
       return words.every(function (w) { return searchText.indexOf(w) !== -1; });
     });
 
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('categories').style.display = 'none';
     searchSection.style.display = 'block';
     resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
     resultsCount.textContent = results.length + (LANG === 'en' ? ' tools found' : ' herramientas encontradas');
     renderResults(results);
-    searchSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function openModal(r) {
@@ -368,6 +370,8 @@
         e.preventDefault();
         searchInput.value = '';
         resultsSection.style.display = 'none';
+        document.getElementById('hero').style.display = '';
+        document.getElementById('categories').style.display = '';
         var sorted = reviews.slice().sort(function (a, b) {
           if (a.featured && !b.featured) return -1;
           if (!a.featured && b.featured) return 1;
