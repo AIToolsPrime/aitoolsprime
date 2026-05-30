@@ -1478,7 +1478,7 @@ footer {
   #hero p { font-size: clamp(0.75rem, 3vw, 0.9rem); margin-bottom: 28px; }
   .hero-categories { margin-top: 32px; gap: 6px; }
   .hero-category { font-size: 0.75rem; padding: 6px 14px; }
-  .review-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .review-grid { grid-template-columns: 1fr; gap: 12px; }
   .section-title { font-size: 1.5rem; }
   .section-subtitle { font-size: 0.82rem; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
