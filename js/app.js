@@ -148,7 +148,7 @@
         + '</div>'
         + '<div class="meta">'
         + '<span class="price' + (r.price_type === 'free' ? ' free' : '') + '">' + (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type)) + '</span>'
-        + '<span class="read-more">' + (LANG === 'en' ? 'Read review →' : 'Leer reseña →') + '</span>'
+        + '<span class="read-more">' + (LANG === 'en' ? 'Read review' : 'Leer reseña') + '</span>'
         + '</div>'
         + '</div></div>';
     }).join('');
@@ -181,7 +181,7 @@
         + '<div class="excerpt">' + highlightMatch(r.excerpt) + '</div>'
         + '<div class="meta">'
         + '<span class="price' + (r.price_type === 'free' ? ' free' : '') + '">' + (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type)) + '</span>'
-        + '<span class="read-more">' + (LANG === 'en' ? 'Read review →' : 'Leer reseña →') + '</span>'
+        + '<span class="read-more">' + (LANG === 'en' ? 'Read review' : 'Leer reseña') + '</span>'
         + '</div>'
         + '</div></div>';
     }).join('');
