@@ -258,7 +258,7 @@
     document.getElementById('hero').style.display = 'none';
     document.getElementById('categories').style.display = 'none';
     document.getElementById('reviews').style.display = 'none';
-    var catLink = document.querySelector('.nav-links a[href="#categories"]');
+    var catLink = document.getElementById('navCategories');
     if (catLink) { catLink.textContent = LANG === 'en' ? 'Home' : 'Inicio'; catLink.href = './'; }
     searchSection.style.display = 'block';
     resultsTitle.textContent = LANG === 'en' ? 'Results for "' + query + '"' : 'Resultados para "' + query + '"';
@@ -376,7 +376,7 @@
         document.getElementById('hero').style.display = '';
         document.getElementById('categories').style.display = '';
         document.getElementById('reviews').style.display = '';
-        var catLink = document.querySelector('.nav-links a[href="#categories"]');
+        var catLink = document.getElementById('navCategories');
         if (catLink) { catLink.textContent = LANG === 'en' ? 'Categories' : 'Categorías'; catLink.href = '#categories'; }
         var sorted = reviews.slice().sort(function (a, b) {
           if (a.featured && !b.featured) return -1;
@@ -429,7 +429,7 @@
       var cats = document.getElementById('categories');
       if (hero) hero.style.display = 'none';
       if (cats) cats.style.display = 'none';
-      var catLink = document.querySelector('.nav-links a[href="#categories"]');
+      var catLink = document.getElementById('navCategories');
       if (catLink) { catLink.textContent = 'Home'; catLink.href = './'; }
       scrollToReviews();
       window.scrollTo({ top: 0 });
