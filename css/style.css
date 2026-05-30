@@ -215,6 +215,12 @@ nav.scrolled {
   font-size: 0.85rem;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .nav-links a {
   color: var(--text-secondary);
   transition: color var(--transition);
@@ -299,7 +305,7 @@ nav.scrolled {
   .site-name { font-size: 0.6rem; }
   .nav-links { flex: 1; gap: 4px; justify-content: center; }
   .nav-links a { font-size: 0.7rem; }
-  .lang-switch { margin-left: auto; }
+  .nav-right { gap: 6px; }
   .lang-switch a { padding: 2px 5px; font-size: 0.6rem; }
   .theme-toggle { width: 28px; height: 28px; font-size: 0.85rem; }
 }
@@ -311,7 +317,8 @@ nav.scrolled {
   .site-name { font-size: 0.55rem; }
   .nav-links { flex: 1; gap: 2px; justify-content: center; }
   .nav-links a { font-size: 0.65rem; }
-  .lang-switch { margin-left: auto; gap: 1px; padding: 1px; }
+  .nav-right { gap: 4px; }
+  .lang-switch { gap: 1px; padding: 1px; }
   .lang-switch a { padding: 1px 3px; font-size: 0.55rem; }
   .theme-toggle { width: 20px; height: 20px; font-size: 0.7rem; }
 }
@@ -323,7 +330,8 @@ nav.scrolled {
   .site-name { font-size: 0.5rem; }
   .nav-links { flex: 1; gap: 1px; justify-content: center; }
   .nav-links a { font-size: 0.6rem; }
-  .lang-switch { margin-left: auto; gap: 1px; padding: 1px; }
+  .nav-right { gap: 3px; }
+  .lang-switch { gap: 1px; padding: 1px; }
   .lang-switch a { padding: 1px 2px; font-size: 0.5rem; }
   .theme-toggle { width: 18px; height: 18px; font-size: 0.65rem; }
 }
