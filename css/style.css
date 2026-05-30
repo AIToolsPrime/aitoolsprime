@@ -88,6 +88,9 @@
   color: #1d1d1f;
   border-color: rgba(0,0,0,0.08);
 }
+[data-theme="light"] #hero p {
+  color: #000;
+}
 [data-theme="light"] .nav-links a:hover,
 [data-theme="light"] .nav-links a.active {
   border-color: var(--accent-subtle);
@@ -448,7 +451,12 @@ nav.scrolled {
   margin: 0 auto 44px;
   line-height: 1.7;
   text-align: center;
-  max-width: 600px;
+}
+
+@media (min-width: 769px) {
+  #hero p {
+    white-space: nowrap;
+  }
 }
 
 .search-container {
