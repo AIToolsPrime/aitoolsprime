@@ -35,7 +35,8 @@
     'productivity': { en: 'AI Productivity', es: 'Productividad IA' },
     'audio': { en: 'AI Audio', es: 'Audio IA' },
     'coding': { en: 'AI Coding', es: 'Programación IA' },
-    'marketing': { en: 'AI Marketing', es: 'Marketing IA' }
+    'marketing': { en: 'AI Marketing', es: 'Marketing IA' },
+    'chat': { en: 'AI Chat', es: 'Chat IA' }
   };
 
   function loadTheme() {
