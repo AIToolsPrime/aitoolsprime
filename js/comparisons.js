@@ -118,7 +118,7 @@
       + '</div>'
       + '<div class="vs-grid">'
       + cardHTML(a, 1)
-      + '<div class="vs-divider"><span>VS</span></div>'
+      + (window.innerWidth > 768 ? '<div class="vs-divider"><span>VS</span></div>' : '')
       + cardHTML(b, 2)
       + '</div>'
       + '</div>';
