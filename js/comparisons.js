@@ -19,7 +19,8 @@
     'productivity': { en: 'AI Productivity', es: 'Productividad IA', color: '#10b981' },
     'audio': { en: 'AI Audio', es: 'Audio IA', color: '#06b6d4' },
     'coding': { en: 'AI Coding', es: 'Programación IA', color: '#f43f5e' },
-    'marketing': { en: 'AI Marketing', es: 'Marketing IA', color: '#14b8a6' }
+    'marketing': { en: 'AI Marketing', es: 'Marketing IA', color: '#14b8a6' },
+    'assistant': { en: 'AI Assistant', es: 'Asistente IA', color: '#818cf8' }
   };
 
   function loadTheme() {
@@ -74,7 +75,8 @@
     'productivity': { en: 'AI Productivity Showdown', es: 'Duelo de Productividad IA' },
     'audio': { en: 'AI Audio Showdown', es: 'Duelo de Audio IA' },
     'coding': { en: 'AI Coding Showdown', es: 'Duelo de Programación IA' },
-    'marketing': { en: 'AI Marketing Showdown', es: 'Duelo de Marketing IA' }
+    'marketing': { en: 'AI Marketing Showdown', es: 'Duelo de Marketing IA' },
+    'assistant': { en: 'AI Assistant Showdown', es: 'Duelo de Asistentes IA' }
   };
 
   function buildVsSection(slug, tools) {
