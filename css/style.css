@@ -1247,7 +1247,7 @@ footer {
   .vs-pros-cons .pc-list { font-size: 0.6rem; }
   .vs-pros-cons .pc-list li { padding: 1px 0; }
   .vs-btn { margin-top: 10px; padding: 8px 16px; font-size: 0.7rem; }
-  .vs-winner { top: 6px; right: 12px; font-size: 0.5rem; padding: 2px 6px; }
+  .vs-winner { top: 6px; right: 6px; font-size: 0.5rem; padding: 2px 6px; }
 }
 
 .vs-card {
@@ -1538,7 +1538,7 @@ footer {
   .vs-pros-cons .pc-list { font-size: 0.5rem; }
   .vs-pros-cons .pc-list li { padding: 1px 0; }
   .vs-btn { margin-top: 6px; padding: 6px 10px; font-size: 0.55rem; }
-  .vs-winner { top: 3px; right: 8px; font-size: 0.4rem; padding: 1px 4px; }
+  .vs-winner { top: 3px; right: 4px; font-size: 0.4rem; padding: 1px 4px; }
 }
 
 @media (max-width: 360px) {
