@@ -292,6 +292,7 @@ nav.scrolled {
   .nav-links { gap: 8px; }
   .nav-links a { font-size: 0.7rem; }
   .nav-links a[href="#categories"] { display: none; }
+  [data-theme="light"] #searchBtn { display: none; }
   .lang-switch a { padding: 3px 7px; font-size: 0.65rem; }
   .theme-toggle { width: 30px; height: 30px; font-size: 0.85rem; }
 }
