@@ -995,6 +995,32 @@
     "logo": "veed.io"
   },
   {
+    "id": "wondershare-filmora",
+    "name": "Wondershare Filmora",
+    "tagline": "Edición de video con IA para todos",
+    "category": "Video IA",
+    "category_slug": "video",
+    "rating": 4.1,
+    "price": "$49.99/año",
+    "price_type": "paid",
+    "excerpt": "Wondershare Filmora lleva la edición de video con IA a creadores de todos los niveles con funciones como redacción IA, reencuadre automático, seguimiento de movimiento y edición basada en texto.",
+    "pros": [
+      "Fácil para principiantes",
+      "Redacción con IA",
+      "Biblioteca de efectos",
+      "Edición por texto"
+    ],
+    "cons": [
+      "Marca de agua en prueba",
+      "No es profesional",
+      "Requiere suscripción"
+    ],
+    "url": "https://filmora.wondershare.com",
+    "featured": false,
+    "date": "2026-05-30",
+    "logo": "filmora.wondershare.com"
+  },
+  {
     "id": "notion-ai",
     "name": "Notion AI",
     "tagline": "Espacio de trabajo con IA para documentos y proyectos",

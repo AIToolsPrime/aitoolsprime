@@ -995,6 +995,32 @@
     "logo": "veed.io"
   },
   {
+    "id": "wondershare-filmora",
+    "name": "Wondershare Filmora",
+    "tagline": "AI-powered video editing for everyone",
+    "category": "AI Video",
+    "category_slug": "video",
+    "rating": 4.1,
+    "price": "$49.99/yr",
+    "price_type": "paid",
+    "excerpt": "Wondershare Filmora brings AI-powered video editing to creators of all levels with features like AI copywriting, auto-reframe, motion tracking, and text-based editing.",
+    "pros": [
+      "Beginner-friendly",
+      "AI copywriting",
+      "Rich effects library",
+      "Text-based editing"
+    ],
+    "cons": [
+      "Watermark on free trial",
+      "Not for professional use",
+      "Subscription required"
+    ],
+    "url": "https://filmora.wondershare.com",
+    "featured": false,
+    "date": "2026-05-30",
+    "logo": "filmora.wondershare.com"
+  },
+  {
     "id": "notion-ai",
     "name": "Notion AI",
     "tagline": "AI-powered workspace for docs and projects",
