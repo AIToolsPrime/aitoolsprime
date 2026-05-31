@@ -1131,7 +1131,7 @@ nav.scrolled {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.8px;
-  color: #818cf8;
+  color: #fff;
   margin-bottom: 10px;
 }
 
@@ -1166,8 +1166,8 @@ nav.scrolled {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #818cf8;
-  opacity: 0.6;
+  background: #fff;
+  opacity: 0.7;
 }
 
 .modal-pricing-note {
