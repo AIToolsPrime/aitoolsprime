@@ -1674,6 +1674,7 @@ footer {
   .vs-pros-cons .pc-list li { padding: 1px 0; }
   .vs-btn { margin-top: 6px; padding: 6px 10px; font-size: 0.55rem; }
   .vs-winner { top: 3px; right: 4px; font-size: 0.4rem; padding: 1px 4px; }
+  .vs-verdict { margin: 16px 8px 0; padding: 10px 14px; font-size: 0.7rem; }
 }
 
 @media (max-width: 360px) {

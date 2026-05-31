@@ -89,23 +89,49 @@
     var loser = winner.id === a.id ? b : a;
 
     var reason;
-    if (a.rating !== b.rating) {
-      if (LANG === 'en') {
-        reason = winner.name + ' wins with a rating of ' + winner.rating + '/5 vs ' + loser.rating + '/5.';
+    if (LANG === 'en') {
+      if (a.rating !== b.rating) {
+        reason = winner.name + ' takes the win thanks to a higher overall rating of ' + winner.rating + '/5 compared to ' + loser.rating + '/5 for ' + loser.name + '. ';
+        reason += 'Users consistently highlight ' + (winner.pros[0] ? winner.pros[0].toLowerCase() : 'its quality') + ' and ' + (winner.pros[1] ? winner.pros[1].toLowerCase() : 'its features') + ' as key differentiators. ';
+        if (loser.cons[0]) {
+          reason += 'On the other hand, ' + loser.name + ' falls short with ' + loser.cons[0].toLowerCase() + ', which limits its appeal for certain use cases. ';
+        } else {
+          reason += 'Meanwhile, ' + loser.name + ', while solid, lacks the same level of polish and user satisfaction. ';
+        }
+        reason += 'If you value top-rated performance and proven results, ' + winner.name + ' is the clear choice.';
+      } else if (a.pros.length !== b.pros.length) {
+        reason = winner.name + ' edges out ' + loser.name + ' with a more impressive list of strengths (' + winner.pros.length + ' vs ' + loser.pros.length + '). ';
+        reason += 'Its standout advantages include ' + (winner.pros[0] ? winner.pros[0].toLowerCase() : 'strong features') + ', ' + (winner.pros[1] ? winner.pros[1].toLowerCase() : 'reliable performance') + ', and ' + (winner.pros[2] ? winner.pros[2].toLowerCase() : 'great value') + '. ';
+        if (loser.cons[0]) {
+          reason += loser.name + ' users often mention ' + loser.cons[0].toLowerCase() + ' as a drawback, which gives ' + winner.name + ' the upper hand. ';
+        }
+        reason += 'For most users, ' + winner.name + ' delivers a more complete and satisfying experience.';
       } else {
-        reason = winner.name + ' gana con una puntuación de ' + winner.rating + '/5 frente a ' + loser.rating + '/5.';
-      }
-    } else if (a.pros.length !== b.pros.length) {
-      if (LANG === 'en') {
-        reason = winner.name + ' takes the lead with ' + winner.pros.length + ' highlighted strengths vs ' + loser.pros.length + ' for ' + loser.name + '.';
-      } else {
-        reason = winner.name + ' toma la delantera con ' + winner.pros.length + ' fortalezas destacadas frente a ' + loser.pros.length + ' de ' + loser.name + '.';
+        reason = 'Both tools are exceptionally well matched and it was a tough call. ';
+        reason += winner.name + ' edges ahead thanks to ' + (winner.pros[0] ? winner.pros[0].toLowerCase() : 'its overall strengths') + ', giving it a slight advantage in overall value. ';
+        reason += 'Whichever you choose, both are excellent options in this category.';
       }
     } else {
-      if (LANG === 'en') {
-        reason = 'Both tools are evenly matched. ' + winner.name + ' edges ahead by offering a slightly more complete package.';
+      if (a.rating !== b.rating) {
+        reason = winner.name + ' se lleva la victoria gracias a una puntuación más alta de ' + winner.rating + '/5 frente a ' + loser.rating + '/5 de ' + loser.name + '. ';
+        reason += 'Los usuarios destacan constantemente ' + (winner.pros[0] ? winner.pros[0].toLowerCase() : 'su calidad') + ' y ' + (winner.pros[1] ? winner.pros[1].toLowerCase() : 'sus funciones') + ' como factores diferenciadores. ';
+        if (loser.cons[0]) {
+          reason += 'Por otro lado, ' + loser.name + ' se queda atrás con ' + loser.cons[0].toLowerCase() + ', lo que limita su atractivo en ciertos casos de uso. ';
+        } else {
+          reason += 'Mientras tanto, ' + loser.name + ', aunque sólida, carece del mismo nivel de refinamiento. ';
+        }
+        reason += 'Si valoras el rendimiento mejor valorado y los resultados probados, ' + winner.name + ' es la opción clara.';
+      } else if (a.pros.length !== b.pros.length) {
+        reason = winner.name + ' supera a ' + loser.name + ' con una lista más impresionante de fortalezas (' + winner.pros.length + ' frente a ' + loser.pros.length + '). ';
+        reason += 'Sus ventajas principales incluyen ' + (winner.pros[0] ? winner.pros[0].toLowerCase() : 'funciones potentes') + ', ' + (winner.pros[1] ? winner.pros[1].toLowerCase() : 'rendimiento confiable') + ' y ' + (winner.pros[2] ? winner.pros[2].toLowerCase() : 'gran valor') + '. ';
+        if (loser.cons[0]) {
+          reason += 'Los usuarios de ' + loser.name + ' suelen mencionar ' + loser.cons[0].toLowerCase() + ' como una desventaja, lo que da ventaja a ' + winner.name + '. ';
+        }
+        reason += 'Para la mayoría de los usuarios, ' + winner.name + ' ofrece una experiencia más completa y satisfactoria.';
       } else {
-        reason = 'Ambas herramientas están muy igualadas. ' + winner.name + ' se impone por ofrecer un paquete ligeramente más completo.';
+        reason = 'Ambas herramientas están excepcionalmente igualadas y fue una decisión difícil. ';
+        reason += winner.name + ' se impone gracias a ' + (winner.pros[0] ? winner.pros[0].toLowerCase() : 'sus fortalezas generales') + ', dándole una ligera ventaja en valor global. ';
+        reason += 'Cualquiera que elijas, ambas son opciones excelentes en esta categoría.';
       }
     }
 
