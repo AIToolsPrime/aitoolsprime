@@ -479,6 +479,9 @@ nav.scrolled {
   #hero p {
     white-space: nowrap;
   }
+  #hero.hero-short p {
+    white-space: normal;
+  }
 }
 
 .search-container {
