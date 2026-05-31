@@ -1118,6 +1118,69 @@ nav.scrolled {
   margin-bottom: 22px;
 }
 
+.modal-section {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+.modal-section-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #818cf8;
+  margin-bottom: 10px;
+}
+
+.modal-best-for {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.modal-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 16px;
+}
+
+.modal-features li {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding: 2px 0 2px 14px;
+  position: relative;
+}
+
+.modal-features li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #818cf8;
+  opacity: 0.6;
+}
+
+.modal-pricing-note {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .modal-section { padding: 14px 16px; }
+  .modal-features { grid-template-columns: 1fr; }
+}
+
 .modal-btn {
   display: inline-block;
   padding: 16px 40px;

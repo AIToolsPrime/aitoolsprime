@@ -256,6 +256,25 @@
     var priceTxt = (LANG === 'en' ? priceLabel(r.price, r.price_type) : priceLabelES(r.price, r.price_type));
     var catName = CATEGORIES[r.category_slug] ? CATEGORIES[r.category_slug][LANG] || CATEGORIES[r.category_slug].en : r.category_en;
 
+    var bestForTitle = LANG === 'en' ? 'Best For' : 'Ideal para';
+    var featuresTitle = LANG === 'en' ? 'Key Features' : 'Características';
+    var pricingTitle = LANG === 'en' ? 'Pricing' : 'Precios';
+    var prosTitle = LANG === 'en' ? 'Pros' : 'Pros';
+    var consTitle = LANG === 'en' ? 'Cons' : 'Contras';
+    var btnText = LANG === 'en' ? 'Visit Website' : 'Visitar Sitio';
+
+    var featuresHtml = r.features && r.features.length
+      ? '<div class="modal-section"><h4 class="modal-section-title">' + featuresTitle + '</h4><ul class="modal-features">' + r.features.map(function (f) { return '<li>' + f + '</li>'; }).join('') + '</ul></div>'
+      : '';
+
+    var bestForHtml = r.best_for
+      ? '<div class="modal-section"><h4 class="modal-section-title">' + bestForTitle + '</h4><p class="modal-best-for">' + r.best_for + '</p></div>'
+      : '';
+
+    var pricingHtml = r.pricing_note
+      ? '<div class="modal-section"><h4 class="modal-section-title">' + pricingTitle + '</h4><p class="modal-pricing-note">' + r.pricing_note + '</p></div>'
+      : '';
+
     overlay.innerHTML = '<div class="modal-content">'
       + '<button class="modal-close" aria-label="Close modal">✕</button>'
       + '<div class="modal-header">'
@@ -268,12 +287,15 @@
       + '<h2 class="modal-title">' + r.name + '</h2>'
       + '<p class="modal-tagline">' + r.tagline + '</p>'
       + '<div class="modal-price">' + priceTxt + '</div>'
-      + '<p class="modal-desc">' + r.excerpt + '</p>'
+      + '<p class="modal-desc">' + (r.description || r.excerpt) + '</p>'
+      + bestForHtml
+      + featuresHtml
+      + pricingHtml
       + '<div class="pros-cons">'
       + '<ul class="pros">' + r.pros.map(function (p) { return '<li>✓ ' + p + '</li>'; }).join('') + '</ul>'
       + '<ul class="cons">' + r.cons.map(function (c) { return '<li>✗ ' + c + '</li>'; }).join('') + '</ul>'
       + '</div>'
-      + '<a href="' + r.url + '" class="modal-btn" target="_blank" rel="noopener">' + (LANG === 'en' ? 'Visit Website' : 'Visitar Sitio') + '</a>'
+      + '<a href="' + r.url + '" class="modal-btn" target="_blank" rel="noopener">' + btnText + '</a>'
       + '</div>';
 
     document.body.appendChild(overlay);
