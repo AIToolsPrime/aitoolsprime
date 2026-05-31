@@ -86,6 +86,28 @@
     var title = COMPARISONS[slug][LANG] || COMPARISONS[slug].en;
 
     var winner = a.rating > b.rating ? a : (b.rating > a.rating ? b : (a.pros.length >= b.pros.length ? a : b));
+    var loser = winner.id === a.id ? b : a;
+
+    var reason;
+    if (a.rating !== b.rating) {
+      if (LANG === 'en') {
+        reason = winner.name + ' wins with a rating of ' + winner.rating + '/5 vs ' + loser.rating + '/5.';
+      } else {
+        reason = winner.name + ' gana con una puntuación de ' + winner.rating + '/5 frente a ' + loser.rating + '/5.';
+      }
+    } else if (a.pros.length !== b.pros.length) {
+      if (LANG === 'en') {
+        reason = winner.name + ' takes the lead with ' + winner.pros.length + ' highlighted strengths vs ' + loser.pros.length + ' for ' + loser.name + '.';
+      } else {
+        reason = winner.name + ' toma la delantera con ' + winner.pros.length + ' fortalezas destacadas frente a ' + loser.pros.length + ' de ' + loser.name + '.';
+      }
+    } else {
+      if (LANG === 'en') {
+        reason = 'Both tools are evenly matched. ' + winner.name + ' edges ahead by offering a slightly more complete package.';
+      } else {
+        reason = 'Ambas herramientas están muy igualadas. ' + winner.name + ' se impone por ofrecer un paquete ligeramente más completo.';
+      }
+    }
 
     function cardHTML(tool, rank) {
       var logoDomain = tool.logo || tool.id;
@@ -123,6 +145,7 @@
       + (window.innerWidth > 768 ? '<div class="vs-divider"><span>VS</span></div>' : '')
       + cardHTML(b, 2)
       + '</div>'
+      + '<p class="vs-verdict">' + (LANG === 'en' ? 'Verdict' : 'Veredicto') + ': ' + reason + '</p>'
       + '</div>';
   }
 
