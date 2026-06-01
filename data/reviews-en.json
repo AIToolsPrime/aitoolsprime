@@ -762,7 +762,7 @@
     "category": "AI Images",
     "category_slug": "images",
     "rating": 4.2,
-    "price": "$4.99/mo",
+    "price": "$9.99/mo",
     "price_type": "freemium",
     "excerpt": "Adobe Firefly generates images from licensed content, making it the safest choice for businesses. Deep integration with Photoshop and Creative Cloud.",
     "pros": [
@@ -780,7 +780,7 @@
     "featured": false,
     "date": "2026-04-30",
     "logo": "firefly.adobe.com",
-    "description": "Adobe Firefly is Adobe's family of generative AI models integrated directly into Creative Cloud applications like Photoshop and Illustrator. It offers text-to-image, generative fill, text effects, and 3D-to-image capabilities. As its tagline suggests, Adobe Firefly is designed for users who need commercial-safe ai image generation, delivering on this promise through intelligent automation and thoughtful design. This tool is best suited for designers already in the Adobe ecosystem needing generative AI features. Whether you need deep creative cloud integration, generative fill & expand, or text-to-image generation, Adobe Firefly handles it all within a single, unified platform. Its deep integration with professional design tools makes it the natural choice for designers already in the Adobe ecosystem. In terms of pricing, included with Creative Cloud subscription at $54.99/mo; free tier with 25 monthly generative credits. This makes Adobe Firefly accessible whether you are just getting started or need advanced capabilities for professional use. Overall, Adobe Firefly stands out as a top choice in its category, combining powerful AI capabilities with an intuitive user experience that delivers consistent, high-quality results.",
+    "description": "Adobe Firefly is Adobe's family of generative AI models integrated directly into Creative Cloud applications like Photoshop and Illustrator. It offers text-to-image, generative fill, text effects, and 3D-to-image capabilities. As its tagline suggests, Adobe Firefly is designed for users who need commercial-safe ai image generation, delivering on this promise through intelligent automation and thoughtful design. This tool is best suited for designers already in the Adobe ecosystem needing generative AI features. Whether you need deep creative cloud integration, generative fill & expand, or text-to-image generation, Adobe Firefly handles it all within a single, unified platform. Its deep integration with professional design tools makes it the natural choice for designers already in the Adobe ecosystem. In terms of pricing, free tier available; Firefly Standard at $9.99/mo with 2,000 credits; Firefly Pro at $19.99/mo with 4,000 credits; also included with Creative Cloud. This makes Adobe Firefly accessible whether you are just getting started or need advanced capabilities for professional use. Overall, Adobe Firefly stands out as a top choice in its category, combining powerful AI capabilities with an intuitive user experience that delivers consistent, high-quality results.",
     "features": [
       "Deep Creative Cloud integration",
       "Generative fill & expand",
